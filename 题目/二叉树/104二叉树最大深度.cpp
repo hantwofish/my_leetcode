@@ -15,6 +15,17 @@ public:
 int main()
 {
     Solution S1;
+    TreeNode CurRoot(3);
+    TreeNode Cur2_1(3);
+    TreeNode Cur2_2(3);
+    TreeNode Cur3_3(3);
+    TreeNode Cur3_4(3);
 
-    cout << "end" << endl;
+    TreeNode *root = &CurRoot;
+    root->left = Cur2_1;
+    root->right = Cur2_2;
+
+
+
+    cout << "end   hh" << endl;
 }
