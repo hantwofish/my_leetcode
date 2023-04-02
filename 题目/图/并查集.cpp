@@ -2,7 +2,7 @@
 #define MAXNUM 100
 using namespace std;
 
-class Solution {
+class Solution1319 {
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
 
@@ -17,12 +17,16 @@ public:
     }
     int find_fa(int i)
     {
-        if( i == fa[i]){
-            return i;
-        }else{
+        // if( i == fa[i]){
+        //     return i;
+        // }else{
+        //     fa[i] = find_fa(fa[i]);
+        //     return fa[i];
+        // }
+        if(fa[i] != i){
             fa[i] = find_fa(fa[i]);
-            return fa[i];
         }
+        return fa[i];
     }
     void Union(int i ,int j)
     {
