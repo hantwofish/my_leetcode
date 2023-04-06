@@ -8,11 +8,16 @@
 #include<vector>
 #include<string>
 #include<algorithm>
+
 #include<set>
 #include<unordered_set>
+
+#include<map>
 #include<unordered_map>
 #include<stack>
-
+#include<queue>
+#include<deque>
+#include <iterator>
 
 using namespace std;
 template<typename T1>
@@ -24,6 +29,7 @@ void MyPrintTwo(vector<vector<T1>> &data)
         }
         cout << endl;
     }
+    cout << "----------------" << endl;
 }
 template<typename T2>
 void MyPrintOne(vector<T2> &data)
