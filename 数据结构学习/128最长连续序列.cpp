@@ -9,11 +9,11 @@ using namespace std;
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        N = nums.size();
-        cout << "N= " << N << endl;
+        spaceNum = nums.size();
+        cout << "N= " << spaceNum << endl;
         sort(nums.begin(),nums.end());
         input = nums;
-        for(int i = 0; i< N; i++){
+        for(int i = 0; i< spaceNum; i++){
             auto it = make_pair(nums[i],nums[i]);
             unMap[i] = it;
         }
@@ -22,7 +22,7 @@ public:
         cout << "-------------------------" <<endl;
 
         // 进行遍历更新父节点
-        for(int i = 1; i< N; i++){
+        for(int i = 1; i< spaceNum; i++){
             // 判断当前节点是否有相邻节点
             cout << "i = " << i << " i-1 = "<< i-1 << endl;
             if(nums[i] - nums[i-1] == 1 ){
@@ -35,7 +35,7 @@ public:
 
         // 最后遍历整个数组
         int maxValue = 0;
-        for(int i = 0; i< N; i++){
+        for(int i = 0; i< spaceNum; i++){
             
             int fatherNode = findFather(unMap, i);
             cout << "findFather i= "  << i << " fatherNode= " << fatherNode <<  endl;
@@ -69,7 +69,7 @@ public:
     int merge(int m, int n)
     {
         
-        if((n >= 0)&& (n < N)){
+        if((n >= 0)&& (n < spaceNum)){
             
         }else{
             return 0;
@@ -97,7 +97,7 @@ public:
     unordered_map<int, pair<int,int>> unMap;
     unordered_map<int,int> resuMap;
     vector<int> input;
-    int N;
+    int spaceNum;
 };
 
 int main()

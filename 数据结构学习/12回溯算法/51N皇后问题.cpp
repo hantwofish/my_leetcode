@@ -5,9 +5,9 @@ using namespace std;
 class Solution {
 public:
     vector<vector<string>> solveNQueens(int n) {
-        N =n;
-        string temp(N,'.');
-        vector<string>oneResult(N, temp);
+        spaceNum =n;
+        string temp(spaceNum,'.');
+        vector<string>oneResult(spaceNum, temp);
 
 
         DFS(0, 0, oneResult);
@@ -47,11 +47,11 @@ public:
         }
 
         // 检查正斜行 
-        for(int i = 0; i< N; i++){
+        for(int i = 0; i< spaceNum; i++){
             int row = i;
             int col = 0;
             int QuNum = 0;
-            while(row >= 0 && col < N){
+            while(row >= 0 && col < spaceNum){
                 if(platm[row][col] == 'Q'){
                     QuNum++;
                     if( QuNum >=2 ){
@@ -64,12 +64,12 @@ public:
             }
         }
 
-        int i = N-1; // 行
-        for(int j = 1; j < N; j++){
+        int i = spaceNum-1; // 行
+        for(int j = 1; j < spaceNum; j++){
             int row = i;
             int col = j;
             int QuNum = 0;
-            while(row >= 0 && col < N){
+            while(row >= 0 && col < spaceNum){
                 if(platm[row][col] == 'Q'){
                     QuNum++;
                     if( QuNum >=2 ){
@@ -83,11 +83,11 @@ public:
         }
 
         // 检查反斜行
-        for(int i = 0; i< N; i++){
+        for(int i = 0; i< spaceNum; i++){
             int row = i;
             int col = 0;
             int QuNum = 0;
-            while(row < N && col < N){
+            while(row < spaceNum && col < spaceNum){
                 if(platm[row][col] == 'Q'){
                     QuNum++;
                     if( QuNum >=2 ){
@@ -101,11 +101,11 @@ public:
         }
 
         i = 0;
-        for(int j = 1; j < N; j++){
+        for(int j = 1; j < spaceNum; j++){
             int row = i;
             int col = j;
             int QuNum = 0;
-            while(row < N && col < N){
+            while(row < spaceNum && col < spaceNum){
                 if(platm[row][col] == 'Q'){
                     QuNum++;
                     if( QuNum >=2 ){
@@ -127,13 +127,13 @@ public:
         MyPrintOne(oneResult);
 
 
-        if(curRow >= N ){
+        if(curRow >= spaceNum ){
             allResult.push_back(oneResult);
             return;
         }
 
         // 往下一列放置皇后
-        for(int i = col; i < N; i++){
+        for(int i = col; i < spaceNum; i++){
             oneResult[curRow][i] = 'Q';
             if(isVaild(oneResult)){
                 DFS(curRow + 1, 0, oneResult);
@@ -157,7 +157,7 @@ public:
 
 public:
     vector<vector<string>> allResult;
-    int N ;
+    int spaceNum ;
 };
 
 int main()
