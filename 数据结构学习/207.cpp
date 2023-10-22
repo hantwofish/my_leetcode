@@ -95,11 +95,14 @@ public:
         if(prerequisites.empty()){
             return true;
         }
+        set<int>nodeSet;
+        set<int>nodeSetResu;
 
         Init(numCourses, prerequisites);
         deque<int>que;
         // 入度为0 的入队
         for(auto it = figurData.begin(); it != figurData.end(); it++){
+            nodeSet.insert(it->first);
             if(it->second.first == 0){
                 que.push_back(it->first);
             }
@@ -133,8 +136,11 @@ public:
         }
 
         MyPrintOne(oneResu);
+        for(auto i: oneResu){
+            nodeSetResu.insert(i);
+        }
 
-        return oneResu.size()==nodeNum;
+        return nodeSet==nodeSetResu;
     }
     void Init(int numCourses, vector<vector<int>>& prerequisites)
     {
@@ -176,7 +182,6 @@ int main()
         {2,4 },
         {3,1 },
         {3,2 },
-        {1,3}
         };
     bool resu  = s1.canFinish(numCourses, prerequisites);
     cout << "resu= " << resu << endl;
