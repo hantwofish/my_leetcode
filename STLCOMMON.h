@@ -40,6 +40,16 @@ void MyPrintOne(vector<T2> &data)
     cout << endl;
 }
 
+void RemoveVecEle(vector<int>&nums,int tar)
+{
+    for(int i= 0; i< nums.size(); i++){
+        if(nums[i] == tar){
+            nums.erase(nums.begin() + i);
+            i--; // 由於容器size-1, 还按照原先的i 的话，相当于自动右一位而漏掉一个元素
+        }
+    }
+
+}
 
 class UnionFind {
 public:
