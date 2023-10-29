@@ -19,25 +19,32 @@
 
 using namespace std;
 
-class Solution{
+class Solution {
 public:
-    int calMaxArray(int& n, vector<int>&nums)
-    {
+    int countDigits(int num) {
+        string str = to_string(num);
+        cout << "str= " << str << endl;
+        int resu = 0;
+        for(int i = 0; i< str.size(); i++){
+            if(str[i] == '0'){
+                continue;
+            }
+            if(num % (str[i] - '0') == 0){
+                resu++;
+            }
+        }
+        cout << resu <<endl;
+        return resu;
         
-        return 0;
     }
 };
 
 
-void getInputData(int& n, vector<int>&nums)
-{
-
-    
-}
 
 int main()
 {
     Solution s1;
+    s1.countDigits(110);
     
 
     cout << "hello" << endl;
