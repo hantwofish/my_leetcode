@@ -17,16 +17,14 @@ struct TreeNode {
 class Node {
 public:
     int val;
-    vector<Node*> children;
+    Node* left;
+    Node* right;
+    Node* next;
 
-    Node() {}
+    Node() : val(0), left(NULL), right(NULL), next(NULL) {}
 
-    Node(int _val) {
-        val = _val;
-    }
+    Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
 
-    Node(int _val, vector<Node*> _children) {
-        val = _val;
-        children = _children;
-    }
+    Node(int _val, Node* _left, Node* _right, Node* _next)
+        : val(_val), left(_left), right(_right), next(_next) {}
 };

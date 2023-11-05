@@ -47,5 +47,24 @@
         "memory_resource": "cpp",
         "numeric": "cpp",
         "random": "cpp"
-    }
+    },
+    "editor.renderWhitespace": "all",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "punctuation.whitespace",
+                "settings": {
+                    "foreground": "#FF00FF",
+                    "background": "#FF00FF",
+                }
+            }
+        ]
+    },
+    // 自动删除每行末尾的多余空格
+    "files.trimTrailingWhitespace": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.clang_format_style": "Google",
+    "editor.fontSize": 18
 }

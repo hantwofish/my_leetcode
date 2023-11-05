@@ -3,7 +3,7 @@ using namespace std;
 /*
 f(2n) A->C
 = f(2(n-1)) 从上面 2(n-1) A->B
-+ 2 下面最大的 A->C 
++ 2 下面最大的 A->C
 + f(2(n-1)) B->C
 */
 
@@ -13,7 +13,7 @@ public:
     {
         vector<int>dp(n+1,0); // 2n 个汉诺塔  A->C 的个数
         for(int i = 1; i<=n ; i++){
-            dp[i] = 2 * dp[i-1] + 2; 
+            dp[i] = 2 * dp[i-1] + 2;
         }
         cout << dp[n];
 

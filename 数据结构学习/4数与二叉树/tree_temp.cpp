@@ -86,7 +86,7 @@ void mid_view(Node*root)
     if(root == nullptr){
         return;
     }
-    
+
     mid_view(root->left);
     mid_vec.push_back(root->value);
     mid_view(root->right);
@@ -100,7 +100,7 @@ void behind_view(Node*root)
     if(root == nullptr){
         return;
     }
-    
+
     behind_view(root->left);
     behind_view(root->right);
     behind_vec.push_back(root->value);
