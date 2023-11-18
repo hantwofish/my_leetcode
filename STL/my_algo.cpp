@@ -7,7 +7,7 @@ vector<int> g_myVec;
 
 bool cmp(int x,int y)
 {    
-    return x > y;
+    return x > y; // greater<int>()
 }
 
 void test()
