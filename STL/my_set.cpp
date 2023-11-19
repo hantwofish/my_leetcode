@@ -6,46 +6,139 @@ using namespace std;
 set 不可包含重复元素，自动排序
 */
 
-set<pair<int,int>>g_mySet;
-
-void PrintSet(set<pair<int,int>>&mySet)
-{
-    cout << "-----------start------------"<< endl;
-    auto it = mySet.begin();
-    while (it != mySet.end()){
-        cout << it->first << " " << it ->second << endl;
-        it++;
-    }  
-    cout << "-----------start------------" << endl;
-
-}
-
-void test()
-{
-    for(int i = 0; i< 10; i++){
-        g_mySet.insert({rand()%10, i});
+class PointCmp{
+public:
+    bool  operator()(const pair<int,int> &A, const pair<int,int> &B) const // const 不可少, 对于Pair需要将多种情况都讨论
+    {
+        if(A.first < B.first){
+            return true;
+        }else if(A.first == B.first) {
+            return A.second < B.second;
+        }
+        
+        return  false;
     }
-    auto it = g_mySet.begin();
-    PrintSet(g_mySet);
+};
 
 
-
-    // 查找：
-    it = g_mySet.find({1,1});
-    if(it != g_mySet.end()){
-        cout << "found" << endl;
-    }else{
-        cout << "NOT found" << endl;
+// set 自定义排序
+class SetOrde{
+public:
+    void init()
+    {
+        mySet.insert({1,2});
+        mySet.insert({3,0});
+        mySet.insert({2,-1});
+        mySet.insert({3,1});
+        PrintSet(mySet);
+        // mySet.erase({1,2});
+        // PrintSet(mySet);
     }
-    g_mySet.insert({15, 16});
-    PrintSet(g_mySet);
-    g_mySet.erase({15,16});
-    g_mySet.erase(g_mySet.begin());
-    PrintSet(g_mySet);
-}
+    void testSetOrder()
+    {   
+        auto deleteNum = make_pair(1,2);
+        auto it = mySet.find(deleteNum);
+        if(it != mySet.end()){
+            cout << "found" << endl;
+        }else{
+            cout << "NOT found" << endl;
+        }
+
+
+        
+
+
+    }
+    void PrintSet(set<pair<int,int>,PointCmp>&mySet)
+    {
+        cout << "-----------start------------"<< endl;
+        auto it = mySet.begin();
+        while (it != mySet.end()){
+            cout << it->first << " " << it ->second << endl;
+            it++;
+        }  
+        cout << "-----------start------------" << endl;
+
+    }
+    void FindKey()
+    {
+        auto it = mySet.find({1,1});
+        if(it != mySet.end()){
+            cout << "found" << endl;
+        }else{
+            cout << "NOT found" << endl;
+        }
+
+    }
+    void EraseKEy()
+    {
+
+        mySet.erase({15,16});
+    }
+
+
+public:
+    set<pair<int,int>,PointCmp>mySet;
+};
+
+
+class SetOne{
+public:
+    void init()
+    {
+        mySet.insert(1);
+        mySet.insert(2);
+        mySet.insert(3);        
+        mySet.insert(-1);
+        PrintSet(mySet);
+        mySet.erase(1);
+        PrintSet(mySet);
+    }
+    void testSetOrder()
+    {      
+
+
+        
+
+
+    }
+    void PrintSet(set<int>&mySet)
+    {
+        cout << "-----------start------------"<< endl;
+        auto it = mySet.begin();
+        while (it != mySet.end()){
+            cout << *it << endl;
+            it++;
+        }  
+        cout << "-----------start------------" << endl;
+
+    }
+    void FindKey()
+    {
+        auto it = mySet.find(1);
+        if(it != mySet.end()){
+            cout << "found" << endl;
+        }else{
+            cout << "NOT found" << endl;
+        }
+
+    }
+    void EraseKEy()
+    {
+
+        mySet.erase(1);
+    }
+
+
+public:
+    set<int>mySet;
+};
 
 int main()
 {
-    test();
+    // test();
+    SetOrde s1;
+    s1.init();
+    s1.testSetOrder();
     return 0;
 }

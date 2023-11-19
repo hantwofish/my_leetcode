@@ -1,57 +1,77 @@
 #include"../STLCOMMON.h"
 
 using namespace std;
-#define N 10
 
-unordered_map<int, pair<int,int>>g_MyundoMap;
-map<int, pair<int,int>>g_MyMap;
-
-
-bool cmp(unordered_map<int, pair<int,int>>&map1,unordered_map<int, pair<int,int>>&map2)
-{    
-    return true;
-}
-
-void PrintUnMap(unordered_map<int, pair<int,int>>&yundoMap)
-{
-    cout << "--------unorderMap---start------------"<< endl;
-    auto it = yundoMap.begin();
-    while (it != yundoMap.end()){
-        cout << it->first << " {" << (it->second).first  << " " << (it->second).second << "}"<< endl;
-        it++;
-    }  
-    cout << "-----------end------------" << endl; 
-
-}
-void PrintMap(map<int, pair<int,int>>&yundoMap)
-{
-    cout << "-------Map----start------------"<< endl;
-    auto it = yundoMap.begin();
-    while (it != yundoMap.end()){
-        cout << it->first << " {" << (it->second).first  << " " << (it->second).second << "}"<< endl;
-        it++;
-    }  
-    cout << "-----------end------------" << endl;
-
-}
-void init()
-{
-    for(int i = 0; i < N ; i++){
-        g_MyundoMap.insert( { rand()%3,  {rand()% N, i}});
-        g_MyMap.insert( { rand()%3,  {rand()% N, i}});
+struct CmpByValueMax {
+    bool operator()(const pair<int, int>&k1, const pair<int, int>&k2) const
+    {
+        if(k1.second > k2.second){ //降序排列
+            return true;
+        }else if (k1.second == k2.second) {
+            return k1.first < k2.first;
+        }
+        return false;
     }
-    PrintUnMap(g_MyundoMap);
-    // PrintMap(g_MyMap);
-    // sort(g_MyundoMap.begin(),g_MyundoMap.end());
-    PrintMap(g_MyMap);
-}
+};
+class SortMap{
+public:
+    void init()
+    {
+        myMap.insert({{1,2},9});
+        myMap.insert({{1,3},4});
+        myMap.insert({{3,2},4});
+        myMap.insert({{3,1},8});
+        myMap.insert({{4,4},0});
+        myMap.insert({{3,4},0});
+        Print(myMap);
+    }
+    void Print(map<pair<int,int>,int, CmpByValueMax>&myMap)
+    {
+        cout << "--------- start---------" << endl;
+        auto it= myMap.begin();
+        while(it != myMap.end()){
+            pair<int,int>itKey = it->first;
+            int val = it->second;
+            cout << "{ " << itKey.first << " , " << itKey.second << " } -> " << val << endl;
+            it++;
+        }
+        cout << "--------- end---------" << endl;
+    }
+    void testOrderMap()
+    {
+        Print(myMap);
+        pair<int,int> deleNum = {3,2};
+        if(myMap.find(deleNum) != myMap.end()){
+            cout << "Found" << endl;
+        }else {
+            cout << "Not Found" << endl;
+        }
+        myMap.erase(deleNum);
+        Print(myMap);
 
+        
+
+    }
+
+
+public:
+    map<pair<int,int>,int, CmpByValueMax>myMap; //map 自动排序
+};
 
 
 
 int main()
 {
-    init();
+    // map<int, int> mp;
+    // mp.insert({1,3});
+    // mp.insert({2,5});
+    // cout << mp.begin()->first << endl;
+    // mp.erase(1);
+    // mp.insert({3,3});
+    // cout << mp.begin()->first << endl;
+    SortMap s1;
+    s1.init();
+    s1.testOrderMap();
     return 0;
 
 }

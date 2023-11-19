@@ -1,26 +1,38 @@
 #include"../STLCOMMON.h"
 
 using namespace std;
-#define N 10
 
-vector<int> g_myVec;
-
-void test()
+bool CMP(int& a, int& b)
 {
-    auto it = g_myVec.begin();
-    for(int i = 0;i < N; i++){
-        g_myVec.push_back(i);
-    }
-    MyPrintOne(g_myVec);
-    it = find(g_myVec.begin(),g_myVec.end(), 1);
-    cout << "index= " << it - g_myVec.begin() << endl;
-    
-
+    return a > b;
 }
+class Vec{
+public:
+    void init()
+    {
+        vec.push_back(-1);
+        vec.push_back(2);
+        vec.push_back(1);
+        vec.push_back(2);
+        vec.push_back(3);
+        MyPrintOne(vec);
+        sort(vec.begin(),vec.end());
+        MyPrintOne(vec);
+        sort(vec.begin(),vec.end(),CMP);
+        MyPrintOne(vec);
+
+
+    }
+
+
+public:
+    vector<int>vec;
+};
 
 int main()
 {
-    test();
+    Vec v1;
+    v1.init();
     return 0;
     
 }

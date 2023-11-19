@@ -24,21 +24,38 @@ template<typename T1>
 void MyPrintTwo(vector<vector<T1>> &data)
 {
     cout << "------- start ---------" << endl;
+    int col = data[0].size();
+    printf("%-4d", 0);
+    for(int i = 0; i< col; i++){
+        printf("%-3d", i);
+    }
+    printf("\n");
+    cout << "------------------------" << endl;
+
     for(int i = 0; i< data.size(); i++){
+        printf("%-3d|", i);
         for(int j = 0; j < data[i].size(); j++){
-            cout<< data[i][j] << " ";
+            printf("%-3d", data[i][j]);
         }
-        cout << endl;
+        printf("\n");
     }
     cout << "------- end ---------" << endl;
 }
 template<typename T2>
 void MyPrintOne(vector<T2> &data)
 {
+    cout << "------- start ---------" << endl;
     for(int i = 0; i< data.size(); i++){
-        cout<< data[i] << " ";
+        printf("%-3d", i);
     }
-    cout << endl;
+    printf("\n");
+    cout << "------------------" << endl;
+
+    for(int i = 0; i< data.size(); i++){
+        printf("%-3d", data[i]);
+    }
+    printf("\n");
+    cout << "------- end ---------" << endl;
 }
 
 void RemoveVecEle(vector<int>&nums,int tar)
