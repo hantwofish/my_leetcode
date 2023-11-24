@@ -76,7 +76,7 @@ int main()
     Solution s1;
     string str = "&&gt";
     string resu = s1.entityParser(str);
-    cout << "resu=  " << resu << endl;
+    cout << "2sresu=  " << resu << endl;
 
     return 0;
 }   

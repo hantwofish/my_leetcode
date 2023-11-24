@@ -19,12 +19,13 @@
 
 using namespace std;
 
+// 临接矩阵
 class Solution1{
 public:
     int calMaxArray(int& n, vector<vector<int>>&nums)
     {
         N = n+1; // n = 9; N=10;
-        dataArray.resize(N, vector<int>(N,0));
+        dataArray.resize(N, vector<int>(N,10000)); // 不联通为超大数值
         isVisited.resize(N,false);
         
 
@@ -34,11 +35,28 @@ public:
             dataArray[start][end] = dataArray[end][start] = 1;
         }
         MyPrintTwo(dataArray);
-        int start =1;
-        BFS_Search(start);
+        // int start =1
+        // BFS_Search(start);
         // DFS_Search(start);
+        CalAllDistance(dataArray);
         
         return 0;
+    }
+    void CalAllDistance(vector<vector<int>>&figureInfo)
+    {
+        int nodNum = N; // 节点个数
+        vector<vector<int>>minDistance = figureInfo; // 计算两个节点之间最小距离
+        int startNodeIndex = 1;
+        for(int k =startNodeIndex; k < nodNum; k++){
+            minDistance[k][k] = 0;
+            for(int i = startNodeIndex; i < nodNum; i++){
+                for(int j= startNodeIndex; j< nodNum; j++){
+                    // 得到每两个点直接的最短路径
+                    minDistance[i][j] = min(minDistance[i][j], minDistance[i][k]+ minDistance[k][j]);
+                }
+            }
+        }
+        MyPrintTwo(minDistance);
     }
     void BFS_Search(int start)
     {
@@ -97,7 +115,7 @@ public:
     int N =0;
 };
 
-
+// 临接表s
 class Solution{
 public:
     int calMaxArray(int& n, vector<vector<int>>&nums)
@@ -181,7 +199,7 @@ public:
 
 int main()
 {
-    Solution s1;
+    Solution1 s1;
     int N = 9;
     vector<vector<int>>nums ={
         {1,2},{1,3},{1,4},
