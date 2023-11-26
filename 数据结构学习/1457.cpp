@@ -7,18 +7,25 @@ class Solution {
 public:
     int pseudoPalindromicPaths (TreeNode* root) {
         dfs_search(root);
-        int resu  =0;
-        for(int i = 0; i< allPath.size(); i++){
-            if(isVaild(allPath[i])){
-                // cout << "i= " << i <<  endl;
-                resu++;
-            }
-        }
-        return resu;
+        // int resu  =0;
+        // for(int i = 0; i< allPath.size(); i++){
+        //     if(isVaild(allPath[i])){
+        //         // cout << "i= " << i <<  endl;
+        //         resu++;
+        //     }
+        // }
+        return reresu;
     }
-    bool isVaild(vector<int>&nums)
+    bool isVaild(vector<int>&temp)
     {
+
+        vector<int>nums = temp;
         sort(nums.begin(), nums.end());
+        string tempstr = vec_to_str(nums);
+        if(mymap.find(tempstr) != mymap.end()){
+            return mymap[tempstr];
+        }
+
         stack<int>stk;
         for(int i = 0; i< nums.size(); i++){
             int cur = nums[i];
@@ -32,9 +39,19 @@ public:
                 }
             }    
         }
+        bool flag = (stk.size()<=1);
+        mymap.insert({tempstr, flag});
 
-        return stk.size()<=1;
+        return flag;
 
+    }
+    string vec_to_str(vector<int>nums)
+    {
+        string str= "";
+        for(int i = 0; i < nums.size(); i++){
+            str = str + to_string(nums[i]) + "_";
+        }
+        return str;
     }
     void dfs_search(TreeNode* cur)
     {
@@ -43,7 +60,10 @@ public:
         }
         if(cur->left == nullptr && cur->right == nullptr){
             oneSearch.push_back(cur->val);
-            allPath.push_back(oneSearch);
+            // allPath.push_back(oneSearch);
+            if(isVaild(oneSearch)){
+                reresu++;
+            }
             // MyPrintOne(oneSearch);
             oneSearch.pop_back();
             
@@ -60,7 +80,9 @@ public:
     }
 public:
     vector<int>oneSearch;
-    vector<vector<int>> allPath;
+    // vector<vector<int>> allPath;
+    int reresu = 0;
+    unordered_map<string, bool> mymap;
 };
 
 void freeTree(TreeNode *root)

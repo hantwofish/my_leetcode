@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// map key 不能为 vector
+
 struct CmpByValueMax {
     bool operator()(const pair<int, int>&k1, const pair<int, int>&k2) const
     {
