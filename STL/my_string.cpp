@@ -24,6 +24,16 @@ vector<int> test_find(string totalStr, string str)
 
     return indexVec;
 }
+// 输出所有子串
+void printAllSubstr(string &str)
+{
+    for(int start = 0; start < str.length(); start++){
+        for(int length = 1; length <= str.length()- start; length++){
+            int endindex = start + length -1;
+            cout << str.substr(start, length) << " " << "endindex= " << endindex << endl;
+        }
+    }
+}
 
 int main()
 {
