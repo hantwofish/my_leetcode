@@ -29,6 +29,8 @@ public:
     vector<int>vec;
 };
 
+reverse(myVec.begin(),myVec.end()); 翻转
+
 int main()
 {
     Vec v1;

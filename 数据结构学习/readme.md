@@ -178,3 +178,7 @@ HZ_245 货仓选址
 - multiset unordered_multiset
 - map unordered_map
 - multimap unordered_multimap
+
+
+取模
+long long mod = 1e9 + 7;

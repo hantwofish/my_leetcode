@@ -3,7 +3,7 @@
 using namespace std;
 
 
-
+// 查找子串, 151翻转字符串
 vector<int> test_find(string totalStr, string str)
 {
     vector<int>indexVec;
@@ -15,7 +15,7 @@ vector<int> test_find(string totalStr, string str)
             return indexVec;
         }else{
             // 从position 处开始查找
-            index = totalStr.find(str,position);
+            index = totalStr.find(str,position); // 从postin 处查找子串
             cout << "index= " <<  index << endl;
             indexVec.push_back(index);
         }
