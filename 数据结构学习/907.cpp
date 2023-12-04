@@ -1,4 +1,5 @@
 #include"../STLCOMMON.h"
+#include"../COMMONALO.h"
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -24,16 +25,39 @@ public:
     int sumSubarrayMins(vector<int>& arr) {
         int resu = 0;
         int N = arr.size();
-        sort(arr.begin(),arr.end());
-        for(int i =0 ; i < N; i++){
-            resu += arr[i] * (N - i);
-            resu = resu % nummod;
+        sigStack st;
+        st.calNeiMin(arr);
+        leftminArr = st.leftArry;
+        rightminArr = st.rightArry;
+        int leftwidth =0;
+        for(int i =0 ; i <N; i++){
+            int leftbond = leftminArr[i];
+            int rightbond = rightminArr[i];
+             leftwidth = i - (leftbond+1);
+            if(leftbond == -1){
+                leftwidth = 1;
+            }       
+            int rightwidth = (rightbond-1) -i;
+            if(rightbond == N){
+                rightwidth = 1;
+            }
+            
+            int temp = arr[i] * (leftwidth * rightwidth);
+            if(resu + temp > nummod){
+                resu = (resu+ temp - nummod);
+            }else {
+                resu = resu + temp;
+            }
+            
         }
+
 
         return resu;
     }
 public:
     const  int nummod = pow(10,9)+ 7; 
+    vector<int>leftminArr;
+    vector<int>rightminArr;
 };
 
 
@@ -42,9 +66,10 @@ public:
 int main()
 {
     Solution s1;
-    vector<int>nums= {1,2,3,4};
-    int resu = s1.sumSubarrayMins(nums);
-    cout << "resu= " << resu << endl;
+    int resu = 0;
+    vector<int>nums= {3,1,2,4};
+     resu = s1.sumSubarrayMins(nums);
+    cout << "resu34= " << resu << endl;
     
 
     cout << "hello" << endl;
