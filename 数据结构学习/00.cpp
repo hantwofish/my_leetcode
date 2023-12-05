@@ -39,9 +39,10 @@ void getInputData(int& n, vector<int>&nums)
 int main()
 {
     Solution s1;
+    // s1.calMaxArray();
 
     
 
-    cout << "hello" << endl;
+    cout << "hell22o" << endl;
     return 0;
 }
