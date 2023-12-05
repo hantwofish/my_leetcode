@@ -39,6 +39,7 @@ void getInputData(int& n, vector<int>&nums)
 int main()
 {
     Solution s1;
+
     
 
     cout << "hello" << endl;
