@@ -1,4 +1,5 @@
 #include"../STLCOMMON.h"
+#include"../COMMONALO.h"
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>

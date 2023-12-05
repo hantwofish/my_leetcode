@@ -30,29 +30,17 @@ public:
         leftminArr = st.leftArry;
         rightminArr = st.rightArry;
         int leftwidth =0;
+
+        long ans = 0;
         for(int i =0 ; i <N; i++){
             int leftbond = leftminArr[i];
             int rightbond = rightminArr[i];
-             leftwidth = i - (leftbond+1);
-            if(leftbond == -1){
-                leftwidth = 1;
-            }       
-            int rightwidth = (rightbond-1) -i;
-            if(rightbond == N){
-                rightwidth = 1;
-            }
-            
-            int temp = arr[i] * (leftwidth * rightwidth);
-            if(resu + temp > nummod){
-                resu = (resu+ temp - nummod);
-            }else {
-                resu = resu + temp;
-            }
+            ans = (ans + (long)(i - leftbond) * (rightbond - i) * arr[i]) % nummod; 
             
         }
 
 
-        return resu;
+        return (int)ans;
     }
 public:
     const  int nummod = pow(10,9)+ 7; 
