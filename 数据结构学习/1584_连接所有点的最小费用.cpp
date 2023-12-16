@@ -44,15 +44,15 @@ public:
         // 将0号节点放入set
         while(mySet.size() != n){
             // 从集合中找到最小代价的节点, 
-            int stratIndex = 0;
-            int endIndex = 0;
-            int cost = 0;
+            int stratIndex = 0; // 传出参数
+            int endIndex = 0; // 传出参数
+            int cost = 0; // 传出参数
             int nextnode = FindMinCostNode(mySet, stratIndex, endIndex, cost);
             if(nextnode == -1){
                 cout << "err" << endl;
                 return -1;
             }else{
-                // cout << "stratIndex=  " << stratIndex << " endInex= " << endIndex << " cost= " << cost << endl;
+                cout << "stratIndex=  " << stratIndex << " endInex= " << endIndex << " cost= " << cost << endl;
             }
             mySet.insert(nextnode);
             isVisted[nextnode] = true;
@@ -63,6 +63,7 @@ public:
 
         return resu;
     }
+    // 从当前的集合中找到与其他节点连接的最小的点 ，传出 re_endIndex 和 花费
     int FindMinCostNode(set<int>&mySet, int& re_startIndx, int& re_endIndex , int& recost)
     {
         int cost = INT32_MAX;
