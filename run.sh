@@ -1,4 +1,5 @@
-g++ --std=c++11 ./数据结构学习/2697字典序最小回文串.cpp.cpp -o ./main.exe
+rm -f main.exe
+g++ --std=c++11 ./数据结构学习/1631_2.cpp -o ./main.exe
 ./main.exe
 
 

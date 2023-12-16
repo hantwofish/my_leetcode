@@ -1,21 +1,6 @@
 #include"../STLCOMMON.h"
-#include<stdio.h>
-#include<stdlib.h>
-#include<math.h>
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
+#include"../COMMONALO.h"
 
-#include<set>
-#include<unordered_set>
-
-#include<map>
-#include<unordered_map>
-#include<stack>
-#include<queue>
-#include<deque>
-#include <iterator>
 
 using namespace std;
 
@@ -197,24 +182,103 @@ public:
     vector<bool>isVisited;
 };
 
+
+class DiskstraSAlgo{
+public:
+    void claAxDistacnce(int start_index, vector<vector<int>>&nums, int n) // u为源点
+    {
+        init(nums,n);
+
+        for(int i = 0 ; i< n;i++){
+            distance_arr[i] = figureData[start_index][i];
+            flag_arr[i] =  false;
+            if(distance_arr[i] == MAXVALUE){
+                prenode[i] = -1;
+            }else {
+                prenode[i] = start_index;
+            }
+        }
+        distance_arr[start_index] = 0;
+        flag_arr[start_index] = true; // 加入s 集合
+
+
+
+
+        for(int i = 1; i< n; i++){ // 一共需要遍历次数，
+
+            // 从 v-s 集合中找 dis 中最小的值,以及节点 t
+            int tempvalue = MAXVALUE;
+            int tempindex = start_index;
+            for(int j = 0; j < n ;j++){
+                if(flag_arr[j] == true) continue; // 在 s 集合中
+
+                if(distance_arr[j] < tempvalue){
+                    tempvalue = distance_arr[j];
+                    tempindex = j;
+                }
+            }
+            if(tempindex == start_index) return; // 没有找到，不联通
+            // 将最小的加入的 S集合
+            flag_arr[tempindex] = true;
+            // 对 s 集合松弛操作
+            for(int j = 0; j < n ; j++){
+                // if(figureData[tempindex][j] == MAXVALUE) continue;
+                if( !flag_arr[j] && distance_arr[tempindex] + figureData[tempindex][j] < distance_arr[j]){
+                    distance_arr[j] = distance_arr[tempindex] + figureData[tempindex][j];
+                    prenode[j] = tempindex;
+                }
+            }
+        }
+        MyPrintOne(distance_arr);
+        MyPrintOne(prenode);
+        
+
+    }
+    void init(vector<vector<int>>&nums,int n)
+    {
+        distance_arr.resize(n, 0);
+        flag_arr.resize(n,false);
+        prenode.resize(n, -1);
+        
+
+
+        figureData.resize(n,vector<int>(n,MAXVALUE));
+        for(int i = 0; i < nums.size(); i++){
+            
+            int frontnumber = nums[i][0];
+            int tonumber = nums[i][1];
+            int value = nums[i][2];
+            figureData[frontnumber][tonumber] =  value;       
+        }
+
+    }
+
+public:
+    vector<vector<int>>figureData;
+    int nodeNum = 0;
+    int MAXVALUE = 0x3f3f3f3f;
+    vector<int>distance_arr;
+    vector<bool>flag_arr;
+    vector<int>prenode;
+
+};
 int main()
 {
-    Solution1 s1;
-    int N = 9;
+    DiskstraSAlgo s1;
+    int N = 5;
     vector<vector<int>>nums ={
-        {1,2},{1,3},{1,4},
-        // {2,3},
-        {2,5},
-        {2,6},
-        {3,7},
-        {4,8},{4,9},
-        // {6,7},
+        {0,1,1},
+        {0,2,1},
+        {0,3,3},
+        {0,4,6},
+        {1,3,1},
+        {2,3,7},
+        {3,4,1}
+
     };
-    s1.calMaxArray(N,nums);
-
+    s1.claAxDistacnce(0,nums, N);
     // MyPrintOne(nums[0]);
-    
+    cout << "heoo" << endl;
 
-    cout << "hello" << endl;
     return 0;
 }
