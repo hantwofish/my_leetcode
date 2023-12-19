@@ -57,7 +57,7 @@ public:
 
 
 public:
-    map<pair<int,int>,int, CmpByValueMax>myMap; //map 自动排序
+    map<pair<int,int>,int, CmpByValueMax>myMap; //map 自动排序 key,vale,key
 };
 
 
