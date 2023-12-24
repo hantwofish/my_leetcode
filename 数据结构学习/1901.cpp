@@ -2,7 +2,6 @@
 #include"../COMMONALO.h"
 
 
-622 1885 0610 24089540
 
 using namespace std;
 
