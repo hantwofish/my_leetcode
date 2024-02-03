@@ -43,3 +43,15 @@ int main()
 
     return 0;
 }
+//  字符串反转
+    string inttobitstring(int k)
+    {
+        string resu = "";
+        while(k > 0){
+            resu += to_string(k % 2);
+            k = k /2;
+        }
+        reverse(resu.begin(), resu.end());
+        cout << resu << endl;
+        return resu;
+    }
