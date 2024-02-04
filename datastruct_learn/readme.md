@@ -193,6 +193,9 @@ https://blog.csdn.net/weixin_51506327/article/details/133344299
 + map unordered_map
 + multimap unordered_multimap
 
+# 二分
++ 2861.cpp
+
 
 取模
 long long mod = 1e9 + 7;
