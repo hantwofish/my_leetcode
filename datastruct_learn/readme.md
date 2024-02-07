@@ -199,3 +199,7 @@ https://blog.csdn.net/weixin_51506327/article/details/133344299
 
 取模
 long long mod = 1e9 + 7;
+
+
+resize 前需要先clear
+全局变量尽量定义在 class 里面
