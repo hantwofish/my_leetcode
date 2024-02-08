@@ -27,25 +27,24 @@ public:
                 if(it->right){
                     Que.push(it->right);
                     rightval = it->right->val;      
-                } 
-                if((leftvalu == x && rightval == y) ||(leftvalu == y && leftvalu == x)){
+                }
+                cout << " val= " << it->val << " left= " << leftvalu << " right= " << rightval << endl; 
+                if((it->left && it->right && leftvalu == x && rightval == y) ||(it->left && it->right && leftvalu == y && rightval == x)){
                     return false;
                 }
                 resu.push_back(it->val);
+                Que.pop();
             }
             if(depth <=1 ) continue; 
-            if(find(resu.begin(),resu.end(), leftvalu) != resu.end() && find(resu.begin(),resu.end(), rightval) != resu.end())   {
+            if(find(resu.begin(),resu.end(), x) != resu.end() && find(resu.begin(),resu.end(), y) != resu.end())   {
                 return true;
             }
-
-
-
         }
-
+        return false;
     }
 private:    
     queue<TreeNode*>Que;
-}
+};
 
 int main()
 {
