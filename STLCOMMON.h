@@ -71,6 +71,7 @@ void RemoveVecEle(vector<int>&nums,int tar)
 
 }
 
+// 并查集
 class UnionFind {
 public:
     UnionFind(int n)
