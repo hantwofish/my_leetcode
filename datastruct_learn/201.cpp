@@ -9,6 +9,7 @@ public:
     int rangeBitwiseAnd(int left, int right) {
         bitset<32>bitVal(left);
         for(int i =0; i< 32;i++){
+            if(bitVal[i] == 0) continue;
             for(long long j = left; j <= right ; j++){
                 bitset<32>temp(j);
                 if(temp[i] == 0){
