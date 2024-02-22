@@ -7,6 +7,7 @@
 #include<iostream>
 #include<vector>
 #include<string>
+#include<bitset>
 #include<algorithm>
 
 #include<set>
