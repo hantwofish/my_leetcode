@@ -205,3 +205,6 @@ long long mod = 1e9 + 7;
 resize 前需要先clear
 全局变量尽量定义在 class 里面
 进制转换 1391.cpp
+
++ 871最低加油次数
++ 
