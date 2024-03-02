@@ -48,15 +48,24 @@ public:
     int reachableNodes(int n, vector<vector<int>>& edges, vector<int>& restricted) {
         N =n;
         isVisted.resize(n, 0);
-        figure.resize(n, vector<int>(n,0));
+        is_restricted.resize(n, 0);
+        // figure.resize(n, vector<int>(n,0));
         for(int i = 0; i< edges.size(); i++){
             int start = edges[i][0];
             int end = edges[i][1];
 
-            figure[start][end] = 1;
-            figure[end][start] = 1;
+            // figure[start][end] = 1;
+            // figure[end][start] = 1;
+
+            umap[start].push_back(end);
+            umap[end].push_back(start);
         }
-        MyPrintTwo(figure);
+        // MyPrintTwo(figure);
+        for(int i = 0; i< restricted.size(); i++){
+            is_restricted[restricted[i]] = 1;
+        }
+
+
         isVisted[0] = true;
         vailNodeNum++;
 
@@ -66,28 +75,44 @@ public:
     }
     void dfs(int root, vector<int>& restricted)
     {
-        for(int i = 0; i< N; i++){
-            if(figure[root][i] == 0){
-                continue;
-            }
-            if(isVisted[i]) continue;
+        // for(int i = 0; i< N; i++){
+        //     if(figure[root][i] == 0){
+        //         continue;
+        //     }
+        //     if(isVisted[i]) continue;
 
-            if(find(restricted.begin(), restricted.end(), i) != restricted.end()) continue;
+        //     if(find(restricted.begin(), restricted.end(), i) != restricted.end()) continue;
             
-            isVisted[i] = true;
+        //     isVisted[i] = true;
+        //     vailNodeNum++;
+
+        //     cout << root << " -> " << i << endl; 
+        //     dfs(i, restricted);
+        //     // isVisted[i] = false;
+        // }
+        vector<int>dig = umap[root];
+        for(int i  =0 ; i< dig.size();i++){
+            int neigh = dig[i];
+            if(isVisted[neigh]) continue;
+
+            // if(find(restricted.begin(), restricted.end(), neigh) != restricted.end()) continue;
+            if(is_restricted[neigh]) continue;
+
+            isVisted[neigh] = true;
             vailNodeNum++;
 
-            cout << root << " -> " << i << endl; 
-            dfs(i, restricted);
-            // isVisted[i] = false;
+            cout << root << " -> " << neigh << endl; 
+            dfs(neigh, restricted);
         }
 
     }
 private:
     int N ;
-    vector<vector<int>>figure;
+    // vector<vector<int>>figure;
+    unordered_map<int, vector<int>>umap;
     vector<bool>isVisted;
     int vailNodeNum = 0;
+    vector<int>is_restricted;
 };
 
 int main()
