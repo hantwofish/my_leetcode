@@ -57,6 +57,9 @@ public:
             figure[end][start] = 1;
         }
         MyPrintTwo(figure);
+        isVisted[0] = true;
+        vailNodeNum++;
+
         dfs(0, restricted);
         cout << "vailNodeNum= " << vailNodeNum << endl;
         return vailNodeNum;
@@ -67,11 +70,16 @@ public:
             if(figure[root][i] == 0){
                 continue;
             }
-            if(find(restricted.begin(), restricted.end(), i) == restricted.end()) continue;
             if(isVisted[i]) continue;
+
+            if(find(restricted.begin(), restricted.end(), i) != restricted.end()) continue;
+            
             isVisted[i] = true;
             vailNodeNum++;
+
+            cout << root << " -> " << i << endl; 
             dfs(i, restricted);
+            // isVisted[i] = false;
         }
 
     }
@@ -88,10 +96,15 @@ int main()
     int n = 7;
     vector<vector<int>>edges = {{0,1},{0,2},{0,5},{0,4},{3,2},{6,5}}; 
     vector<int>restricted = {4,2,1};
+
+    // int n =7;
+    // vector<vector<int>>edges = {{0,1},{1,2},{3,1},{4,0},{0,5},{5,6}}; 
+    // vector<int>restricted = {4,5};
+
     int resui = s1.reachableNodes(n,edges,restricted);
     cout << "resu= " << resui << endl;
      
-    n = 7, edges = [[0,1],[1,2],[3,1],[4,0],[0,5],[5,6]], restricted = [4,5]  // 4
+    // n = 7, edges = [[0,1],[1,2],[3,1],[4,0],[0,5],[5,6]], restricted = [4,5]  // 4
 
     cout << "hell22o" << endl;
     return 0;
