@@ -80,4 +80,20 @@ public:
 
 };
 
+// 进制转换
+class bitTrans {
+public:
+    string int_to_bin(int num)
+    {
+        string resu = "";
+        int temp_num = num;
+        while(num > 0){
+            resu =  to_string(num % 2) + resu;
+            num = num /2;
+        }
+        cout<< "num= " << temp_num << " " << resu << endl;
+        return resu;
+    }
+};
+
 #endif
