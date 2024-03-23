@@ -1,132 +1,42 @@
-#ifndef STLCOMMON_H
-#define STLCOMMON_H
+#include"../STLCOMMON.h"
+#include"../COMMONALO.h"
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<math.h>
-#include<iostream>
-#include<vector>
-#include<string>
-#include<bitset>
-#include<algorithm>
-
-#include<set>
-#include<unordered_set>
-
-#include<map>
-#include<unordered_map>
-#include<stack>
-#include<queue>
-#include<deque>
-#include <iterator>
 
 using namespace std;
 
-#define SPACE 3
-template<typename T1>
-void MyPrintTwo(vector<vector<T1>> &data)
-{
-    cout << "------- start ---------" << endl;
-    int col = data[0].size();
-    printf("%-4d", 0);
-    for(int i = 0; i< col; i++){
-        printf("%-3d", i);
-    }
-    printf("\n");
-    cout << "------------------------" << endl;
-
-    for(int i = 0; i< data.size(); i++){
-        printf("%-3d|", i);
-        for(int j = 0; j < data[i].size(); j++){
-            printf("%-3d", data[i][j]);
-        }
-        printf("\n");
-    }
-    cout << "------- end ---------" << endl;
-}
-template<typename T2>
-void MyPrintOne(vector<T2> &data)
-{
-    cout << "------- start ---------" << endl;
-    for(int i = 0; i< data.size(); i++){
-        printf("%-5d", i);
-    }
-    printf("\n");
-    cout << "------------------" << endl;
-
-    for(int i = 0; i< data.size(); i++){
-        printf("%-5d", data[i]);
-    }
-    printf("\n");
-    cout << "------- end ---------" << endl;
-}
-
-void RemoveVecEle(vector<int>&nums,int tar)
-{
-    for(int i= 0; i< nums.size(); i++){
-        if(nums[i] == tar){
-            nums.erase(nums.begin() + i);
-            i--; // 由於容器size-1, 还按照原先的i 的话，相当于自动右一位而漏掉一个元素
-        }
-    }
-
-}
-
-// 并查集
-class UnionFind {
+class Solution {
 public:
-    UnionFind(int n)
-    {
-        NODENUM = n;
-        father.resize(NODENUM,0);
-        fa_init();
+    int minCostConnectPoints(vector<vector<int>>& points) {
+        N = points.size();
+        if(N <= 1) return 0;
+        figureData.resize(N, vector<int>(N,0));
         
+        cout << "N= " << N << endl;
 
+        for(int i =0; i< N; i++){
+            for(int j = i + 1; j < N;j++){
+                int front_i = points[i][0];
+                int frony_j = points[i][1];
+                int behind_i = points[j][0];
+                int behind_j = points[j][1];
 
-    }
-    void fa_init()
-    {
-        for(int i = 0; i<NODENUM; i++){
-            father[i] = i;
+                int distance = abs(front_i - behind_i) + abs(frony_j - behind_j);
+                figureData[i][j]  = distance;
+                figureData[j][i] =  distance;
+            }
         }
-
-    }
-    int find_fa(int i)
-    {
-        // if( i == fa[i]){
-        //     return i;
-        // }else{
-        //     fa[i] = find_fa(fa[i]);
-        //     return fa[i];
-        // }
-        if(father[i] != i){
-            father[i] = find_fa(father[i]);
+        MyPrintTwo(figureData);
+        vector<vector<int>> treVec = CalPrimTree(figureData);
+        MyPrintTwo(treVec);
+        int mincost = 0;
+        for(int i = 0; i< treVec.size(); i++){
+            mincost +=  figureData[treVec[i][0]][treVec[i][1]];
         }
-        return father[i];
+        cout << "mincost " << mincost << endl;
+        return mincost;
+
     }
-    void unionNode(int x, int y)
-    {
-        int i_fa= find_fa(x);
-        int j_fa = find_fa(y);
-        father[i_fa] = j_fa;
-    }
-    void PrintFather()
-    {
-        for(int i = 0 ; i< NODENUM; i++){
-            printf("i=%-3d | father=%-3d \n", i, father[i]);
-        }
-    }
-
-public:
-    int NODENUM ; // 总的节点个数
-    vector<int>father;// 存储每个节点的父节点
-};
-
-
-
-
-class SolutionCalPrimTree{
-public:
+private:
     vector<vector<int>> CalPrimTree(vector<vector<int>>&figureData)
     {
         vector<vector<int>>treeVec;
@@ -152,7 +62,7 @@ public:
         cout << "end" << endl;
         return treeVec;
     }
-private:
+
     // 输出下一个加入集合的下一个节点
     vector<int> findMinPath(vector<vector<int>>&figureData, vector<bool>&isVisited, set<int>&treeSet)
     {
@@ -181,7 +91,7 @@ private:
         return {node_i, node_j};
     }
 
-
+private:
     void MyPrintTwo(vector<vector<int>> &data)
     {
         cout << "------- start ---------" << endl;
@@ -202,13 +112,20 @@ private:
         }
         cout << "------- end ---------" << endl;
     }
-private:
     vector<vector<int>>figureData; // 邻接矩阵
     int N ;
 };
 
+int main()
+{
+    Solution s1;
+    // s1.calMaxArray();
+    // vector<vector<int>> points = {{0,0},{2,2},{3,10},{5,2},{7,0}};
+    // vector<vector<int>> points = {{2,-3},{-17,-8},{13,8},{-17,-15}};
+    vector<vector<int>> points = {{0,0},{1,1},{1,0},{-1,1}};
+    s1.minCostConnectPoints(points);
+    
 
-
-
-
-#endif
+    cout << "hell22o" << endl;
+    return 0;
+}

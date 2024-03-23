@@ -138,4 +138,50 @@ private:
     unordered_map<int, vector<int>>figureMap;
 };
 
+
+// Floyd 算法 计算任意两个节点之间的最短距离
+class FigureCalMinDis {
+public:
+    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
+        N = n;
+        figureData.resize(N, vector<int>(N, IN_VAILD));
+        nodeDistance.resize(N, vector<int>(N, IN_VAILD));
+
+        for(auto &eg: edges){
+            int from = eg[0];
+            int to =   eg[1];
+            int weight = eg[2];
+            figureData[from][to]= weight;
+            figureData[to][from]= weight;
+        }
+        MyPrintTwo(figureData);
+        CalallDistance(figureData);
+
+        return 0;
+    }
+    
+    void CalallDistance(vector<vector<int>>&figureData)
+    {
+        nodeDistance = figureData;
+        for(int k =0; k < N; k++){
+            nodeDistance[k][k] = 0;
+            for(int i = 0; i < N; i++){
+                for(int j= 0; j< N; j++){
+                    // 得到每两个点直接的最短路径
+                    nodeDistance[i][j] = min(nodeDistance[i][j], nodeDistance[i][k]+ nodeDistance[k][j]);
+                }
+            }
+        }
+        MyPrintTwo(nodeDistance);
+
+    }
+private:    
+    vector<vector<int>>figureData;
+    vector<vector<int>>nodeDistance; // 计算任意两点之间的距离
+    int N =0;  
+    int IN_VAILD =   INT32_MAX/2;
+};
+
+
+
 #endif
