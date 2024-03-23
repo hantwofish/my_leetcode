@@ -96,4 +96,46 @@ public:
     }
 };
 
+
+class FigureSearch{
+    void DFS(int start_node , int end_node, int cur_node, vector<int>&isVisited, vector<int>&onePath)
+    {
+        if(isVisited[cur_node] == true){
+            return;
+        }
+        if(cur_node == end_node){
+            onePath.push_back(cur_node);
+            MyPrintOne(onePath);
+            onePath.pop_back();
+            return;
+        }
+        onePath.push_back(cur_node);
+        isVisited[cur_node] = true;
+        vector<int>neighbored = figureMap[cur_node];
+        for(int i = 0; i < neighbored.size(); i++){
+            DFS(start_node, end_node, neighbored[i], isVisited, onePath);
+        }
+
+        onePath.pop_back();
+        isVisited[cur_node] = false;
+    }   
+private:
+    void PrintMap(unordered_map<int,vector<int>>figureMap)
+    {
+        auto it = figureMap.begin();
+        while(it != figureMap.end()){
+            vector<int>temp = it->second;
+            cout << it->first << " | ";
+            for(auto &val : temp){
+                cout << val << " " ;
+            }
+            cout << endl;
+            it++;
+        }
+    }
+
+private:
+    unordered_map<int, vector<int>>figureMap;
+};
+
 #endif
