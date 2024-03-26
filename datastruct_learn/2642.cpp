@@ -1,143 +1,8 @@
-#ifndef COMMON_ALO
-#define COMMON_ALO
+#include"../STLCOMMON.h"
+#include"../COMMONALO.h"
 
-#include"./STLCOMMON.h"
-
-#include<stdio.h>
-#include<stdlib.h>
-#include<math.h>
-#include<iostream>
-#include<vector>
-#include<string>
-#include<algorithm>
-
-#include<set>
-#include<unordered_set>
-
-#include<map>
-#include<unordered_map>
-#include<stack>
-#include<queue>
-#include<deque>
-#include <iterator>
 
 using namespace std;
-// 此只要我们向左👈找到第一个比A[i]小的数A[left]以及向右👉找到第一个比E小的数A[right]，就可以确定E的辐射范围为A[left+1:right]。这就叫做下一个更小/更大的数问题。解决这类问题的通用解法即为单调栈。
-
-// 作者：超小白
-// 链接：https://leetcode.cn/problems/sum-of-subarray-minimums/submissions/
-// 来源：力扣（LeetCode）
-// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-class sigStack{
-public:
-    void calNeiMin(vector<int>&nums){
-        int N =nums.size();
-        leftArry.resize(N,-1);
-        rightArry.resize(N,N);
-        // 计算右面第一个小于当前元素的位置，记录索引
-        stack<int>rightStak;
-        for(int i = 0; i <N; i++){
-            if(rightStak.empty()) {
-                rightStak.push(i);
-                continue;
-            }
-            int tempval = nums[i];
-            // cout << "top= " << nums[rightStak.top()] << " tempvla= " << tempval << endl;
-            while((!rightStak.empty()) &&  (tempval < nums[rightStak.top()])){
-                
-                rightArry[rightStak.top()] = i;
-                rightStak.pop();
-            }
-            rightStak.push(i);
-        }
-        MyPrintOne(rightArry);
-
-        // 计算左面第一个小于的位置
-        stack<int>leftstack;
-        for(int i = N-1; i >= 0; i--){
-            if(leftstack.empty()) {
-                leftstack.push(i);
-                continue;
-            }
-            int tempval = nums[i];
-            // cout << "top= " << nums[leftstack.top()] << " tempvla= " << tempval << endl;
-            while((!leftstack.empty()) &&  (tempval < nums[leftstack.top()])){
-                
-                leftArry[leftstack.top()] = i;
-                leftstack.pop();
-            }
-            leftstack.push(i);
-        }
-        MyPrintOne(leftArry);
-        
-
-    }
-
-
-public:
-    vector<int>leftArry;
-    vector<int>rightArry;
-
-};
-
-// 进制转换
-class bitTrans {
-public:
-    string int_to_bin(int num)
-    {
-        string resu = "";
-        int temp_num = num;
-        while(num > 0){
-            resu =  to_string(num % 2) + resu;
-            num = num /2;
-        }
-        cout<< "num= " << temp_num << " " << resu << endl;
-        return resu;
-    }
-};
-
-
-class FigureSearch{
-    void DFS(int start_node , int end_node, int cur_node, vector<int>&isVisited, vector<int>&onePath)
-    {
-        if(isVisited[cur_node] == true){
-            return;
-        }
-        if(cur_node == end_node){
-            onePath.push_back(cur_node);
-            MyPrintOne(onePath);
-            onePath.pop_back();
-            return;
-        }
-        onePath.push_back(cur_node);
-        isVisited[cur_node] = true;
-        vector<int>neighbored = figureMap[cur_node];
-        for(int i = 0; i < neighbored.size(); i++){
-            DFS(start_node, end_node, neighbored[i], isVisited, onePath);
-        }
-
-        onePath.pop_back();
-        isVisited[cur_node] = false;
-    }   
-private:
-    void PrintMap(unordered_map<int,vector<int>>figureMap)
-    {
-        auto it = figureMap.begin();
-        while(it != figureMap.end()){
-            vector<int>temp = it->second;
-            cout << it->first << " | ";
-            for(auto &val : temp){
-                cout << val << " " ;
-            }
-            cout << endl;
-            it++;
-        }
-    }
-
-private:
-    unordered_map<int, vector<int>>figureMap;
-};
-
 
 class Graph {
 public:
@@ -179,7 +44,6 @@ public:
         }
         return nodeDistance[node1][node2];
     }
-    // 单源
     void CalSingeNodeDistance(vector<vector<int>>&figureData, int N, int start_index, vector<int>&distance_arr, vector<bool>&flag_arr, vector<int>&prenode)
     {
         distance_arr.clear();
@@ -230,7 +94,6 @@ public:
 
     }
 
-    // 计算所有顶点
     void CalallDistance(vector<vector<int>>&figureData)
     {
         nodeDistance = figureData;
@@ -257,6 +120,28 @@ private:
     vector<vector<int>>nodeDistance;
 };
 
+/**
+ * Your Graph object will be instantiated and called as such:
+ * Graph* obj = new Graph(n, edges);
+ * obj->addEdge(edge);
+ * int param_2 = obj->shortestPath(node1,node2);
+ */
 
+int main()
+{
+    int n = 13;
+    vector<vector<int>>edges={{7,2,131570},{9,4,622890},{9,1,812365},{1,3,399349},{10,2,407736},{6,7,880509},{1,4,289656},{8,0,802664},{6,4,826732},{10,3,567982},{5,6,434340},{4,7,833968},{12,1,578047},{8,5,739814},{10,9,648073},{1,6,679167},{3,6,933017},{0,10,399226},{1,11,915959},{0,12,393037},{11,5,811057},{6,2,100832},{5,1,731872},{3,8,741455},{2,9,835397},{7,0,516610},{11,8,680504},{3,11,455056},{1,0,252721}};
+    
+    Graph s1(n, edges);
+    int resu= s1.shortestPath(9,3);
+    cout << "resu= " << resu << endl;
+    // resu = s1.shortestPath(0,3);
+    //  cout << "resu= " << resu << endl;
+    s1.addEdge({11,1,873094});
+    resu= s1.shortestPath(3,10);
+     cout << "resu= " << resu << endl;
+    
 
-#endif
+    cout << "hell22o" << endl;
+    return 0;
+}
