@@ -98,6 +98,26 @@ public:
 
 
 class FigureSearch{
+private:
+   // 访问从 start 开始的所有节点, 不回溯
+    void dfs_nobackup(int start, int cur_index, vector<int>&isVisited)
+    {
+        if(isVisited[cur_index]== true){
+            return;
+        }
+
+        cout << " start= " << start << " push= " << cur_index << endl;
+        if(start != cur_index){
+            // out_resu[cur_index].push_back(start); 此时 start 可以访问到 cur_index
+        }
+
+
+        isVisited[cur_index] = true;
+        
+        for(int i = 0; i <  figureMap[cur_index].size(); i++){
+            dfs_nobackup(start, figureMap[cur_index][i] , isVisited);
+        }
+    }
     void DFS(int start_node , int end_node, int cur_node, vector<int>&isVisited, vector<int>&onePath)
     {
         if(isVisited[cur_node] == true){
