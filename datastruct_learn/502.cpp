@@ -13,6 +13,13 @@ bool CMP(pair<int,int>& a, pair<int,int>& b)
     return false;
 }
 
+class MyCompareMAX{
+public:
+    bool operator()(pair<int , int>a , pair<int , int>b){
+        return a.second < b.second;
+    }
+};
+
 class Solution {
 public:
     int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {
@@ -27,19 +34,34 @@ public:
 
 
         int cur_w = w;
-        int chose_index = 0;
+        int cur_index =  0;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,MyCompareMAX>maxQue;// 大顶堆 按照利润排序
+        for(cur_index = 0; cur_index < vec.size(); cur_index++){
+            if(vec[cur_index].first <= cur_w){
+                maxQue.push(vec[cur_index]);
+            }else{
+                break;
+            }   
+        }
+
         for(int i = k; i > 0; i--){
-            if(vec.empty() ||   cur_w < vec[0].first){
+            if(maxQue.empty()){
                 return cur_w;
             }
-            for(int j = 0; j < vec.size(); j++){
-                if(vec[j].first <= cur_w &&  vec[j].second > vec[0].second){
-                    chose_index = j;
+            
+            
+            cur_w += maxQue.top().second;
+            maxQue.pop();
+
+            for(;cur_index < vec.size(); cur_index++){
+                if(vec[cur_index].first <= cur_w){
+                    maxQue.push(vec[cur_index]);
+                }else{
+                    break;
                 }
             }
-            cur_w += vec[chose_index].second;
 
-            vec.erase(vec.begin() + chose_index);
+            
         }
         cout << "cur_w= " << cur_w << endl;
         return cur_w;
