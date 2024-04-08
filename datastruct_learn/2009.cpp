@@ -19,18 +19,19 @@ public:
         cout << " nums.size= " << nums.size() << endl;
 
         int maxChoose = 0;
-        for(int i = 0; i < nums.size(); i++){
-            int start = nums[i];
-            int end = start + N -1;
-            int temp_tiems = 0;
-            for(int j = i ; j < nums.size(); j++ ){
-                if(nums[j] >= start && nums[j] <= end){
-                    temp_tiems++;
-                }
+        for(int i = 0, j = i; i < nums.size(); i++){
+            while(j <nums.size() && nums[j] <= nums[i] + N -1 ){
+                j++;
             }
-            cout << "i= "<< i << " temp_tiems= " << temp_tiems << endl;
-            maxChoose = max(maxChoose, temp_tiems);
+            maxChoose = max(maxChoose, j - i);
         }
+        /*
+            while 循环要快于 for
+            for(int i = 0, j = i; i < nums.size(); i++){ 快于
+                for(int i = 0; i < nums.size(); i++){
+                    j = i;
+                }
+        */
         cout << " main resu= "<<  N- maxChoose << endl;
         return N- maxChoose;
     }
