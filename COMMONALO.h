@@ -277,6 +277,153 @@ private:
     vector<vector<int>>nodeDistance;
 };
 
+/*
+resu= {}
+def backtrack(路径， 选择列表)
+    if 满足结束条件：
+        resu.add(路径)
+        return
+    for 选择 in 选择列表
+        做选择
+        backtrack(路径， 选择列表)
+        撤销选择
+*/
+// 子集
+class BackT{
+public:
+    // 输入一个不包含重复数字的数组，求这些数字的所有子集
+    vector<vector<int>> subSets(vector<int>&nums)
+    {
+        for(int cur = 0;  cur < nums.size(); cur++){
+            vector<int>temp;
+            visited.clear();
+            visited.resize(nums.size(), 0);
+            subSetBacking(nums, temp, visited, cur, cur);
+        }
+        PrintVctwo(resu);
+        return resu;
+    }
+    void subSetBacking(vector<int>&nums, vector<int>&temp, vector<int>&visited, int start, int cur)
+    {
+        
+        if(visited[cur]) return;
+    
+        temp.push_back(nums[cur]);
+        resu.push_back(temp);
+        visited[cur] = 1;
+        for(int i = cur+1; i < nums.size(); i++){
+            subSetBacking(nums, temp,visited, start, i);
+        }
+        visited[cur] = 0;
+        temp.pop_back();
+    }
+    void PrintVctwo(vector<vector<int>>&resu)
+    {
+        for(int i = 0 ; i < resu.size(); i++){
+            for(int j = 0; j < resu[i].size(); j++){
+                cout << resu[i][j] << " ";
+            }
+            cout << endl;
+        }
+    }
+private:
+    vector<vector<int>>resu;
+    vector<int>visited;
+
+
+};
+
+// 组合
+class BackY{
+
+public:
+    vector<vector<int>> combine(int n,int k)
+    {
+        for(int i = 1; i<= n; i++){
+            vector<int>temp;
+            vector<int>visited(n+1, 0);
+            backTraing(n, k , i, i, temp, visited);
+        }
+        PrintVctwo(resu);
+        return resu;
+    }
+    void backTraing(int N , int k , int start, int cur, vector<int>&temp, vector<int>&visited)
+    {
+        if(visited[cur]) return;
+
+        temp.push_back(cur);
+        if(temp.size() == k){
+            resu.push_back(temp);
+        }
+         
+        visited[cur] = true;
+
+        for(int i = cur + 1; i <= N; i++ ){
+            backTraing(N, k, start, i, temp, visited);
+        }
+
+        temp.pop_back();
+        visited[cur] = false;
+    }
+    void PrintVctwo(vector<vector<int>>&resu)
+    {
+        for(int i = 0 ; i < resu.size(); i++){
+            for(int j = 0; j < resu[i].size(); j++){
+                cout << resu[i][j] << " ";
+            }
+            cout << endl;
+        }
+    }
+private:
+    vector<vector<int>>resu;
+};
+
+// 全排列
+
+class BackZ{
+public:
+    vector<vector<int>> permute(vector<int>&nums)
+    {
+        for(int i = 0; i < nums.size(); i++){
+            vector<int>temp;
+            vector<int>visited(nums.size(),0);
+            backtraing(nums, i, i, temp, visited);
+        }
+
+        PrintVctwo(resu);
+        return resu;
+
+    }
+    void backtraing(vector<int>&nums, int start, int cur_indx, vector<int>&temp, vector<int>&visited)
+    {
+        if(visited[cur_indx]) return;
+        temp.push_back(nums[cur_indx]);
+        if(temp.size()== nums.size()){
+            resu.push_back(temp);
+        }
+        visited[cur_indx] = true;
+
+        for(int i = 0; i < nums.size(); i++){
+            backtraing(nums, start, i, temp, visited);
+        }
+
+        temp.pop_back();
+        visited[cur_indx] = false;
+    }
+
+private:
+    void PrintVctwo(vector<vector<int>>&resu)
+    {
+        for(int i = 0 ; i < resu.size(); i++){
+            for(int j = 0; j < resu[i].size(); j++){
+                cout << resu[i][j] << " ";
+            }
+            cout << endl;
+        }
+    }
+    vector<vector<int>>resu;
+};
+
 
 
 #endif
