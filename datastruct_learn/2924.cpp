@@ -152,6 +152,40 @@ private:
     vector<int>canVisited;
 }; 
 
+
+// 计算入度 ,只有一个 入度为 0 的节点
+class Solution3 {
+public:
+    int findChampion(int n, vector<vector<int>>& edges) {
+        N = n;
+        for(int i = 0; i < N; i++){
+            indig[i] = 0;
+        }
+        for(int i = 0; i< edges.size(); i++){
+            figureMap[edges[i][0]].push_back(edges[i][1]);
+            indig[edges[i][1]]++;
+        }
+
+        int zeroindig_num = 0;
+        int zero_indig_index  = -1;
+        auto it = indig.begin();
+        while(it != indig.end()){
+            if(it->second == 0){
+                zero_indig_index =  it->first;
+            }
+            it++;
+        }
+        if(zeroindig_num != 1){
+            return -1;
+        }
+        return zero_indig_index;
+    }
+private:
+    unordered_map<int,vector<int>>figureMap;
+    int N;
+    vector<int>canVisited;
+    unordered_map<int,int>indig;
+};
 int main()
 {
     int n = 4;
