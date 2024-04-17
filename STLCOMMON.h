@@ -19,6 +19,7 @@
 #include<queue>
 #include<deque>
 #include <iterator>
+#include<tuple>
 
 using namespace std;
 
