@@ -142,3 +142,12 @@ int main()
     s1.testSetOrder();
     return 0;
 }
+
+        //不能使用sa.erase(3)，这样会删除sa中所有的元素3。
+    //应当找到指向3的迭代器，然后删除这个迭代器，代码如下。
+    // auto it = sa.find(3);
+    // if (it != sa.end()) sa.erase(it);
+    
+    // for (auto it = sa.begin(); it != sa.end(); it++) {
+    //     cout << *it << endl;
+    // }
