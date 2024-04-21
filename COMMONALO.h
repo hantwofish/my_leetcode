@@ -333,7 +333,7 @@ private:
 
 };
 
-// 组合
+// 组合 输入两个数字N,K ，算法输出 [1-N]中k个数字的所有组合
 class BackY{
 
 public:
