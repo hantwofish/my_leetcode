@@ -10,7 +10,7 @@ class PointCmp{
 public:
     bool  operator()(const pair<int,int> &A, const pair<int,int> &B) const // const 不可少, 对于Pair需要将多种情况都讨论
     {
-        if(A.first < B.first){
+        if(A.first < B.first){ // 小的在前
             return true;
         }else if(A.first == B.first) {
             return A.second < B.second;
