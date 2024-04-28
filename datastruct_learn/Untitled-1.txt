@@ -1,0 +1,17 @@
+#include <iostream>
+#include <chrono>
+#include <thread>
+ 
+void timer_function(int seconds) {
+    std::this_thread::sleep_for(std::chrono::seconds(seconds));
+    std::cout << "Timer expired after " << seconds << " seconds" << std::endl;
+}
+ 
+int main() {
+    int delay_seconds = 5; // 设置计时器延时5秒
+    std::cout << "Starting timer for " << delay_seconds << " seconds" << std::endl;
+    std::thread timer_thread(timer_function, delay_seconds);
+    timer_thread.join(); // 等待计时器线程完成
+    std::cout << "Timer thread finished" << std::endl;
+    return 0;
+}
