@@ -15,6 +15,14 @@ public:
     string baseNeg2(int n) {
         return numTN(n, -2);
     }
+    // 
+    /*
+    num N
+    >0  >0 OK
+    >0  <0 OK
+    <0  >0 转换成 >0 >0 前加 "-"
+    <0  <0 OK
+    */
     string numTN(int num, int N)
     {
         cout << "numTN " << endl;
@@ -28,7 +36,7 @@ public:
                 ans = ans + "0";
             } else if(f < 0){
                 // f 小于0 的为无效值
-                f = f + abs(N);
+                f = f - N;
 cout << f << endl;
                 if(f >= 10){
                     ans += ('0' + (f - 10));
@@ -58,9 +66,9 @@ cout << f << endl;
 int main()
 {
     Solution s1;
-    int num = 4;
-    s1.baseNeg2(num);
-    s1.numTN(num, 2);
+    int num = -4;
+    // s1.baseNeg2(num);
+    s1.numTN(-4, -3);
     
     cout << "hell22o" << endl;
     return 0;
