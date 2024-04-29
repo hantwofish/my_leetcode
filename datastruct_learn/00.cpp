@@ -30,8 +30,8 @@ public:
 
 int mainFunc()
 {
-   Solution s1;
-   s1.printAll();
+    Solution s1;
+
     return 0;
 }
 
