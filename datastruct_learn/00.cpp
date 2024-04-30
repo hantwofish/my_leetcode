@@ -4,15 +4,16 @@
 #include <chrono>
 #include <thread>
 
-#define TIMEINTERVAL 6
+#define TIMEINTERVAL 1
 
 using namespace std;
 
 void timer_function(int seconds) {
     std::this_thread::sleep_for(std::chrono::seconds(seconds));
-    std::cout << "Timer expired after " << seconds << " seconds" << std::endl;
+    // std::cout << "Timer expired after " << seconds << " seconds" << std::endl;
     
-    cout << "timer " <<  seconds << " is over exit " << endl;
+    cout << endl;
+    cout << "[error] timer " <<  seconds << " is over exit " << endl;
     exit(1);
 }
 
@@ -22,8 +23,10 @@ class Solution{
 public:
     void printAll()
     {
-        while(1){
-
+        int times = 13;
+        while(times > 0){
+            cout << "rimes= " << times << endl;
+            times--;
         }
     }
 };
@@ -37,16 +40,16 @@ int mainFunc()
 
 int main()
 {
-    std::cout << "Starting timer for " << TIMEINTERVAL << " seconds" << std::endl;
+    std::cout << "[info] Starting timer for " << TIMEINTERVAL << " seconds" << std::endl << std::endl;
     std::thread timer_thread(timer_function, TIMEINTERVAL); // 设置计时器延时 TIMEINTERVAL 秒
 
     if(mainFunc() == 0){
         // timer_thread.join(); // 等待计时器线程完成
-        cout << "main end" << endl;
+        cout << "[info] main end" << endl << endl;
         return 0;
     }
 
     timer_thread.join(); // 等待计时器线程完成
-    std::cout << "Timer thread finished" << std::endl;
+    std::cout << "[info] Timer thread finished" << std::endl;
     return 0;
 }

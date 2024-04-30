@@ -212,5 +212,6 @@ private:
 
 
 
+#define PRINT_START {cout << "------------" << endl;}
 
 #endif
