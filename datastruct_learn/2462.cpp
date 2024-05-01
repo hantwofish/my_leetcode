@@ -4,7 +4,7 @@
 #include <chrono>
 #include <thread>
 
-#define TIMEINTERVAL 8
+#define TIMEINTERVAL 3
 
 using namespace std;
 
@@ -34,26 +34,66 @@ class Solution {
 public:
     long long totalCost(vector<int>& costs, int k, int candidates) {
         long long resu = 0;
-        data = costs;
+        int leftEnd = 0;
+        int rightFront = costs.size()-1;
+
+        visited.resize(costs.size(), 0);
+        for(int i = 0; i < candidates && i < costs.size(); i++){
+            myQue.push({i, costs[i]});
+            visited[i] = 1;
+            leftEnd = max(leftEnd, i);
+        }
+        for(int i= costs.size()- 1; i>= costs.size() - candidates && i >= 0; i--){
+            if(visited[i] == 1) continue;
+            myQue.push({i, costs[i]});
+            visited[i] = 1;
+            rightFront = min(rightFront, i);
+        }
+        // cout << "leftEnd= " << leftEnd << " rightFront= " << rightFront << endl;
+
+
+
         while(k > 0){
-            cout << "k= " << k << endl; 
-            int startIndex = 0;
-            int endIndex = data.size() -1;
+            // if(myQue.empty()) break;
+            // cout << "k= " << k << endl;
+            const int topIndex = myQue.top().first;
+            // cout << topIndex << " -> " << costs[topIndex] << endl;
+            myQue.pop();
+            resu = resu + (long long)(costs[topIndex]);
+            // cout << "top=" << myQue.top().first << endl;
 
-            while(!myQue.empty()){
-                myQue.pop();
-            }
-            for(int i = 0; i< candidates; i++){
-                if(startIndex < data.size()) myQue.push({startIndex, data[startIndex]});
-                startIndex++;
-                if(endIndex >= 0) myQue.push({endIndex, data[endIndex]});
-                endIndex--;
-            }
-            resu = resu + myQue.top().second;
+            int curIndex = topIndex;
+            if(topIndex <= leftEnd){
+                curIndex = leftEnd;
+                while(curIndex < rightFront &&  visited[curIndex] == 1){
+                    curIndex++;
+                }
+                if(curIndex > leftEnd && curIndex != topIndex && curIndex < rightFront){
+                    myQue.push({curIndex, costs[curIndex]});
+                    // cout << "push index "<< curIndex << endl;
+                    leftEnd = curIndex;
+                    visited[curIndex] = 1;
+                }
+                
+            }else{
+                curIndex = rightFront;
+                while(curIndex >leftEnd &&  visited[curIndex] == 1){
+                    curIndex--;
+                }
 
-            eraseNum(myQue.top().first);
+                if(curIndex < rightFront && curIndex != topIndex && curIndex > leftEnd){
+                    myQue.push({curIndex, costs[curIndex]});
+                    // cout << "push index "<< curIndex << endl;
+                    rightFront = curIndex;
+                    visited[curIndex] = 1;
+                }
+            }
+
+
             k--;
         }
+
+
         cout << resu << endl;
         return resu;
     }
@@ -69,6 +109,7 @@ private:
     }
 private:
     vector<int>data;
+    vector<int>visited;
     // priority_queue<int, vector<int>,greater<int>> myQue;
     priority_queue<pair<int,int>,vector<pair<int,int>>,MyCompareMIN>myQue; // 小顶堆
 };
@@ -76,12 +117,12 @@ private:
 int mainFunc()
 {
     Solution s1;
-    // vector<int>costs = {17,12,10,2,7,2,11,20,8};
+    vector<int>costs = {69,10,63,24,1,71,55,46,4,61,78,21,85,52,83,77,42,21,73,2,80,99,98,89,55,94,63,50,43,62,14};
+    int k = 21;
+    int  candidates = 31;
+    // vector<int>costs = {1,2,4,1};
     // int k = 3;
-    // int  candidates = 4;
-    vector<int>costs = {1,2,4,1};
-    int k = 3;
-    int  candidates = 3;
+    // int  candidates = 3;
     s1.totalCost(costs,k ,candidates);
     return 0;
 }
