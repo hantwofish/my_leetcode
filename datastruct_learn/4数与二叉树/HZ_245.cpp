@@ -16,11 +16,27 @@ public:
     long long solve(int k, vector<int>&nums)
     {
         long long midNum= 0;
+        long long midNum1, midNum2;
         long long sum = 0;
+
         for(int i = 0; i< nums.size();i++){
             sum += nums[i];
         }
-        midNum = (sum/k);
+
+        if( sum % k == 0){
+            midNum = (sum/k);
+        }else{
+            midNum1 = sum/k;
+            midNum2 = sum/k+1;
+            if(midNum1 * k < midNum2 *k){
+                midNum =  midNum1;
+            }else{
+                midNum = midNum2;
+            }
+
+        }
+        cout << "midNum =" << midNum << endl; 
+        
         long long resu = 0;
         for(int i = 0; i < nums.size(); i++){
             resu += abs(nums[i]-midNum);
@@ -83,13 +99,16 @@ void GetDataInit(int &k, vector<int>&nums)
 
 int main()
 {
-    Solution s1;
+    Solution2 s1;
+    Solution s2;
     
-    vector<int>nums={1, 3, 8, 9};
+    vector<int>nums={1,3,5,6,100};
     int k = nums.size();
     // GetDataInit(k, nums);
     long long  resu = s1.solve(k, nums);
     cout  << resu << endl;
+
+    s2.solve(k, nums);
 
     // cout << "end" <<endl;
     return 0;
