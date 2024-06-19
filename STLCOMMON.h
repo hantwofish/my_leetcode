@@ -93,6 +93,7 @@ public:
         }
 
     }
+    // 需要等所有的节点合并完之后再进行查询
     int find_fa(int i)
     {
         // if( i == fa[i]){
