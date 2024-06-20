@@ -41,7 +41,7 @@ public:
                 // if(isGcd(a, b)){
                 //     resu++;
                 // }
-                // 最小公约数
+                // 最大公约数 互质
                 if(__gcd(a,b)==1){
                     printf("[%d, %d] [%d %d] [%d %d] \n",i, j, nums[i],nums[j], a,b);
                     resu++;
