@@ -51,13 +51,13 @@ void MyPrintOne(vector<T2> &data)
 {
     cout << "------- start ---------" << endl;
     for(int i = 0; i< data.size(); i++){
-        printf("%-5d", i);
+        printf("%-12d", i);
     }
     printf("\n");
     cout << "------------------" << endl;
 
     for(int i = 0; i< data.size(); i++){
-        printf("%-5d", data[i]);
+        printf("%-12d", data[i]);
     }
     printf("\n");
     cout << "------- end ---------" << endl;
