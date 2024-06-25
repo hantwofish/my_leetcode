@@ -3,7 +3,7 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "TREE.h"
+#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
