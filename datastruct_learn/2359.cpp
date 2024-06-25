@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,21 +19,49 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
+    int closestMeetingNode(vector<int>& edges, int node1, int node2) {
+        for(int i = 0; i< edges.size(); i++){
+            if(edges[i] != -1){
+                figureMap[i].push_back(edges[i]);
+            }
+        }
+
+        MyPrintMap(figureMap);
+
+
+        vector<bool>visited(edges.size(), 0); 
+        vector<int>neighNod;
+        DFS(1, visited, neighNod);
+        MyPrintOne(neighNod);
+        return 0;
+    }
+    void DFS(int curNode, vector<bool>&visited, vector<int>&neighNode)
     {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+        cout << "DFS " << curNode << endl;
+
+        vector<int>temp = figureMap[curNode];
+        for(int i = 0; i < temp.size();i++ ){
+            if(visited[temp[i]]) continue;
+            cout << "  temp " << temp[i] << endl;
+
+            visited[temp[i]] = true;
+            neighNode.push_back(temp[i]);
+
+            DFS(temp[i],visited, neighNode);
+            // visited[temp[i]] = false;
         }
     }
+private:
+    unordered_map<int, vector<int>>figureMap;
 };
 
 int mainFunc()
 {
     Solution s1;
+    vector<int>edges = {2,2,3,-1};
+    s1.closestMeetingNode(edges, 0, 1);
 
     return 0;
 }

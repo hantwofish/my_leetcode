@@ -215,4 +215,19 @@ private:
 
 #define PRINT_START {cout << "------------" << endl;}
 
+
+void MyPrintMap(unordered_map<int, vector<int>>&figureMap)
+{
+    auto it = figureMap.begin();
+    while(it != figureMap.end()){
+        cout << it->first << " | ";
+        for(int i= 0 ;i < it->second.size(); i++){
+            cout << " " <<  (it->second)[i] ;
+        }
+        cout << endl;
+        it++;
+    }
+
+}
+
 #endif
