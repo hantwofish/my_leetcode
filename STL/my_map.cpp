@@ -1,9 +1,17 @@
 #include"../STLCOMMON.h"
 
 using namespace std;
-
+// unordered_map可以使用基本类型(int等)，string作为key，不能使用pair vector作为key，map可以使用基本类型，string和pair vector作为key。
 // map key 不能为 vector
 
+
+
+// OK
+map< vector<int>, string > mymaaa;
+vector<int>tem({1,2,3});
+mymaaa.insert({tem, "sss"});
+cout << mymaaa[tem] << endl;
+cout << mymaaa.size() << endl;
 struct CmpByValueMax {
     bool operator()(const pair<int, int>&k1, const pair<int, int>&k2) const
     {

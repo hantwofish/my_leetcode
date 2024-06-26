@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,22 +19,45 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int minimumRounds(vector<int>& tasks) {
+        for(int i = 0; i< tasks.size(); i++){
+            myMap[tasks[i]]++; // 记录每个值的次数
         }
+
+        int resu =0;
+        auto it = myMap.begin();
+        while(it != myMap.end()){
+            if(it->second == 3 || it->second == 2) {
+                resu++;
+            }else if(it->second == 1){
+                return -1;
+            }else{
+                int tiems = it->second;
+                if(tiems % 3 == 0){
+                    resu += (tiems /3);
+                }else if(tiems % 3 == 2){
+                    resu = resu + (tiems / 3) +1;
+                }else if(tiems % 3 ==1){
+                    resu = resu + (tiems / 3) +1;
+                }
+            }
+            it++;
+        }
+        cout << "resu= " << resu << endl;
+        return resu;
     }
+    unordered_map<int, int>myMap;
 };
 
 int mainFunc()
 {
     Solution s1;
-
+    // vector<int>tasks ={2,2,3,3,2,4,4,4,4,4};
+    vector<int>tasks ={2,3,3};
+    int resu =  s1.minimumRounds(tasks);
+    cout << "main resu = " << resu << endl;
     return 0;
 }
 

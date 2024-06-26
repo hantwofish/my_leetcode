@@ -3,7 +3,9 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
+#include "TREE.h"
+
+
 
 #define TIMEINTERVAL 1
 
@@ -20,16 +22,27 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int maxDepth(Node* root) {
+        int resu = 0;
+        que.push(root);
+        while(!que.empty()){
+            resu++;
+            int N = que.size();
+            for(int i= 0; i < N;i++){
+                Node * topVal = que.front();
+                for(int j = 0; j < topVal->children.size();j++){
+                    que.push((topVal->children)[j]);
+                }
+                que.pop();
+            }
+
         }
+        return resu;
     }
+private:
+    queue<Node*>que;
 };
 
 int mainFunc()

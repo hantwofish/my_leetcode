@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,22 +19,20 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
-        }
+    int findMinimumTime(vector<vector<int>>& tasks) {
+        
+        return 0;
     }
 };
 
 int mainFunc()
 {
     Solution s1;
-
+    vector<vector<int>> tasks = {{2,3,1},{4,5,1},{1,5,2}};
+    int resu = s1.findMinimumTime(tasks);
+    cout << "resu = " << resu << endl;
     return 0;
 }
 

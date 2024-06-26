@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,21 +19,38 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int wateringPlants(vector<int>& plants, int capacity) {
+        stepTimes = 0;
+        curCapacity = capacity;
+        for(int i =0; i< plants.size(); i++){
+            int needCap = plants[i];
+            if(curCapacity >= needCap){
+                stepTimes++;
+                cout << "    i= " << i << " " << 1 << endl;
+                curCapacity -= needCap;
+            }else{
+                cout << "not i= " << i << " " << (i+1) << endl;
+                stepTimes = stepTimes + (i+1) + i;
+                curCapacity = capacity;
+                curCapacity -= plants[i];
+            }
         }
+        cout << "stepTimes= " << stepTimes << endl;
+        return stepTimes;
     }
+private:
+    int stepTimes = 0;
+    int curCapacity = 0;
 };
 
 int mainFunc()
 {
     Solution s1;
+    vector<int> plants = {7,7,7,7,7,7,7};
+    int capacity = 8;
+    s1.wateringPlants(plants, capacity);
 
     return 0;
 }

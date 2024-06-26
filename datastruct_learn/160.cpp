@@ -5,6 +5,7 @@
 #include <thread>
 #include "../TREE.h"
 
+
 #define TIMEINTERVAL 1
 
 using namespace std;
@@ -20,15 +21,25 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode* A = headA;
+        ListNode* B = headB;
+        unordered_set<ListNode *>mySet;
+        
+
+        while(A != nullptr) {
+            mySet.insert(A);
+            A= A->next;
         }
+        while(B != nullptr){
+            if(mySet.find(B) != mySet.end()){
+                return B;
+            }
+            B = B->next;
+        }
+        return nullptr;
     }
 };
 

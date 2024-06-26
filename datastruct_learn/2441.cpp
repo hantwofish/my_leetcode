@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,22 +19,27 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int findMaxK(vector<int>& nums) {
+        sort(nums.begin(), nums.end(), greater<int>());
+        for(int i = 0; i< nums.size(); i++){
+            if(nums[i] > 0){
+                if(find(nums.begin(), nums.end(), -1 * nums[i]) != nums.end()){
+                    return nums[i];
+                }
+            }
         }
+        return -1;
     }
 };
 
 int mainFunc()
 {
     Solution s1;
-
+    vector<int>nums = {-1,2,-3,3};
+    int resu = s1.findMaxK(nums);
+    cout << "resu = " << resu << endl;
     return 0;
 }
 

@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,21 +19,37 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int maximumBeauty(vector<int>& nums, int k) {
+        int resu = 0;
+        for(int i = 0; i< nums.size(); i++){
+            int val = nums[i];
+            for(int j = nums[i]-k; j <= nums[i]+ k; j++){
+                myMap[j]++;
+                cout  << "myMap[j] = " << myMap[j] << endl;
+                resu = max(resu, myMap[j]);
+            }
         }
+        // int resu = 0;
+        // auto it = myMap.begin();
+        // while(it != myMap.end()){
+        //     // cout << it->first << " = " << it->second << endl;
+        //     resu = max(resu, it->second);
+        //     it++;
+        // }
+        return resu;
     }
+private:
+    unordered_map<int,int>myMap;
 };
 
 int mainFunc()
 {
     Solution s1;
+    vector<int> nums = {4,6,1,2};
+    int k = 2;
+    s1.maximumBeauty(nums,k);
 
     return 0;
 }

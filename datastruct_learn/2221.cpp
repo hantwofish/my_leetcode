@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,21 +19,24 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int triangularSum(vector<int>& nums) {
+        int N = nums.size();
+        for(int i= 0; i< N; i++){ // 次数
+            for(int j = 0; j < N -i -1; j++){
+                nums[j] = (nums[j] + nums[j+1]) % 10;
+            }
         }
+        return nums[0];
     }
 };
 
 int mainFunc()
 {
     Solution s1;
+    vector<int>nums = {1,2,3,4,5};
+    s1.triangularSum(nums);
 
     return 0;
 }

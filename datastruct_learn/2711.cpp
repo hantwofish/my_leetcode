@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,16 +19,33 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    vector<vector<int>> differenceOfDistinctValues(vector<vector<int>>& grid) {
+        vector<vector<int>>resu(grid.size(), vector<int>(grid[0].size(), 0));
+        for(int i= 0; i< grid.size();i++){
+            for(int j = 0; j< grid[0].size();j++){
+                resu[i][j] = getDiffNum(grid, i,j);
+            }
         }
+        return resu;
     }
+private:
+    int getDiffNum(vector<vector<int>>& grid, int curI,int curJ)
+    {
+        set<int>forntLeft;
+        set<int>behindRight;
+        for(int i = curI +1, j= curJ+1; i< grid.size() && j < grid[0].size() ; i++,j++){
+            behindRight.insert(grid[i][j]);
+        }
+        for(int i = curI-1, j= curJ-1; i>=0 && j>=0; i--,j--){
+            forntLeft.insert(grid[i][j]);
+        }
+
+        return abs((int)(forntLeft.size()) - (int)(behindRight.size()));
+    }
+private:
+
 };
 
 int mainFunc()

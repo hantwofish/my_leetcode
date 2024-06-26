@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,21 +19,25 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int accountBalanceAfterPurchase(int purchaseAmount) {
+        int roundedAmount  = (purchaseAmount / 10) * 10 ;
+        if(abs(roundedAmount - purchaseAmount) < abs((roundedAmount + 10) - purchaseAmount)) {
+            return 100 - roundedAmount;
+        }else{
+            return 100 - (roundedAmount + 10);
         }
+        return 0;
     }
 };
 
 int mainFunc()
 {
     Solution s1;
+    int a = 10;
+    int resyu = s1.accountBalanceAfterPurchase(a);
+    cout << "resi= " << resyu << endl;
 
     return 0;
 }

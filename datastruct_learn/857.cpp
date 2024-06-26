@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,21 +19,22 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
-        }
+    double mincostToHireWorkers(vector<int>& quality, vector<int>& wage, int k) {
+
+        return 0.0;
     }
 };
 
 int mainFunc()
 {
     Solution s1;
+    vector<int> quality = {3,1,10,10,1};
+    vector<int> wage = {4,8,2,2,7};
+    int k = 3;
+    double resu = s1.mincostToHireWorkers(quality, wage, k);
+    cout << "resu = " << resu << endl;
 
     return 0;
 }

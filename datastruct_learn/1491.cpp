@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,15 +19,18 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    double average(vector<int>& salary) {
+        sort(salary.begin(), salary.end());
+        long long resu = 0;
+        for(int i =0; i< salary.size(); i++){
+            resu = resu + (long long)salary[i];
         }
+        resu = resu - (long long)salary[0];
+        resu = resu - (long long)salary[salary.size()-1];
+        
+        return (resu / ((salary.size() - 2)* 1.0000));
     }
 };
 

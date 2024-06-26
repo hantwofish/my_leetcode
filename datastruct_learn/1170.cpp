@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,15 +19,39 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    vector<int> numSmallerByFrequency(vector<string>& queries, vector<string>& words) {
+        vector<int>A;
+        A.resize(queries.size(), 0);
+        vector<int>B(words.size(), 0);
+        for(int i =0 ; i< queries.size(); i++){
+            A[i] =  getMinNum(queries[i]);
         }
+        for(int i =0 ; i< words.size(); i++){
+            B[i] =  getMinNum(words[i]);
+        }
+
+        vector<int>resu(queries.size(), 0);
+        for(int i = 0;i< queries.size(); i++){
+            int tempReus = 0;
+            for(int j = 0; j< words.size();j++){
+                if(A[i] < B[j]) {
+                    tempReus++;
+                }
+            }
+            resu[i] = tempReus;
+        }
+        return resu;
+    }
+private:
+    int getMinNum(string str){
+        sort(str.begin(), str.end());
+        map<char, int>myMap;
+        for(int i =0; i< str.size(); i++){
+            myMap[str[i]]++;
+        }
+        return myMap.begin()->second;
     }
 };
 

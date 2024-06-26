@@ -19,6 +19,8 @@
 #include<queue>
 #include<deque>
 #include <iterator>
+#include<tuple>
+
 
 using namespace std;
 
@@ -49,13 +51,13 @@ void MyPrintOne(vector<T2> &data)
 {
     cout << "------- start ---------" << endl;
     for(int i = 0; i< data.size(); i++){
-        printf("%-5d", i);
+        printf("%-12d", i);
     }
     printf("\n");
     cout << "------------------" << endl;
 
     for(int i = 0; i< data.size(); i++){
-        printf("%-5d", data[i]);
+        printf("%-12d", data[i]);
     }
     printf("\n");
     cout << "------- end ---------" << endl;
@@ -91,6 +93,7 @@ public:
         }
 
     }
+    // 需要等所有的节点合并完之后再进行查询
     int find_fa(int i)
     {
         // if( i == fa[i]){
@@ -210,5 +213,21 @@ private:
 
 
 
+#define PRINT_START {cout << "------------" << endl;}
+
+
+void MyPrintMap(unordered_map<int, vector<int>>&figureMap)
+{
+    auto it = figureMap.begin();
+    while(it != figureMap.end()){
+        cout << it->first << " | ";
+        for(int i= 0 ;i < it->second.size(); i++){
+            cout << " " <<  (it->second)[i] ;
+        }
+        cout << endl;
+        it++;
+    }
+
+}
 
 #endif

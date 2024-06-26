@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,16 +19,20 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int countTestedDevices(vector<int>& batteryPercentages) {
+        for(int i = 0; i < batteryPercentages.size(); i++){
+            if(batteryPercentages[i] <= 0) continue;
+            curTimes++;
+            for(int j= i+1; j < batteryPercentages.size(); j++){
+                batteryPercentages[j] = max(0, batteryPercentages[j] -1);
+            }
         }
+        return curTimes;
     }
+private:
+    int curTimes = 0;
 };
 
 int mainFunc()

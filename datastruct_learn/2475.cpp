@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,15 +19,20 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
+    int unequalTriplets(vector<int>& nums) {
+        int resu = 0;
+        for(int i = 0; i< nums.size()-2; i++){
+            for(int j = i+ 1; j < nums.size()-1; j++){
+                for(int k = j + 1; k < nums.size(); k++){
+                    if(nums[i]!= nums[j] && nums[i] != nums[k] && nums[j] != nums[k]){
+                        resu++;
+                    }
+                }
+            }
         }
+        return resu;
     }
 };
 

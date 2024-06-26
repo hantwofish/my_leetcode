@@ -3,7 +3,7 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
+#include "TREE.h"
 
 #define TIMEINTERVAL 1
 
@@ -20,16 +20,35 @@ void timer_function(int seconds) {
 
 
 
-class Solution{
+class Solution {
 public:
-    void printAll()
-    {
-        int times = 13;
-        while(times > 0){
-            cout << "rimes= " << times << endl;
-            times--;
-        }
+    int findTilt(TreeNode* root) {
+        updateTree(root);
+        return resu;
     }
+
+    void updateTree(TreeNode* root)
+    {
+        if(root == nullptr) return;
+        root->val = abs(DFSSUM(root->left)-  DFSSUM(root->right));
+        resu += root->val;
+        updateTree(root->left);
+        updateTree(root->right);
+    }
+
+    int DFSSUM(TreeNode* cur) // 定义以当前节点的总和
+    {
+        if(cur == nullptr) return 0;
+
+        
+        int left = DFSSUM(cur->left);
+        int right = DFSSUM(cur->right);
+
+        return cur->val + left + right;
+
+    }
+public:
+    int resu = 0;
 };
 
 int mainFunc()
