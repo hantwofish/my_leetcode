@@ -24,7 +24,7 @@ class Solution {
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
         N = n;
-        figureDistance.resize(N, vector<int>(N , INVALID_VAL));
+        // figureDistance.resize(N, vector<int>(N , INVALID_VAL));
         figureData.resize(N, vector<int>(N , INVALID_VAL));
         for(int i = 0; i< edges.size();i++){
             figureData[edges[i][0]][edges[i][1]] = edges[i][2];
@@ -32,7 +32,11 @@ public:
         }
 
         MyPrintTwo(figureData);
-        CalDistanceOfAllNode(figureData);
+        // CalDistanceOfAllNode(figureData);
+        for(int i= 0; i< N;i++){
+            figureDistance.push_back(dijkstra(n,figureData, i));
+        }
+
         MyPrintTwo(figureDistance);
 
         int resu = -1;
@@ -53,6 +57,30 @@ public:
         }
         cout << "resu = " << resu << endl;
         return resu;
+    }
+private:
+        // Dijkstra 单源最短路」 x 到其他节点的最短路径
+    vector<int> dijkstra(int n, vector<vector<int>> figureData, int x)
+    {
+        vector<int>visited(n, 0);
+        vector<int>distance(n, INVALID_VAL);
+        distance[x] =  0;
+        for(int k =0 ;k< n; k++){
+            // 每次找到 [最短距离最小] 且 [未被更新] 的点 t
+            int t = -1;
+            for (int i = 0; i < n; i++) {
+                if (!visited[i] && (t == -1 || distance[i] < distance[t])){
+                    t = i;
+                } 
+            }
+
+            visited[t] = 1; // 节点t 标记为已更新
+            // 用 t 去更新 其他点
+            for(int i = 0; i< n; i++){
+                distance[i] = min(distance[i], distance[t] + figureData[t][i]); 
+            }
+        }
+        return distance;
     }
     void CalDistanceOfAllNode(vector<vector<int>>&figureData)
     {
