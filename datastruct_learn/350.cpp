@@ -18,14 +18,16 @@ public:
         for(auto i : nums1){
             mapVec[i]++;
         }
-        set<int>resu;
+        vector<int>resu;
         for(int i =0; i< nums2.size(); i++){
             if(mapVec[nums2[i]] > 0){
-                resu.insert(nums2[i]);
+                resu.push_back(nums2[i]);
+                mapVec[nums2[i]]--;
             }
         }
-        vector<int>outVal(resu.begin(), resu.end());
-        return outVal;
+
+        MyPrintOne(resu);
+        return resu;
     }
 private:
     unordered_map<int,int>mapVec;
@@ -34,6 +36,9 @@ private:
 int mainFunc()
 {
     Solution s1;
+    vector<int>nums1 = {4,9,5};
+    vector<int>nums2 = {9,4,9,8,4};
+    s1.intersect(nums1, nums2);
 
     return 0;
 }
