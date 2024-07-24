@@ -54,3 +54,5 @@ int main()
     std::cout << "[info] Timer thread finished" << std::endl;
     return 0;
 }
+
+// g++ 2766.cpp -std=c++11 -o main.exe  && ./main.exe
