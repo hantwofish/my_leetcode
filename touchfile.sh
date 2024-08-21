@@ -4,7 +4,7 @@ cd 数据结构学习
 ###########################
 find . -name "*.exe" -exec rm {} \;
 find . -name "tempCodeRunnerFile.cpp" -exec rm {} \;
-#
+# find . -name "*.orig" -exec rm {} \;
 
 ###########################
 rm -f test.exe
