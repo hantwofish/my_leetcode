@@ -13,6 +13,9 @@ fi
 
 filename=$1
 rm -f test.exe
-g++ --std=c++11 ${filename} -o main.exe && ./main.exe
+# clear &&  g++ --std=c++11 ${filename} -o main.exe && ./main.exe
 
+# cls;  g++ --std=c++11 2187.cpp -o main.exe ; .\main.exe
+
+# del *.exe
 
