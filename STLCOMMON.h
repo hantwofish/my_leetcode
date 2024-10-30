@@ -82,9 +82,6 @@ public:
         NODENUM = n;
         father.resize(NODENUM,0);
         fa_init();
-        
-
-
     }
     void fa_init()
     {
@@ -120,7 +117,7 @@ public:
         }
     }
 
-public:
+private:
     int NODENUM ; // 总的节点个数
     vector<int>father;// 存储每个节点的父节点
 };
