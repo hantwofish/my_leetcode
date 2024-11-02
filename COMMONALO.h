@@ -22,6 +22,56 @@
 #include <iterator>
 
 using namespace std;
+
+// 并查集
+class UnionFind {
+public:
+    UnionFind(int n)
+    {
+        NODENUM = n;
+        father.resize(NODENUM,0);
+        fa_init();
+    }
+    void fa_init()
+    {
+        for(int i = 0; i<NODENUM; i++){
+            father[i] = i;
+        }
+
+    }
+    // 需要等所有的节点合并完之后再进行查询
+    int find_fa(int i)
+    {
+        // if( i == fa[i]){
+        //     return i;
+        // }else{
+        //     fa[i] = find_fa(fa[i]);
+        //     return fa[i];
+        // }
+        if(father[i] != i){
+            father[i] = find_fa(father[i]);
+        }
+        return father[i];
+    }
+    void unionNode(int x, int y)
+    {
+        int i_fa= find_fa(x);
+        int j_fa = find_fa(y);
+        father[i_fa] = j_fa;
+    }
+    void PrintFather()
+    {
+        for(int i = 0 ; i< NODENUM; i++){
+            printf("i=%-3d | father=%-3d \n", i, father[i]);
+        }
+    }
+
+private:
+    int NODENUM ; // 总的节点个数
+    vector<int>father;// 存储每个节点的父节点
+};
+
+
 // 此只要我们向左👈找到第一个比A[i]小的数A[left]以及向右👉找到第一个比E小的数A[right]，就可以确定E的辐射范围为A[left+1:right]。这就叫做下一个更小/更大的数问题。解决这类问题的通用解法即为单调栈。
 
 // 作者：超小白

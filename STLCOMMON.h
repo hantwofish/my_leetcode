@@ -74,56 +74,6 @@ void RemoveVecEle(vector<int>&nums,int tar)
 
 }
 
-// 并查集
-class UnionFind {
-public:
-    UnionFind(int n)
-    {
-        NODENUM = n;
-        father.resize(NODENUM,0);
-        fa_init();
-    }
-    void fa_init()
-    {
-        for(int i = 0; i<NODENUM; i++){
-            father[i] = i;
-        }
-
-    }
-    // 需要等所有的节点合并完之后再进行查询
-    int find_fa(int i)
-    {
-        // if( i == fa[i]){
-        //     return i;
-        // }else{
-        //     fa[i] = find_fa(fa[i]);
-        //     return fa[i];
-        // }
-        if(father[i] != i){
-            father[i] = find_fa(father[i]);
-        }
-        return father[i];
-    }
-    void unionNode(int x, int y)
-    {
-        int i_fa= find_fa(x);
-        int j_fa = find_fa(y);
-        father[i_fa] = j_fa;
-    }
-    void PrintFather()
-    {
-        for(int i = 0 ; i< NODENUM; i++){
-            printf("i=%-3d | father=%-3d \n", i, father[i]);
-        }
-    }
-
-private:
-    int NODENUM ; // 总的节点个数
-    vector<int>father;// 存储每个节点的父节点
-};
-
-
-
 
 class SolutionCalPrimTree{
 public:
