@@ -18,3 +18,8 @@ int main()
 
 
 // g++ 2766.cpp -std=c++11 -o main.exe  && ./main.exe
+
+// rm -f test.exe
+// # clear &&  g++ --std=c++11 test.cpp -o main && ./main
+
+// #rm -f test.exe ; cls;  g++ --std=c++11 test.cpp -o main.exe ; .\main.exe
