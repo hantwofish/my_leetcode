@@ -1,9 +1,10 @@
-#include"../STLCOMMON.h"
-#include"../COMMONALO.h"
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "../TREE.h"
+
+#include"../INCLUDE/STLCOMMON.h"
+#include"../INCLUDE/COMMONALO.h"
+#include "../INCLUDE/TREE.h"
 
 #define TIMEINTERVAL 1
 
