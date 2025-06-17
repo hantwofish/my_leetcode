@@ -8,12 +8,12 @@ $$
 \overrightarrow{F}=m\overrightarrow{a}
 $$
 
+## 物理学上册
+### 运动动力学
 
-## 运动动力学
 
 
-
-## 电磁学
+### 电磁学
 
 库伦定律
 $$
@@ -72,3 +72,48 @@ $$
 电势差：两点电势的差值：$U_{AB}=V_{A}-V_{B}$
 静电场中 A、B两点的电势差$U_{AB}$ 在数值上等于把单位正试验电荷从A移动到B ，静电场力做的功；
 
+## 物理学下册
+### 第九章：振动
+#### 简谐振动
+简谐振动的依据：$ F=-kx $
+微分形式：
+![alt text](image-13.png)
+简谐振动方程：$x=A\cos\left(\omega t+\varphi\right)$
+$$ v=\frac{\mathrm{d}x}{\mathrm{d}t} $$
+$$ a=\frac{d^2x}{\mathrm{d}t^2} $$
+
+A:振幅
+T:周期：$ T=\frac{2\pi}{\omega} $ 其中：弹簧振子: $ \omega=\sqrt{\frac{k}{m}} $
+$\nu$:频率: $ \nu=\frac{1}{T} $
+$\omega t+\varphi$: 振动的相位
+$\varphi$: 初相位
+
+#### 单摆和复摆
+$$ \frac{d^2\theta}{dt^2}=-\frac{g}{l}\theta $$
+$ \omega=\sqrt{\frac{x}{l}} $
+$ T=\frac{2\pi}{\omega}=2\pi\sqrt{\frac{x}{l}} $
+#### 简谐振动的能量
+![alt text](image-14.png)
+
+
+### 第十章：波动
+#### 机械波
+
+波长$ \lambda $：一个完整波长的长度
+周期$T$：波前进一个波长的距离所需要的时间
+频率：$\nu=\frac{1}{T}$
+波速：在波动过程中，某一个振动状态在单位时间内所传播的距离；也称相速(波长除以时间)$ u=\frac{\lambda}{T}$
+
+
+
+
+
+### 第十一章：光学
+
+### 第十二章：气体动理论
+
+### 第十三章：热力学基础
+
+### 第十四章：相对论
+
+### 第十五章：量子力学
