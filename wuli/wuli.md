@@ -150,14 +150,176 @@ $\varDelta \varphi =(2k+1)\pi $ 合振幅最小
 
 相位跃变(半波损失) -- 从波疏到波密介质
 
-![alt text](image-15.png)
+
++ 多普勒效应
+发射频率$\mathrm{v}$和接收频率$\mathrm{v}'$不相等
+
+$$
+\mathrm{v}'=\frac{\mathrm{u}\pm \mathrm{v}_0}{\mathrm{u}\mp \mathrm{v}_{\mathrm{s}}}\mathrm{\nu}
+$$
+
+$\mathrm{v}_0$ 观察者向波源运动 + 远离 -
+$\mathrm{v}_{\mathrm{s}}$ 波源向观察者运动 - 远离 +
+
+
+
+
+
 
 ### 第十一章：光学
 
+真空中的光速: $ \mathrm{c}=\frac{1}{\sqrt{\mathrm{\varepsilon}_0\mathrm{\mu}_0}} $
+
+
+相干光的产生：
++ 振幅分割法
++ 波阵面分割法
+
+![alt text](image-16.png)
+![alt text](image-17.png)
+
+劳埃德镜
+
+
+光在真空中的速度：
+光在介质中的速度：
+介质中的波长：
+
+光程：介质折射率与光的几何路程之积= `nr`
+物理意义：光在介质中通过的几何路程折算到真空中的路程
+
+光程差：两光程之差 $ \Delta =\mathrm{nr}_2-\mathrm{r}_1 $
+
+相位差： $
+\Delta \mathrm{\varphi}=2\mathrm{\pi}\frac{\Delta}{\mathrm{\lambda}} $
+![alt text](image-18.png)
+![alt text](image-19.png)
+
+
+劈尖：
+
+$ \Delta =2nd+\frac{\lambda}{2} $
+
+牛顿环：
+$ \Delta =2nd+\frac{\lambda}{2} $
+
+迈克尔逊干涉仪：？
+
+光的衍射：
+
+单缝衍射：
+
+$$
+b\sin \theta =\pm 2k\frac{\lambda}{2}=\pm k\lambda 干涉相消(暗纹)
+$$
+
+$$
+b\sin \theta =\pm \left( 2k+1 \right) \frac{\lambda}{2} 干涉相加(明纹)
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 第十二章：气体动理论
 
-### 第十三章：热力学基础
+$$
+pV=\nu RT=\frac{m‘}{M}RT
+$$
 
-### 第十四章：相对论
+`m‘` 系统总质量 `m'=Nm`
+`M` 摩尔质量  `M=NA m`
+`m` 单个分子质量 
 
-### 第十五章：量子力学
+
+$$
+p=nkT
+$$
+
+$k=\frac{R}{N_A}$ :玻尔兹曼常数
+$n=\frac{N}{V}$   :气体分子数密度
+
+$$
+p=\frac{2}{3}n\overline{\varepsilon _k}
+$$
+
+$$
+p=nkT
+$$
+
+$$
+\overline{\varepsilon _k}=\frac{1}{2}m\overline{v^2}
+$$
+
+分子的平均能量：
+
+理想气体的内能：分子动分子内原子间的势能
+1mol 理想气体的内能：
+$$
+E=N_A\overline{\varepsilon }=\frac{i}{2}RT 
+$$
+
+理想气体的内能：
+$$
+E=\nu \frac{i}{2}RT
+$$
+
+理想气体内能变化：
+$$
+dE=\nu \frac{i}{2}RdT
+$$
+
+![alt text](image-20.png)
+`f(v)`物理意义：
+表示在温度T的平衡状态下，速率在`V附近`单位速率区间的分子数占总数的百分比
+
+三种统计速率：
++ 最概然速率
+$$
+_p=\sqrt{2}\sqrt{\frac{kT}{m}}
+$$
+
++ 平均速率
+$$
+\overline{v}=\sqrt{\frac{8}{\pi}}\sqrt{\frac{kT}{m}}
+$$
+
++ 方均根速率
+$$
+\sqrt{\overline{v^2}}=\sqrt{3}\sqrt{\frac{kT}{m}}
+$$
+
+$$
+v_p<\overline{v}<\sqrt{\overline{v^2}}
+$$
+
+
+
+第十三章：热力学基础
+
+第十四章：相对论
+
+第十五章：量子力学### 
