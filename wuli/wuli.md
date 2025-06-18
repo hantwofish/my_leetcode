@@ -105,7 +105,44 @@ $ T=\frac{2\pi}{\omega}=2\pi\sqrt{\frac{x}{l}} $
 波速：在波动过程中，某一个振动状态在单位时间内所传播的距离；也称相速(波长除以时间)$ u=\frac{\lambda}{T}$
 
 
+$$
+\sqrt{x}
+$$
+波函数
+$
+y=A\cos \left[ w\left( t-\frac{x}{u} \right) +\varphi \right] \,\,\varDelta t=\frac{x}{u}
+$
+$
+y=A\cos \left[ 2\pi \left( \frac{t}{T}-\frac{x}{\lambda} \right) +\varphi \right] 
+$
 
+$
+y=A\cos \left[ \omega t-\frac{2\pi x}{\lambda}+\varphi \right] 
+$
+
+波的干涉：
+频率相同，振动方向平行，相位相同(或者相位差恒定的)的两列波相遇时，使得某些地方振动始终加强，而使得另外一些地方振动始终减弱的现象，称为波的干涉现象
+
+干涉条件：波频率相同，振动方向相同，位相位差恒定； 满足干涉条件的波称为相干波
+干涉现象：某些点振动始终加强，另一些点振动始终减弱或者完全抵消。
+
+$$
+y_p=y1+y_2=A\cos \left( \omega t+\varphi _3 \right) \,\,; A=\sqrt{A_{1}^{2}+A_{2}^{2}+2A_1A_1\cos \varDelta \varphi}
+$$
+
+$$
+\varDelta \varphi =\left( \varphi _2-\frac{2\pi r_2}{\lambda} \right) -\left( \varphi _1-\frac{2\pi r_1}{\lambda} \right) 
+$$
+
+
+$\varDelta \varphi =2k\pi $ 合振幅最大
+$\varDelta \varphi =(2k+1)\pi $ 合振幅最小
+
+干涉的波程差条件：
+当$\delta =r_1-r_2=2k\frac{\lambda}{2}$ (半波长的偶数倍)
+合振幅最大:
+当$\delta =r_1-r_2=(2k+1)\frac{\lambda}{2}$ (半波长的偶数倍)
+合振幅最小:
 
 
 ### 第十一章：光学
