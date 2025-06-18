@@ -144,6 +144,13 @@ $\varDelta \varphi =(2k+1)\pi $ 合振幅最小
 当$\delta =r_1-r_2=(2k+1)\frac{\lambda}{2}$ (半波长的偶数倍)
 合振幅最小:
 
+相干波：
+产生条件: 两列振幅相同的相干波相向传播
+驻波方程：$ y=2A\cos 2\pi \frac{x}{\lambda}\cos 2\pi \nu t $
+
+相位跃变(半波损失) -- 从波疏到波密介质
+
+![alt text](image-15.png)
 
 ### 第十一章：光学
 
