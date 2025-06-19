@@ -376,6 +376,11 @@ $$
 p为常量
 
 
+`热力学第二定律`:
+1. 不可能制造出这样一种循环工作的热机，它只使单一热源冷却来做功，而不放出热量给其他物体。或者说不使外界发生任何变化；
+
+2. 不可能把热量从低温物体自动传到高温物体而不引起外界的变化 
+
 
 
 
@@ -387,5 +392,84 @@ p为常量
 
 
 ### 第十四章：相对论
+狭义相对论的基本原理：
++ 相对性原理：物理定律在所有的惯性系中都具有相同的表达形式；
++ 光速不变原理：真空中的光速是一个常量，沿各个方向都等于`c`,与光源或观测者的远动状态无关，
+
+洛伦兹坐标变换式：
+$$
+\begin{cases}
+	\beta =v/v\\
+	\gamma =\sqrt{1-\beta ^2}\\
+\end{cases}
+$$
+
+$$
+\text{洛伦兹坐标正变换}\begin{cases}
+	x'=\frac{x-vt}{\sqrt{1-\beta ^2}}=\gamma \left( x-vt \right)\\
+	y'=y\\
+	z'=z\\
+	t'=\frac{t-\frac{v}{c^2}x}{\sqrt{1-\beta ^2}}=\gamma \left( t-\frac{v}{c^2}x \right)\\
+\end{cases}
+$$
+$$
+\text{洛伦兹坐标反变换}\begin{cases}
+	x=\gamma \left( x'+vt' \right)\\
+	y=y'\\
+	z=z'\\
+	t=\gamma \left( t'+\frac{v}{c^2}x' \right)\\
+\end{cases}
+$$
+
+
+
+
+$$
+\text{洛伦兹速度正变换}\begin{cases}
+	u_{x}^{'}=\frac{u_x-v}{1-\frac{v}{c^2}u_x}\\
+	u_{y}^{'}=\frac{u_y}{\gamma \left( 1-\frac{v}{c^2}u_x \right)}\\
+	u_{z}^{'}=\frac{u_x}{\gamma \left( 1-\frac{v}{c^2}u_x \right)}\\
+\end{cases}
+$$
+
+$$
+\text{洛伦兹速度逆变换}\begin{cases}
+	u_x=\frac{u_{x}^{'}+v}{1+\frac{v}{c^2}u_{x}^{'}}\\
+	u_y=\frac{u_{y}^{'}}{\gamma \left( 1+\frac{v}{c^2}u_{x}^{'} \right)}\\
+	u_z=\frac{u_{z}^{'}}{\gamma \left( 1+\frac{v}{c^2}u_{x}^{'} \right)}\\
+\end{cases}
+$$
+
+s'系中 ：
++ 物体在运动方向上长度收缩
++ 时间延缓
+
+
+相对论下的速度和动量
+1. 相对论动量遵循洛伦兹变换
+$$
+\text{相对论动量：}\overrightarrow{p}=\frac{m_0\overrightarrow{v}}{\sqrt{1-\beta ^2}}=\gamma m_0\overrightarrow{v}
+$$
+
+2. 相对论质量
+$$
+\text{相对论质量：}m=\frac{m_0}{\sqrt{1-\beta ^2}}
+$$
+$$
+\text{相对论动能：}E_k=mc^2-m_0c^2
+$$
+$$
+\text{静能量：}E_0=m_0c^2
+$$
+
+$$
+\text{总能量：}E=E_k+E_0=mc^2
+$$
+$$
+\text{相对论质能关系：}E=mc^2
+$$
+
+
 
 ### 第十五章：量子力学
+
