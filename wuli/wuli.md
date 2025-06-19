@@ -170,7 +170,7 @@ $\mathrm{v}_{\mathrm{s}}$ 波源向观察者运动 - 远离 +
 
 真空中的光速: $ \mathrm{c}=\frac{1}{\sqrt{\mathrm{\varepsilon}_0\mathrm{\mu}_0}} $
 
-
+![alt text](image-21.png)
 相干光的产生：
 + 振幅分割法
 + 波阵面分割法
@@ -516,3 +516,38 @@ $$
 外加反向的遏止电压 $eU_0$恰能阻止光电子到达阳极
 
 + 康普顿效应
+$$
+\varDelta \lambda =\frac{h}{m_0c}\left( 1-\cos \theta \right) =\lambda _c\left( 1-\cos \theta \right) 
+$$
+
++ 玻尔氢原子理论
+
++ 德布罗意波
+
+$$
+\text{德布罗意公式}\left\{ \begin{array}{c}
+	\lambda =\frac{h}{p}=\frac{h}{mv}\\
+	\nu =\frac{E}{h}=\frac{mc^2}{h}\\
+\end{array} \right. 
+$$
+
+
++ 实物粒子二象性
+
++ 不确定关系
+
+自由粒子平面波函数
+$$
+\varPsi \left( x,t \right) 
+$$
+
+波函数的统计意义：
+概率密度： 表示在某处单位体积内粒子出现的概率
+$$
+\left| \varPsi \right|^2=\varPsi \varPsi ^{^*}
+$$
+
+$$
+\int{\left| \varPsi \right|^2}=1
+$$
+
