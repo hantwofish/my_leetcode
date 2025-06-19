@@ -125,6 +125,44 @@ $$
 
 静电场的能量？？？
 
+### 第七章
++ 电流：
+通过截面S的电荷随时间的变化率
+$ I=\frac{dq}{dt} $
+$ dq=env_ddtS $
+$ v_d $: 电子漂移速度的大小
+
+磁感强度：$ \vec{B} $
+运动电荷在磁场中受力：
+$ \overrightarrow{F}=q\overrightarrow{v}\times \vec{B} $
+
+
+毕奥萨伐尔定律
+$$
+d\overrightarrow{B}=\frac{\mu _0}{4\pi}\frac{Id\overrightarrow{l}\times \overrightarrow{r}}{r^3}
+$$
+
++ 有限载流长直导线的磁场
+![alt text](image-29.png)
+$$
+B=\frac{\mu _0I}{4\pi r_0}\left( \cos \theta _1-\cos \theta _2 \right) 
+$$
+$$
+\text{无限长：}\theta _1\rightarrow 0, \theta _2\rightarrow \pi \,\,
+$$
+
+$$
+\text{半无限长：}\theta _1\rightarrow \frac{\pi}{2}, \theta _2\rightarrow \pi 
+$$
+
++ 圆形载流导线轴线上的磁场
+![alt text](image-30.png)
+$$
+B=\frac{\mu _0IR^2}{2r^3}, r=\sqrt{x^2+R^2}
+$$
+1. 若线圈有N圈，
+$ B=\frac{N\mu _0IR^2}{2r^3}, r=\sqrt{x^2+R^2} $
+2. 
 
 ### 第九章：振动
 #### 简谐振动
