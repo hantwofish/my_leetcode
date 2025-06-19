@@ -1,13 +1,3 @@
-行间公式
-$$
-(1 + x)^n \geq 1 + nx \quad (x > -1, \ n \in \mathbb{N}^+ )
-$$
-行内公式$E=mc^2$
-
-$$
-\overrightarrow{F}=m\overrightarrow{a}
-$$
-
 ## 物理学上册
 ### 运动动力学
 
@@ -17,25 +7,53 @@ $$
 
 库伦定律
 $$
-\mathbf{F}=\frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r^2}\mathbf{e_{r}}
+\overrightarrow{F}=\frac{1}{4\pi \epsilon _0}\frac{q_1q_2}{r^2}\overrightarrow{e_r}
 $$
+方向：同性相斥，异性相吸
 
-电场强度
+电场强度:
 $$
-\mathbf{E}=\frac{F}{q_0}
+\overrightarrow{E}=\frac{\overrightarrow{F}}{q_0}
 $$
-电场中某点的电场强度$\mathbf{E}$等于该点处的单位试验电荷所受的电场力
+电场中某点的电场强度$\overrightarrow{E}$等于该点处的单位试验电荷所受的电场力
+
 
 电场强度叠加原理
 点电荷系所激发的电场中某点处的电场强度等于各个点电荷单独存在时对该点所激起的电场强度的**矢量和**
 
 
++ 点电荷电场强度
+$$
+\overrightarrow{E}=\frac{1}{4\pi \epsilon _0}\frac{Q}{r^2}\overrightarrow{e_r}
+$$
 
-### 电场强度通量和高斯定理
-#### 电场线
++ 电荷连续分布的电场
+$$
+d\overrightarrow{E}=\frac{1}{4\pi \epsilon _0}\frac{dq}{r^2}\overrightarrow{e_r}\,\, \Rightarrow \overrightarrow{E}=\int{\frac{1}{4\pi \epsilon _0}}\frac{\overrightarrow{e_r}}{r^2}dq
+$$
+$$
+\text{电荷体密度} \rho \,\,\text{：} dq=\rho dV
+\\
+\text{电荷面密度} \sigma \,\,\text{：} dq=\sigma dS
+\\
+\text{电荷线密度} \lambda \,\,\text{：} dq=\lambda dl
+$$
 
-#### 电场强度通量
-把通过电场中某一个面的电场数目叫做通过这个面的**电场强度通量** 记作：$\Phi_{e}$
+
++ 电偶极子的电场强度
+
+
++ 电场线：
+```
+切线方向为电场强度方向
+疏密表示电场强度的大小
+
+始于正电荷，止于负电荷，非闭合线
+任何两条电场线不相交 
+```
++ 电场强度通量
+定义：通过电场中某个面的电场线数
+ 记作：$\Phi_{e}$
 
 $$
 \Phi_{e}=E\cdot S
@@ -46,19 +64,23 @@ $$
 $$
 
 #### 高斯定理
-
-$$
-\oint_{y}^{x}EdS=\frac{1}{\epsilon_0}\sum_{i=1}^{n}q_{i}^{}
-$$
-在真空静电场中，穿过任意闭合曲面的电场强度通量 = 该闭合曲面所包围的所有电荷的代数和除以$\epsilon_0$
+![alt text](image-23.png)
+在真空静电场中，穿过任意`闭合曲面`的电场强度通量 = 该闭合曲面所包围的所有电荷的代数和除以$\epsilon_0$
 
 ### 静电场的环路定理和电势能
++ 静电场力所做的功：
+静电场力做功，与路径无关
 
-#### 静电场的环路定理
++ 静电场的环路定理
+沿闭合路径一周，电场力做功为零。(静电场是保守场)
 
-
-#### 电势能
++ 电势能：
+沿电场线方向，电势降低，电场力做正功，电势能减小。
 实验电荷再电场中某处的电势能 == 把它从该点移动到零势能处静电场力所做的功
+
+![alt text](image-24.png)
+![alt text](image-25.png)
+![alt text](image-26.png)
 
 1. 电势能是个参考量，与零电势的选取有关
 2. 
@@ -72,7 +94,38 @@ $$
 电势差：两点电势的差值：$U_{AB}=V_{A}-V_{B}$
 静电场中 A、B两点的电势差$U_{AB}$ 在数值上等于把单位正试验电荷从A移动到B ，静电场力做的功；
 
-## 物理学下册
+计算电势的方式：
+![alt text](image-27.png)
+
++ 等势面：
+电场中电势相等的点所构成的面。
+
+
+静电平衡条件：
+```
+1. 导体内部任何一点处的电场强度为0
+2. 导体表面处电场强度的方向，都与导体表面垂直
+推论：
+导体内各点电势相等
+导体表面为等势面
+```
+
++ 电容：
+孤立导体的电容为孤立导体所带电荷Q与其电势V的比值
+$$
+C=\frac{Q}{V}
+$$
+2. 电容器的电容：
+电容器的电容为电容器一块极板所带电荷Q与极板电势差VA-VB的比值
+$$
+C=\frac{Q}{V_A-V_B}=\frac{Q}{U}\,\, U=\int_{AB}{\overrightarrow{E}\cdot d\overrightarrow{l}}
+$$
+电容器的大小仅于导体的形状，相对位置其间的电介质有关，和所带的电荷量无关。
+![alt text](image-28.png)
+
+静电场的能量？？？
+
+
 ### 第九章：振动
 #### 简谐振动
 简谐振动的依据：$ F=-kx $
