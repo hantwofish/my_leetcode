@@ -171,18 +171,71 @@ $ B=\frac{N\mu _0IR^2}{2r^3}, r=\sqrt{x^2+R^2} $
 + 运动电荷的磁场
 
 
+7-5 磁通量和磁场的高斯定理
+1. 磁感线
+切线方向: $ \vec{B} $的方向
+疏密程度: $ \vec{B} $的大小
+
+2. 磁通量
+垂直通过某曲面的磁感线数；
+匀强磁场：$\varPhi =\overrightarrow{B}\cdot \overrightarrow{S}$
+一般情况：$\varPhi =\int_S{\overrightarrow{B}\cdot d\overrightarrow{S}}$
+
+磁场高斯定理：$\oint_S{\overrightarrow{B}\cdot d\overrightarrow{S}}=0$
+通过任意闭合曲面的磁通量为0
+
+安培环路定理
+
+$$
+\oint_S{\overrightarrow{B}\cdot d\overrightarrow{l}=\mu _0\sum_{i=1}^n{I_i}}
+$$
+在真空的恒定磁场中，磁感强度$\overrightarrow{B}$沿任一闭合路径的积分的值，等于$\mu _0$乘以该闭合路径所穿过的各电流的代数和(电流I的正负，与磁场方向满足右手螺旋准则)
+
+![](img/2025-06-20-10-02-13.png)
 
 
+带电粒子在电场和磁场中受力分析：
+电场力：$\overrightarrow{F_e}=q\overrightarrow{E}$
+磁场力(洛伦兹力)：$\overrightarrow{F_m}=q\overrightarrow{v}\times \overrightarrow{B}$ 方向的另外一种判断方式(左手定则：伸出左手，磁场线穿手心，四指指向电流方向，大拇指所致的方向为洛伦兹力方向)
+
+安培力：(各个粒子所受洛伦兹力的合力)
+
+$$
+d\overrightarrow{F}=Id\overrightarrow{l}\times \overrightarrow{B}
+$$
+
+磁场作用于载流线圈的磁力距 ？？？
+
+磁介质 
+$$
+\overrightarrow{B}=\overrightarrow{B_0}+\overrightarrow{B}'
+$$
+![](img/2025-06-20-10-31-15.png)
+
+### 第八章：电磁感应 电磁场
+电磁感应定律：
+当穿过闭合回路所围面积的磁通量发生变化时，回路中会产生感应电动势，且感应电动势正比于磁通量对时间变化率的负值
+$$
+E_i=-k\frac{d\varPhi}{dt}
+$$
+
+楞次定律：
+闭合的导线回路中所出现的感应电流，总是使它自己激发的磁场反抗任何引发电磁感应的原因(反抗相对运动，磁场变化或者线圈变形)
+
+动生电动势:
+动生电动势的非静电力场来源---> 洛伦兹力
+
+导体中的正负电子受到洛伦兹力的影响，聚集在导体两端产生电压差。此时电子同时受到电场力和洛伦兹力当两者相等时，电压稳定。
+
+![](img/2025-06-20-10-59-44.png)
+![](img/2025-06-20-11-00-00.png)
+
+感生电动势？？？
+
++ 自感 -- 自感电动势：
 
 
-
-
-
-
-
-
-
-
++ 互感 -- 互感电动势 
 
 
 
