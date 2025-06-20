@@ -21,6 +21,33 @@ $$
 \varDelta r=\overrightarrow{r_B}-\overrightarrow{r_A}
 $$
 
+圆周运动：
+
+1-3 相对运动
+
+
+2-1 牛顿定律
+
+2-4 牛顿定律的应用举例
+![](img/2025-06-20-16-14-09.png)
+
+
+
+3-1 质点和质点系的动量定理
+`动量定理`： 在给定的时间间隔内，外力作用在质点上的冲量($I=\int_{t1}^{t2}{\overrightarrow{F}dt}$)，等于质点在此时间内动量的增量($m\overrightarrow{v_2}-m\overrightarrow{v_1}$)
+
+$$
+I=\int_{t1}^{t2}{\overrightarrow{F}dt}=m\overrightarrow{v_2}-m\overrightarrow{v_1}
+$$
+
+`质点系动量定理`：作用于系统的合外力的冲量=系统动量的增量
+
+3-4 动能定理
+
+4-1 刚体的定轴转动
+刚体：在外力作用下，形状和大小都不会变化的物体。
+刚体的运动形式：平动和转动
+
 
 
 
