@@ -1,5 +1,26 @@
 ## 物理学上册
-### 运动动力学
+### 第一章：质点运动学
+
++ 质点
+
++ 位置矢量：
+$
+\overrightarrow{r}=x\overrightarrow{i}+y\overrightarrow{j}+z\overrightarrow{k}
+$
+$
+\text{大小：}\left| \overrightarrow{r} \right|=\sqrt{x^2+y^2+z^2}
+$
+$
+\text{方向：}\cos \alpha =\frac{x}{\left| \overrightarrow{r} \right|}, \cos \beta =\frac{y}{\left| \overrightarrow{r} \right|}\,\,, \cos \gamma =\frac{z}{\left| \overrightarrow{r} \right|}
+$
+运动方程：
+$ \overrightarrow{r}\left( t \right) =x\left( t \right) \overrightarrow{i}+y\left( t \right) \overrightarrow{j}+z\left( t \right) \overrightarrow{k} $
+
+位移：
+$$
+\varDelta r=\overrightarrow{r_B}-\overrightarrow{r_A}
+$$
+
 
 
 
