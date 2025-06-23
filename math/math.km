@@ -1,0 +1,98 @@
+{
+    "root": {
+        "data": {
+            "id": "datsgal00xs0",
+            "created": 1750669241035,
+            "text": "线代",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "datsgq69zn40",
+                    "created": 1750669274973,
+                    "text": "topic",
+                    "expandState": "expand",
+                    "layout_right_offset": {
+                        "x": 56.99999915063381,
+                        "y": 11.999999821186066
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "datsi1ng3cw0",
+                            "created": 1750669378320,
+                            "text": "topicA",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "datsirj79s80",
+                    "created": 1750669434660,
+                    "text": "topic",
+                    "layout_right_offset": {
+                        "x": 56.99999915063381,
+                        "y": 11.999999821186066
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "datsisnwdpk0",
+                            "created": 1750669437120,
+                            "text": "ss",
+                            "priority": 1,
+                            "progress": 6
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "datsgld9h400",
+                    "created": 1750669264511,
+                    "text": "topic",
+                    "expandState": "expand",
+                    "layout_right_offset": {
+                        "x": 56.99999915063381,
+                        "y": 11.999999821186066
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "datsigga2m80",
+                            "created": 1750669410538,
+                            "text": "topic",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "datshs8bc280",
+                    "created": 1750669357814,
+                    "text": "a",
+                    "expandState": "expand",
+                    "layout_right_offset": {
+                        "x": 56.99999915063381,
+                        "y": 11.999999821186066
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
