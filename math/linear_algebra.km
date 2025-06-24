@@ -1,0 +1,46 @@
+{
+    "root": {
+        "data": {
+            "id": "datvb0zvxv40",
+            "created": 1750677291676,
+            "text": "线性代数"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "datvb84kwa00",
+                    "created": 1750677307197,
+                    "text": "行列式"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "datvbcjgyx40",
+                    "created": 1750677316805,
+                    "text": "矩阵"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "datvbeltr3c0",
+                    "created": 1750677321301,
+                    "text": "向量和向量组"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "datvbt93v540",
+                    "created": 1750677353183,
+                    "text": "二次型"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
