@@ -9,4 +9,10 @@ D:\my_leetcode\datastruct_learn\leetcode\00_00.cpp
 
 新增分支: branch_learning
 
-add
+
+
+--------------------------
+git reset --hard origin/main
+git add .
+git commit -m "add"
+git push -f   origin home_learnig

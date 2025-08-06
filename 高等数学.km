@@ -12,7 +12,11 @@
                     "id": "dbuvu1agp880",
                     "created": 1754436499631,
                     "text": "极限",
-                    "expandState": "expand"
+                    "expandState": "expand",
+                    "layout_right_offset": {
+                        "x": -115.99999815622982,
+                        "y": 87.99999860127775
+                    }
                 },
                 "children": [
                     {
@@ -29,21 +33,118 @@
                             "created": 1754483060772,
                             "text": "函数极限"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbvej1ojdtk0",
+                                    "created": 1754489239565,
+                                    "text": "求极限",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbvej44kwxk0",
+                                            "created": 1754489244888,
+                                            "text": "等价无穷小",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbvek1dxi000",
+                                            "created": 1754489317287,
+                                            "text": "洛必达法则"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbvek71es080",
+                                            "created": 1754489329591,
+                                            "text": "麦克劳林公式"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbvel17pjlc0",
+                                            "created": 1754489395275,
+                                            "text": "两个重要极限"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "data": {
-                            "id": "dbveb6mz21s0",
-                            "created": 1754488623441,
-                            "text": "间断点"
+                            "id": "dbvelrmws1s0",
+                            "created": 1754489452791,
+                            "text": "连续与间断"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbvely7fd200",
+                                    "created": 1754489467092,
+                                    "text": "连续"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbvem9jsfs00",
+                                            "created": 1754489491784,
+                                            "text": "左极限=右极限=函数值"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dbvem0p9arc0",
+                                    "created": 1754489472524,
+                                    "text": "间断",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbveb6mz21s0",
+                                            "created": 1754488623441,
+                                            "text": "间断点"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbvelep2v0g0",
+                                                    "created": 1754489424624,
+                                                    "text": "第一类间断点"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbvelit0tts0",
+                                                    "created": 1754489433570,
+                                                    "text": "第二类间断点"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "data": {
                             "id": "dbvebc7uz4o0",
                             "created": 1754488635588,
-                            "text": "topic"
+                            "text": "等价无穷小"
                         },
                         "children": []
                     }
@@ -54,7 +155,7 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -77,6 +178,14 @@
                                     "id": "dbvegd59zhc0",
                                     "created": 1754489029429,
                                     "text": "二重积分"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbveilxkx8g0",
+                                    "created": 1754489205283,
+                                    "text": "三重积分"
                                 },
                                 "children": []
                             }
@@ -104,7 +213,8 @@
                 "data": {
                     "id": "dbvccfa1egw0",
                     "created": 1754483078394,
-                    "text": "空间解析几何"
+                    "text": "空间解析几何",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
