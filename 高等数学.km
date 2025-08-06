@@ -4,22 +4,46 @@
             "id": "dbuvtc2xf800",
             "created": 1754436444756,
             "text": "高等数学",
-            "priority": 1
+            "priority": null
         },
         "children": [
             {
                 "data": {
                     "id": "dbuvu1agp880",
                     "created": 1754436499631,
-                    "text": "‘极限"
+                    "text": "极限",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "dbuvymqmff40",
-                            "created": 1754436859777,
-                            "text": "$a$",
-                            "note": "$a$\n"
+                            "id": "dbuvu437l280",
+                            "created": 1754436505723,
+                            "text": "数列极限"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcc76lyqo0",
+                            "created": 1754483060772,
+                            "text": "函数极限"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbveb6mz21s0",
+                            "created": 1754488623441,
+                            "text": "间断点"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvebc7uz4o0",
+                            "created": 1754488635588,
+                            "text": "topic"
                         },
                         "children": []
                     }
@@ -27,15 +51,103 @@
             },
             {
                 "data": {
-                    "id": "dbuvu437l280",
-                    "created": 1754436505723,
-                    "text": "数列极限"
+                    "id": "dbvcd69tm3s0",
+                    "created": 1754483137154,
+                    "text": "积分",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbvc9atr0i00",
+                            "created": 1754482833609,
+                            "text": "不定积分"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvc9eg84lk0",
+                            "created": 1754482841499,
+                            "text": "定积分"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcdaogjkw0",
+                            "created": 1754483146746,
+                            "text": "曲线积分"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcdcmssts0",
+                            "created": 1754483150999,
+                            "text": "曲面积分"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbvccfa1egw0",
+                    "created": 1754483078394,
+                    "text": "空间解析几何"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbvcdp8ot5s0",
+                            "created": 1754483178444,
+                            "text": "点"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcdqfbzj40",
+                            "created": 1754483181023,
+                            "text": "线"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcdvwg6ps0",
+                            "created": 1754483192942,
+                            "text": "面"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcdxlys4w0",
+                            "created": 1754483196661,
+                            "text": "距离"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbvc9tqxkuo0",
+                    "created": 1754482874798,
+                    "text": "无穷级数",
+                    "progress": 9,
+                    "priority": null,
+                    "resource": [
+                        "不考"
+                    ]
                 },
                 "children": []
             }
         ]
     },
-    "template": "default",
+    "template": "right",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }

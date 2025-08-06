@@ -1,0 +1,58 @@
+{
+    "root": {
+        "data": {
+            "id": "dbvc3c3drxc0",
+            "created": 1754482366184,
+            "text": "线性代数"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "dbvc3idn6w00",
+                    "created": 1754482379865,
+                    "text": "行列式",
+                    "layout_mind_offset": {
+                        "x": -81.99999869664515,
+                        "y": -100.99999839464842
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dbvc3ocah740",
+                    "created": 1754482392844,
+                    "text": "矩阵",
+                    "layout_mind_offset": {
+                        "x": 498.99999206860934,
+                        "y": 7.999999872843375
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbvc5zn5z3s0",
+                            "created": 1754482574174,
+                            "text": "秩",
+                            "resource": [
+                                "==约束条件"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvc8wnr5og0",
+                            "created": 1754482802772,
+                            "text": "线性方程组"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
