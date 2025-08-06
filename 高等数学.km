@@ -1,0 +1,41 @@
+{
+    "root": {
+        "data": {
+            "id": "dbuvtc2xf800",
+            "created": 1754436444756,
+            "text": "高等数学",
+            "priority": 1
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "dbuvu1agp880",
+                    "created": 1754436499631,
+                    "text": "‘极限"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbuvymqmff40",
+                            "created": 1754436859777,
+                            "text": "$a$",
+                            "note": "$a$\n"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbuvu437l280",
+                    "created": 1754436505723,
+                    "text": "数列极限"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
