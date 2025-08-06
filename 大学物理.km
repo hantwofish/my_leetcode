@@ -7,7 +7,7 @@
         },
         "children": []
     },
-    "template": "default",
+    "template": "right",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }

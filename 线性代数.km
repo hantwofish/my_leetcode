@@ -24,15 +24,35 @@
                     "created": 1754482392844,
                     "text": "矩阵",
                     "layout_mind_offset": {
-                        "x": 360.99999426206,
-                        "y": 9.999999841054262
+                        "x": 498.99999206860934,
+                        "y": 7.999999872843375
                     }
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbvc5zn5z3s0",
+                            "created": 1754482574174,
+                            "text": "秩",
+                            "resource": [
+                                "==约束条件"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvc8wnr5og0",
+                            "created": 1754482802772,
+                            "text": "线性方程组"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
-    "template": "default",
+    "template": "right",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
