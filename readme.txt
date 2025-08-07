@@ -16,3 +16,18 @@ git reset --hard origin/main
 git add .
 git commit -m "add"
 git push -f   origin home_learnig
+
+
++ pull
+git checkout main
+git pull origin main
+git checkout home_learnig
+git reset --hard origin/main
+git push -f origin home_learnig
+
++ upload
+git add .
+git restore --staged *.sh
+git restore --staged *.bat
+git commit -m "update"
+git push origin home_learnig
