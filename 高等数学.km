@@ -13,25 +13,36 @@
                     "created": 1754436499631,
                     "text": "极限",
                     "expandState": "expand",
-                    "layout_right_offset": {
-                        "x": -115.99999815622982,
-                        "y": 87.99999860127775
-                    }
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dbuvu437l280",
                             "created": 1754436505723,
-                            "text": "数列极限"
+                            "text": "数列极限",
+                            "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbwaf2vvy680",
+                                    "created": 1754579204246,
+                                    "text": "单调有界数列必有极限",
+                                    "progress": 9,
+                                    "layout": null,
+                                    "background": "#d6e3bc"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
                             "id": "dbvcc76lyqo0",
                             "created": 1754483060772,
-                            "text": "函数极限"
+                            "text": "函数极限",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -39,7 +50,8 @@
                                     "id": "dbvej1ojdtk0",
                                     "created": 1754489239565,
                                     "text": "求极限",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -47,7 +59,9 @@
                                             "id": "dbvej44kwxk0",
                                             "created": 1754489244888,
                                             "text": "等价无穷小",
-                                            "priority": 1
+                                            "priority": 1,
+                                            "layout": null,
+                                            "background": "#d6e3bc"
                                         },
                                         "children": []
                                     },
@@ -55,7 +69,8 @@
                                         "data": {
                                             "id": "dbvek1dxi000",
                                             "created": 1754489317287,
-                                            "text": "洛必达法则"
+                                            "text": "洛必达法则",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -63,7 +78,8 @@
                                         "data": {
                                             "id": "dbvek71es080",
                                             "created": 1754489329591,
-                                            "text": "麦克劳林公式"
+                                            "text": "麦克劳林公式",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -71,7 +87,8 @@
                                         "data": {
                                             "id": "dbvel17pjlc0",
                                             "created": 1754489395275,
-                                            "text": "两个重要极限"
+                                            "text": "两个重要极限",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -83,21 +100,25 @@
                         "data": {
                             "id": "dbvelrmws1s0",
                             "created": 1754489452791,
-                            "text": "连续与间断"
+                            "text": "连续与间断",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dbvely7fd200",
                                     "created": 1754489467092,
-                                    "text": "连续"
+                                    "text": "连续",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dbvem9jsfs00",
                                             "created": 1754489491784,
-                                            "text": "左极限=右极限=函数值"
+                                            "text": "左极限=右极限=函数值",
+                                            "layout": null,
+                                            "background": "#73a1bf"
                                         },
                                         "children": []
                                     }
@@ -108,21 +129,24 @@
                                     "id": "dbvem0p9arc0",
                                     "created": 1754489472524,
                                     "text": "间断",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dbveb6mz21s0",
                                             "created": 1754488623441,
-                                            "text": "间断点"
+                                            "text": "间断点",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "dbvelep2v0g0",
                                                     "created": 1754489424624,
-                                                    "text": "第一类间断点"
+                                                    "text": "第一类间断点",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -130,7 +154,8 @@
                                                 "data": {
                                                     "id": "dbvelit0tts0",
                                                     "created": 1754489433570,
-                                                    "text": "第二类间断点"
+                                                    "text": "第二类间断点",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -139,14 +164,79 @@
                                 ]
                             }
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbwae079kow0",
+                    "created": 1754579120040,
+                    "text": "导数",
+                    "layout": null
+                },
+                "children": [
                     {
                         "data": {
-                            "id": "dbvebc7uz4o0",
-                            "created": 1754488635588,
-                            "text": "等价无穷小"
+                            "id": "dbwae5kjyw00",
+                            "created": 1754579131727,
+                            "text": "求导",
+                            "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbwaea5myds0",
+                                    "created": 1754579141709,
+                                    "text": "四则求导",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwaedn1deg0",
+                                    "created": 1754579149292,
+                                    "text": "复合求导",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwahg5yei00",
+                                    "created": 1754579389882,
+                                    "text": "反函数求导"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwaeiyrmoo0",
+                                    "created": 1754579160885,
+                                    "text": "变上限积分函数求导",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwaeojv8140",
+                                    "created": 1754579173045,
+                                    "text": "分段函数求导",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwag3xf55s0",
+                                    "created": 1754579284880,
+                                    "text": "常用函数求导公式",
+                                    "background": "#d6e3bc"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -155,14 +245,16 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dbvc9atr0i00",
                             "created": 1754482833609,
-                            "text": "不定积分"
+                            "text": "不定积分",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -170,14 +262,16 @@
                         "data": {
                             "id": "dbvc9eg84lk0",
                             "created": 1754482841499,
-                            "text": "定积分"
+                            "text": "定积分",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dbvegd59zhc0",
                                     "created": 1754489029429,
-                                    "text": "二重积分"
+                                    "text": "二重积分",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -185,7 +279,8 @@
                                 "data": {
                                     "id": "dbveilxkx8g0",
                                     "created": 1754489205283,
-                                    "text": "三重积分"
+                                    "text": "三重积分",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -195,7 +290,8 @@
                         "data": {
                             "id": "dbvcdaogjkw0",
                             "created": 1754483146746,
-                            "text": "曲线积分"
+                            "text": "曲线积分",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -203,7 +299,8 @@
                         "data": {
                             "id": "dbvcdcmssts0",
                             "created": 1754483150999,
-                            "text": "曲面积分"
+                            "text": "曲面积分",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -214,14 +311,16 @@
                     "id": "dbvccfa1egw0",
                     "created": 1754483078394,
                     "text": "空间解析几何",
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dbvcdp8ot5s0",
                             "created": 1754483178444,
-                            "text": "点"
+                            "text": "点",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -229,7 +328,8 @@
                         "data": {
                             "id": "dbvcdqfbzj40",
                             "created": 1754483181023,
-                            "text": "线"
+                            "text": "线",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -237,7 +337,8 @@
                         "data": {
                             "id": "dbvcdvwg6ps0",
                             "created": 1754483192942,
-                            "text": "面"
+                            "text": "面",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -245,7 +346,8 @@
                         "data": {
                             "id": "dbvcdxlys4w0",
                             "created": 1754483196661,
-                            "text": "距离"
+                            "text": "距离",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -260,13 +362,14 @@
                     "priority": null,
                     "resource": [
                         "不考"
-                    ]
+                    ],
+                    "layout": null
                 },
                 "children": []
             }
         ]
     },
     "template": "right",
-    "theme": "fresh-blue",
+    "theme": "fresh-green",
     "version": "1.4.43"
 }
