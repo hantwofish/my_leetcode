@@ -5,7 +5,348 @@
             "created": 1754482317516,
             "text": "大学物理"
         },
-        "children": []
+        "children": [
+            {
+                "data": {
+                    "id": "dbwumso1vyo0",
+                    "created": 1754636231116,
+                    "text": "质点运动学",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbwuptar56g0",
+                            "created": 1754636467581,
+                            "text": "圆周运动",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwupx7a5m80",
+                            "created": 1754636476079,
+                            "text": "牛顿第二定律",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwuqics6740",
+                            "created": 1754636522124,
+                            "text": "动量定理",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbwumyjxldk0",
+                    "created": 1754636243928,
+                    "text": "电磁学",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbwuo5bgzhc0",
+                            "created": 1754636337018,
+                            "text": "电场",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbwuqv5ntpc0",
+                                    "created": 1754636549991,
+                                    "text": "库伦定律",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwuoibazdc0",
+                                    "created": 1754636365306,
+                                    "text": "电势",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwur0kg3w80",
+                                    "created": 1754636561769,
+                                    "text": "电场强度",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwurh4jf1c0",
+                                    "created": 1754636597812,
+                                    "text": "电场",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbwuo8vswnc0",
+                            "created": 1754636344777,
+                            "text": "磁场",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbwv1jdt22w0",
+                                    "created": 1754637386368,
+                                    "text": "磁场强度",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwv1o2leig0",
+                                    "created": 1754637396574,
+                                    "text": "磁场力",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwv1ruix8w0",
+                                    "created": 1754637404793,
+                                    "text": "毕奥萨伐尔定理",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwv291vjc80",
+                                    "created": 1754637442243,
+                                    "text": "安培环路定理",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbwuqpeliko0",
+                            "created": 1754636537471,
+                            "text": "电磁感应",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbwv2mssa000",
+                                    "created": 1754637472168,
+                                    "text": "电磁感应定律",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwv2q75r8g0",
+                                    "created": 1754637479568,
+                                    "text": "楞次定律",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwv2s1wwk80",
+                                    "created": 1754637483604,
+                                    "text": "动生电动势",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbwunb0qukw0",
+                    "created": 1754636271066,
+                    "text": "振动",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbwuosechvk0",
+                            "created": 1754636387258,
+                            "text": "简谐振动",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwuow6yq140",
+                            "created": 1754636395518,
+                            "text": "单摆和复摆",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwup70rx3c0",
+                            "created": 1754636419089,
+                            "text": "简谐振动能量",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbwupgk29hc0",
+                    "created": 1754636439846,
+                    "text": "波动",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbwuphs09mo0",
+                            "created": 1754636442503,
+                            "text": "机械波",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbwv3i0wicg0",
+                                    "created": 1754637540139,
+                                    "text": "波的干涉",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbwuni5yjsw0",
+                    "created": 1754636286618,
+                    "text": "光学",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dbwunjoa3mo0",
+                    "created": 1754636289903,
+                    "text": "气体动理论",
+                    "layout": null,
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbwv41pu24o0",
+                            "created": 1754637583006,
+                            "text": "热力学第一定律",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwv5bjgeao0",
+                            "created": 1754637682752,
+                            "text": "热力学第二定律"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwv4ewgo000",
+                            "created": 1754637611705,
+                            "text": "等容过程",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwv4zkg7zs0",
+                            "created": 1754637656691,
+                            "text": "等压过程"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwv4kt8wbs0",
+                            "created": 1754637624571,
+                            "text": "等温过程",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbwuns4v7kw0",
+                    "created": 1754636308320,
+                    "text": "热力学基础",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dbwunwm562g0",
+                    "created": 1754636318072,
+                    "text": "相对论",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dbwuny0t1mg0",
+                    "created": 1754636321135,
+                    "text": "量子力学",
+                    "layout": null
+                },
+                "children": []
+            }
+        ]
     },
     "template": "right",
     "theme": "fresh-blue",
