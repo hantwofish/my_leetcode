@@ -171,7 +171,7 @@
                 "data": {
                     "id": "dbwae079kow0",
                     "created": 1754579120040,
-                    "text": "导数",
+                    "text": "导数与微分",
                     "layout": null
                 },
                 "children": [
@@ -205,7 +205,8 @@
                                 "data": {
                                     "id": "dbwahg5yei00",
                                     "created": 1754579389882,
-                                    "text": "反函数求导"
+                                    "text": "反函数求导",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -232,7 +233,63 @@
                                     "id": "dbwag3xf55s0",
                                     "created": 1754579284880,
                                     "text": "常用函数求导公式",
-                                    "background": "#d6e3bc"
+                                    "background": "#d6e3bc",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbwocrzfmoo0",
+                            "created": 1754618519326,
+                            "text": "微分",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwoczdb86g0",
+                            "created": 1754618535403,
+                            "text": "中值定理",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbwod1lc6vk0",
+                                    "created": 1754618540242,
+                                    "text": "罗尔定理",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwod3q5iz40",
+                                    "created": 1754618544887,
+                                    "text": "拉格朗日中值定理",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwod76veso0",
+                                    "created": 1754618552428,
+                                    "text": "柯西中值定理",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbwodak7zl40",
+                                    "created": 1754618559766,
+                                    "text": "泰勒中值定理",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -245,7 +302,7 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -268,12 +325,218 @@
                         "children": [
                             {
                                 "data": {
+                                    "id": "dbwp9ack2lc0",
+                                    "created": 1754621066955,
+                                    "text": "定积分",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbwp9eoddqg0",
+                                            "created": 1754621076377,
+                                            "text": "积分方法",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbwp9kdgp3k0",
+                                                    "created": 1754621088778,
+                                                    "text": "换元法",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbwp9newpg00",
+                                                    "created": 1754621095396,
+                                                    "text": "分部积分",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dbwp9p6lz9s0",
+                                                            "created": 1754621099247,
+                                                            "text": "常见形式",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwpb9wzqqo0",
+                                            "created": 1754621222743,
+                                            "text": "反常积分"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbwpccfl5sg0",
+                                                    "created": 1754621306585,
+                                                    "text": "区间无穷"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbwpceminmg0",
+                                                    "created": 1754621311357,
+                                                    "text": "有间断点"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dbwpk65kuso0",
+                                                            "created": 1754621919832,
+                                                            "text": "topic"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwpbmmmx200",
+                                            "created": 1754621250415,
+                                            "text": "定积分应用"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbwpbq6obdk0",
+                                                    "created": 1754621258157,
+                                                    "text": "数学应用"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dbwpbx3etpc0",
+                                                            "created": 1754621273198,
+                                                            "text": "弧长"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dbwpc03t8f40",
+                                                            "created": 1754621279751,
+                                                            "text": "旋转体积"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dbwpc2vipbk0",
+                                                            "created": 1754621285780,
+                                                            "text": "旋转面积"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dbwpc52jb9k0",
+                                                            "created": 1754621290558,
+                                                            "text": "曲率和曲率半径"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbwpbu3igjk0",
+                                                    "created": 1754621266672,
+                                                    "text": "物理应用"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dbwpbvr35800",
+                                                            "created": 1754621270275,
+                                                            "text": "topic"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwp9hn1n680",
+                                            "created": 1754621082827,
+                                            "text": "性质",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
                                     "id": "dbvegd59zhc0",
                                     "created": 1754489029429,
                                     "text": "二重积分",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbwoey0tp4w0",
+                                            "created": 1754618689200,
+                                            "text": "性质",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbwof2e2deo0",
+                                                    "created": 1754618698707,
+                                                    "text": "奇偶性",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbwof8j55eo0",
+                                                    "created": 1754618712075,
+                                                    "text": "0~pai/2",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbwofh70uzk0",
+                                                    "created": 1754618730933,
+                                                    "text": "0~pai",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwofsmpe4w0",
+                                            "created": 1754618755826,
+                                            "text": "物理应用",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -282,7 +545,17 @@
                                     "text": "三重积分",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbwofx9wqxc0",
+                                            "created": 1754618765936,
+                                            "text": "物理意义",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -300,6 +573,24 @@
                             "id": "dbvcdcmssts0",
                             "created": 1754483150999,
                             "text": "曲面积分",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwog7lbym80",
+                            "created": 1754618788395,
+                            "text": "曲线积分和二重积分联系",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbwoghaxhgg0",
+                            "created": 1754618809534,
+                            "text": "曲面积分和三重积分连续",
                             "layout": null
                         },
                         "children": []
