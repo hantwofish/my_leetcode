@@ -12,22 +12,43 @@ D:\my_leetcode\datastruct_learn\leetcode\00_00.cpp
 
 
 --------------------------
-git reset --hard origin/main
-git add .
-git commit -m "add"
-git push -f   origin home_learnig
-
-
-+ pull
++++++++++++++++++++++++++++++++++++++++++++++++++ pull +++++++++++++++++++++++++++++++++++++++++++++++++
 git checkout main
 git pull origin main
 git checkout home_learnig
 git reset --hard origin/main
 git push -f origin home_learnig
 
-+ upload
++++++++++++++++++++++++++++++++++++++++++++++++++ upload +++++++++++++++++++++++++++++++++++++++++++++++++
+@echo off
+setlocal enabledelayedexpansion
+ 
+:: 获取当前日期和时间
+for /f "tokens=2 delims==" %%I in ('wmic OS Get localdatetime /value') do set datetime=%%I
+ 
+:: 格式化日期时间
+set year=%datetime:~0,4%
+set month=%datetime:~4,2%
+set day=%datetime:~6,2%
+set hour=%datetime:~8,2%
+set minute=%datetime:~10,2%
+set second=%datetime:~12,2%
+set datetime=%year%-%month%-%day% %hour%:%minute%:%second%
+ 
+:: 拼接字符串
+set finalString=%datetime%--update
+ 
+:: 打印字符串
+echo %finalString%
+ 
+
+
 git add .
+echo %finalString%
 git restore --staged *.sh
 git restore --staged *.bat
-git commit -m "update"
-git push origin home_learnig
+git commit -m "%finalString%"
+git push origin branch_learning
+
+endlocal
+
