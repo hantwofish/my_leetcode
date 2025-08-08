@@ -177,63 +177,185 @@
                 "children": [
                     {
                         "data": {
-                            "id": "dbwae5kjyw00",
-                            "created": 1754579131727,
-                            "text": "求导",
+                            "id": "dbx41rnwqeo0",
+                            "created": 1754662794382,
+                            "text": "一元微分学",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dbwaea5myds0",
-                                    "created": 1754579141709,
-                                    "text": "四则求导",
+                                    "id": "dbwae5kjyw00",
+                                    "created": 1754579131727,
+                                    "text": "求导",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbwaea5myds0",
+                                            "created": 1754579141709,
+                                            "text": "四则求导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwaedn1deg0",
+                                            "created": 1754579149292,
+                                            "text": "复合求导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwahg5yei00",
+                                            "created": 1754579389882,
+                                            "text": "反函数求导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwaeiyrmoo0",
+                                            "created": 1754579160885,
+                                            "text": "变上限积分函数求导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwaeojv8140",
+                                            "created": 1754579173045,
+                                            "text": "分段函数求导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbx44wcmrbc0",
+                                            "created": 1754663039677,
+                                            "text": "参数方程求导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwag3xf55s0",
+                                            "created": 1754579284880,
+                                            "text": "常用函数求导公式",
+                                            "background": "#d6e3bc",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "dbwaedn1deg0",
-                                    "created": 1754579149292,
-                                    "text": "复合求导",
+                                    "id": "dbx43wzkj200",
+                                    "created": 1754662962700,
+                                    "text": "导数",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbx4448gf340",
+                                            "created": 1754662978474,
+                                            "text": "可导性判断",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbx449wqeu80",
+                                                    "created": 1754662990826,
+                                                    "text": "保双侧",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbx44dlmvg00",
+                                                    "created": 1754662998862,
+                                                    "text": "不可跨",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbx44gp8jjs0",
+                                                    "created": 1754663005611,
+                                                    "text": "阶相同",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "dbwahg5yei00",
-                                    "created": 1754579389882,
-                                    "text": "反函数求导",
+                                    "id": "dbwoczdb86g0",
+                                    "created": 1754618535403,
+                                    "text": "中值定理",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbwod1lc6vk0",
+                                            "created": 1754618540242,
+                                            "text": "罗尔定理",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwod3q5iz40",
+                                            "created": 1754618544887,
+                                            "text": "拉格朗日中值定理",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwod76veso0",
+                                            "created": 1754618552428,
+                                            "text": "柯西中值定理",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbwodak7zl40",
+                                            "created": 1754618559766,
+                                            "text": "泰勒中值定理",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "dbwaeiyrmoo0",
-                                    "created": 1754579160885,
-                                    "text": "变上限积分函数求导",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dbwaeojv8140",
-                                    "created": 1754579173045,
-                                    "text": "分段函数求导",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dbwag3xf55s0",
-                                    "created": 1754579284880,
-                                    "text": "常用函数求导公式",
-                                    "background": "#d6e3bc",
+                                    "id": "dbwocrzfmoo0",
+                                    "created": 1754618519326,
+                                    "text": "微分",
                                     "layout": null
                                 },
                                 "children": []
@@ -242,56 +364,173 @@
                     },
                     {
                         "data": {
-                            "id": "dbwocrzfmoo0",
-                            "created": 1754618519326,
-                            "text": "微分",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dbwoczdb86g0",
-                            "created": 1754618535403,
-                            "text": "中值定理",
+                            "id": "dbx41w39h1c0",
+                            "created": 1754662804018,
+                            "text": "多元微分学",
                             "layout": null
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dbwod1lc6vk0",
-                                    "created": 1754618540242,
-                                    "text": "罗尔定理",
+                                    "id": "dbx466xqciw0",
+                                    "created": 1754663141085,
+                                    "text": "定义",
+                                    "expandState": "expand",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbx4574xlao0",
+                                            "created": 1754663063156,
+                                            "text": "连续",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbx4591cuio0",
+                                            "created": 1754663067293,
+                                            "text": "极限",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbx45jpttuo0",
+                                            "created": 1754663090541,
+                                            "text": "偏导数",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbx45t0x29k0",
+                                            "created": 1754663110802,
+                                            "text": "可(全)微",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "dbwod3q5iz40",
-                                    "created": 1754618544887,
-                                    "text": "拉格朗日中值定理",
+                                    "id": "dbx462jyo3c0",
+                                    "created": 1754663131545,
+                                    "text": "代数应用",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbx48eu8bwo0",
+                                            "created": 1754663315016,
+                                            "text": "物理应用",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbx47x5u2mo0",
+                                                    "created": 1754663276535,
+                                                    "text": "方向导数",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbx480dehuo0",
+                                                    "created": 1754663283523,
+                                                    "text": "梯度",
+                                                    "expandState": "expand",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbx482hubs80",
+                                            "created": 1754663288145,
+                                            "text": "极值",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbx464xodcw0",
+                                                    "created": 1754663136728,
+                                                    "text": "无条件极值",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbx465zeqeo0",
+                                                    "created": 1754663139009,
+                                                    "text": "有条件极值",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "dbwod76veso0",
-                                    "created": 1754618552428,
-                                    "text": "柯西中值定理",
+                                    "id": "dbx46onax5s0",
+                                    "created": 1754663179636,
+                                    "text": "求偏导",
                                     "layout": null
                                 },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dbwodak7zl40",
-                                    "created": 1754618559766,
-                                    "text": "泰勒中值定理",
-                                    "layout": null
-                                },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbx46r4px280",
+                                            "created": 1754663185043,
+                                            "text": "显函数",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbx4724v6s00",
+                                            "created": 1754663208996,
+                                            "text": "复合函数求偏导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbx476sdga00",
+                                            "created": 1754663219125,
+                                            "text": "隐函数(组)求偏导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbx47gwz9mo0",
+                                            "created": 1754663241171,
+                                            "text": "参数变化求偏导",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -302,7 +541,7 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -374,14 +613,16 @@
                                         "data": {
                                             "id": "dbwpb9wzqqo0",
                                             "created": 1754621222743,
-                                            "text": "反常积分"
+                                            "text": "反常积分",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "dbwpccfl5sg0",
                                                     "created": 1754621306585,
-                                                    "text": "区间无穷"
+                                                    "text": "区间无穷",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             },
@@ -389,14 +630,16 @@
                                                 "data": {
                                                     "id": "dbwpceminmg0",
                                                     "created": 1754621311357,
-                                                    "text": "有间断点"
+                                                    "text": "有间断点",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "dbwpk65kuso0",
                                                             "created": 1754621919832,
-                                                            "text": "topic"
+                                                            "text": "topic",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -408,21 +651,24 @@
                                         "data": {
                                             "id": "dbwpbmmmx200",
                                             "created": 1754621250415,
-                                            "text": "定积分应用"
+                                            "text": "定积分应用",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "dbwpbq6obdk0",
                                                     "created": 1754621258157,
-                                                    "text": "数学应用"
+                                                    "text": "数学应用",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "dbwpbx3etpc0",
                                                             "created": 1754621273198,
-                                                            "text": "弧长"
+                                                            "text": "弧长",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -430,7 +676,8 @@
                                                         "data": {
                                                             "id": "dbwpc03t8f40",
                                                             "created": 1754621279751,
-                                                            "text": "旋转体积"
+                                                            "text": "旋转体积",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -438,7 +685,8 @@
                                                         "data": {
                                                             "id": "dbwpc2vipbk0",
                                                             "created": 1754621285780,
-                                                            "text": "旋转面积"
+                                                            "text": "旋转面积",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     },
@@ -446,7 +694,8 @@
                                                         "data": {
                                                             "id": "dbwpc52jb9k0",
                                                             "created": 1754621290558,
-                                                            "text": "曲率和曲率半径"
+                                                            "text": "曲率和曲率半径",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -456,14 +705,16 @@
                                                 "data": {
                                                     "id": "dbwpbu3igjk0",
                                                     "created": 1754621266672,
-                                                    "text": "物理应用"
+                                                    "text": "物理应用",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "dbwpbvr35800",
                                                             "created": 1754621270275,
-                                                            "text": "topic"
+                                                            "text": "topic",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
