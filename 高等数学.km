@@ -12,7 +12,7 @@
                     "id": "dbuvu1agp880",
                     "created": 1754436499631,
                     "text": "极限",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -172,7 +172,8 @@
                     "id": "dbwae079kow0",
                     "created": 1754579120040,
                     "text": "导数与微分",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -541,7 +542,7 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -568,7 +569,7 @@
                                     "created": 1754621066955,
                                     "text": "定积分",
                                     "layout": null,
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -743,6 +744,14 @@
                                 "children": [
                                     {
                                         "data": {
+                                            "id": "dbz9scqkr740",
+                                            "created": 1754882103187,
+                                            "text": "定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
                                             "id": "dbwoey0tp4w0",
                                             "created": 1754618689200,
                                             "text": "性质",
@@ -780,6 +789,48 @@
                                     },
                                     {
                                         "data": {
+                                            "id": "dbz9sg96duw0",
+                                            "created": 1754882110842,
+                                            "text": "计算方式"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dbz9srbrtq00",
+                                                    "created": 1754882134944,
+                                                    "text": "直角坐标"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dbz9t3ubq9s0",
+                                                            "created": 1754882162187,
+                                                            "text": "向x投影"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dbz9t8nuz1k0",
+                                                            "created": 1754882172680,
+                                                            "text": "向Y 投影"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dbz9sx1h7fc0",
+                                                    "created": 1754882147382,
+                                                    "text": "极坐标"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
                                             "id": "dbwofsmpe4w0",
                                             "created": 1754618755826,
                                             "text": "物理应用",
@@ -797,6 +848,30 @@
                                     "layout": null
                                 },
                                 "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbz9s4tp1200",
+                                            "created": 1754882085962,
+                                            "text": "定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbz9s65c7bc0",
+                                            "created": 1754882088842,
+                                            "text": "性质"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbz9s70rf280",
+                                            "created": 1754882090742,
+                                            "text": "计算方式"
+                                        },
+                                        "children": []
+                                    },
                                     {
                                         "data": {
                                             "id": "dbwofx9wqxc0",
@@ -817,7 +892,24 @@
                             "text": "曲线积分",
                             "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbz9r97wy4g0",
+                                    "created": 1754882017164,
+                                    "text": "第一类曲线积分(对弧长的曲线积分)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbz9rizwr1c0",
+                                    "created": 1754882038448,
+                                    "text": "第二类曲线积分"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -826,7 +918,24 @@
                             "text": "曲面积分",
                             "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbz9rmz2pls0",
+                                    "created": 1754882047105,
+                                    "text": "第一类曲面积分"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbz9rq0nr3c0",
+                                    "created": 1754882053731,
+                                    "text": "第二类曲面积分"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
