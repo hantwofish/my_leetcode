@@ -16,7 +16,107 @@
                         "y": -100.99999839464842
                     }
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "dc006yd3xyg0",
+                            "created": 1754956596218,
+                            "text": "定义",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc00fll5svc0",
+                                    "created": 1754957273684,
+                                    "text": "逆序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc00ewicafc0",
+                                    "created": 1754957219094,
+                                    "text": "逆序数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc00705ltu80",
+                                    "created": 1754956600118,
+                                    "text": "余子式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc009c2qwf40",
+                                    "created": 1754956782795,
+                                    "text": "代数余子式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc006uuzwao0",
+                            "created": 1754956588592,
+                            "text": "行列式计算"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc009e4occ00",
+                                    "created": 1754956787265,
+                                    "text": "上三角行列式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc009hhv3ew0",
+                                    "created": 1754956794593,
+                                    "text": "下三角行列式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc009noj19s0",
+                                    "created": 1754956808056,
+                                    "text": "范德蒙行列式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc00g3zjobk0",
+                                    "created": 1754957313736,
+                                    "text": "特殊行列式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc00d9g8lk80",
+                                    "created": 1754957090537,
+                                    "text": "克莱姆法则"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc00gday9000",
+                            "created": 1754957334017,
+                            "text": "行列式性质"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
@@ -38,7 +138,16 @@
                                 "==约束条件"
                             ]
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc00dgyiy7k0",
+                                    "created": 1754957106880,
+                                    "text": "行秩=列秩=矩阵秩"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
