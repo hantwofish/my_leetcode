@@ -12,7 +12,7 @@
                     "id": "dbuvu1agp880",
                     "created": 1754436499631,
                     "text": "极限",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -542,7 +542,7 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -769,6 +769,14 @@
                                             },
                                             {
                                                 "data": {
+                                                    "id": "dc04ljv34yw0",
+                                                    "created": 1754969024555,
+                                                    "text": "关于y=x对称"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
                                                     "id": "dbwof8j55eo0",
                                                     "created": 1754618712075,
                                                     "text": "0~pai/2",
@@ -870,7 +878,32 @@
                                             "created": 1754882090742,
                                             "text": "计算方式"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc04kyzukdc0",
+                                                    "created": 1754968979131,
+                                                    "text": "直角坐标"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc04l3ug25c0",
+                                                    "created": 1754968989688,
+                                                    "text": "柱坐标"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc04l6j2l400",
+                                                    "created": 1754968995531,
+                                                    "text": "球坐标"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
@@ -890,24 +923,46 @@
                             "id": "dbvcdaogjkw0",
                             "created": 1754483146746,
                             "text": "曲线积分",
-                            "layout": null
+                            "layout": null,
+                            "hyperlink": "https://www.baidu.com/",
+                            "hyperlinkTitle": "百度"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dbz9r97wy4g0",
                                     "created": 1754882017164,
-                                    "text": "第一类曲线积分(对弧长的曲线积分)"
+                                    "text": "第一类曲线积分(对弧长的曲线积分)",
+                                    "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04k23hugg0",
+                                            "created": 1754968907518,
+                                            "text": "物理意义：曲线的质量"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
                                     "id": "dbz9rizwr1c0",
                                     "created": 1754882038448,
-                                    "text": "第二类曲线积分"
+                                    "text": "第二类曲线积分",
+                                    "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04jbbr5a80",
+                                            "created": 1754968849244,
+                                            "text": "格林公式"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -925,7 +980,25 @@
                                     "created": 1754882047105,
                                     "text": "第一类曲面积分"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04kak6y8w0",
+                                            "created": 1754968925941,
+                                            "text": "对曲面的曲面积分"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc04kgfws2o0",
+                                                    "created": 1754968938743,
+                                                    "text": "物理意义：曲面的质量"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -933,7 +1006,16 @@
                                     "created": 1754882053731,
                                     "text": "第二类曲面积分"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04jr90da80",
+                                            "created": 1754968883906,
+                                            "text": "高斯公式"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -963,7 +1045,10 @@
                     "created": 1754483078394,
                     "text": "空间解析几何",
                     "expandState": "collapse",
-                    "layout": null
+                    "layout": null,
+                    "resource": [
+                        "线切面法"
+                    ]
                 },
                 "children": [
                     {
@@ -980,9 +1065,28 @@
                             "id": "dbvcdqfbzj40",
                             "created": 1754483181023,
                             "text": "线",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc04ma63qg00",
+                                    "created": 1754969081818,
+                                    "text": "空间直线"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04mcuudeo0",
+                                            "created": 1754969087667,
+                                            "text": "表达式"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -1000,7 +1104,49 @@
                             "text": "距离",
                             "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc04n8qrf9s0",
+                                    "created": 1754969157078,
+                                    "text": "两点之间距离"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc04ngdkwm80",
+                                    "created": 1754969173695,
+                                    "text": "两直线直接距离"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04nrjx0rk0",
+                                            "created": 1754969198023,
+                                            "text": "平行直线距离"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc04nvt7coo0",
+                                            "created": 1754969207291,
+                                            "text": "异面直线距离"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc04ofkilg80",
+                                    "created": 1754969250302,
+                                    "text": "两平行平面距离"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -1017,6 +1163,48 @@
                     "layout": null
                 },
                 "children": []
+            },
+            {
+                "data": {
+                    "id": "dc04lxqlpso0",
+                    "created": 1754969054759,
+                    "text": "微分方程",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dc04te4w64o0",
+                            "created": 1754969639001,
+                            "text": "常系数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dc04ti71qso0",
+                            "created": 1754969647838,
+                            "text": "可降阶"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dc04tvc1xc00",
+                            "created": 1754969676439,
+                            "text": "欧拉方程"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dc04txlaiuw0",
+                            "created": 1754969681351,
+                            "text": "伯努利方程"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
