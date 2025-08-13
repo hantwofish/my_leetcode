@@ -3,7 +3,8 @@
         "data": {
             "id": "dbvc3c3drxc0",
             "created": 1754482366184,
-            "text": "线性代数"
+            "text": "线性代数",
+            "expandState": "expand"
         },
         "children": [
             {
@@ -151,9 +152,111 @@
                     },
                     {
                         "data": {
-                            "id": "dbvc8wnr5og0",
-                            "created": 1754482802772,
-                            "text": "线性方程组"
+                            "id": "dc18urqtc880",
+                            "created": 1755082591385,
+                            "text": "性质",
+                            "note": "$$\nAA^*=\\left| A \\right|E\n$$\n"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dc18xrt1d2o0",
+                            "created": 1755082826612,
+                            "text": "常见矩阵定义"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc18xubllbk0",
+                                    "created": 1755082832088,
+                                    "text": "伴随矩阵"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc18xzb0zrk0",
+                                    "created": 1755082842937,
+                                    "text": "逆阵"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc18uz8312g0",
+                            "created": 1755082607667,
+                            "text": "形式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc18v2af9940",
+                                    "created": 1755082614339,
+                                    "text": "AB相城"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc18vmrx4qo0",
+                                            "created": 1755082658932,
+                                            "text": "右列化，左直接乘"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc18w8dxamo0",
+                                            "created": 1755082705975,
+                                            "text": "左列化，右具体化"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc18wd78a7k0",
+                                            "created": 1755082716454,
+                                            "text": "xxx"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbvc8wnr5og0",
+                    "created": 1754482802772,
+                    "text": "线性方程组"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dc192gncgls0",
+                            "created": 1755083194144,
+                            "text": "解的形式"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dc18wi6vwnk0",
+                    "created": 1755082727317,
+                    "text": "二次型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dc18wszyb1k0",
+                            "created": 1755082750843,
+                            "text": "正定矩阵"
                         },
                         "children": []
                     }
