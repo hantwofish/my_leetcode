@@ -7,6 +7,12 @@ D:\my_leetcode\datastruct_learn\leetcode\00_00.cpp
 # cls;  g++ --std=c++11 2187.cpp -o main.exe ; .\main.exe
 # del *.exe
 
+
+代码开发在main 分支
+
+开发前：pull
+开发后：upload
+
 新增分支: branch_learning
 
 
