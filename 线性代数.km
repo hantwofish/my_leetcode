@@ -15,7 +15,9 @@
                     "layout_mind_offset": {
                         "x": -81.99999869664515,
                         "y": -100.99999839464842
-                    }
+                    },
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
@@ -23,14 +25,16 @@
                             "id": "dc006yd3xyg0",
                             "created": 1754956596218,
                             "text": "定义",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc00fll5svc0",
                                     "created": 1754957273684,
-                                    "text": "逆序"
+                                    "text": "逆序",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -38,7 +42,8 @@
                                 "data": {
                                     "id": "dc00ewicafc0",
                                     "created": 1754957219094,
-                                    "text": "逆序数"
+                                    "text": "逆序数",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -46,7 +51,8 @@
                                 "data": {
                                     "id": "dc00705ltu80",
                                     "created": 1754956600118,
-                                    "text": "余子式"
+                                    "text": "余子式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -54,7 +60,8 @@
                                 "data": {
                                     "id": "dc009c2qwf40",
                                     "created": 1754956782795,
-                                    "text": "代数余子式"
+                                    "text": "代数余子式",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -64,14 +71,16 @@
                         "data": {
                             "id": "dc006uuzwao0",
                             "created": 1754956588592,
-                            "text": "行列式计算"
+                            "text": "行列式计算",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc009e4occ00",
                                     "created": 1754956787265,
-                                    "text": "上三角行列式"
+                                    "text": "上三角行列式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -79,7 +88,8 @@
                                 "data": {
                                     "id": "dc009hhv3ew0",
                                     "created": 1754956794593,
-                                    "text": "下三角行列式"
+                                    "text": "下三角行列式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -87,7 +97,8 @@
                                 "data": {
                                     "id": "dc009noj19s0",
                                     "created": 1754956808056,
-                                    "text": "范德蒙行列式"
+                                    "text": "范德蒙行列式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -95,7 +106,8 @@
                                 "data": {
                                     "id": "dc00g3zjobk0",
                                     "created": 1754957313736,
-                                    "text": "特殊行列式"
+                                    "text": "特殊行列式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -103,7 +115,8 @@
                                 "data": {
                                     "id": "dc00d9g8lk80",
                                     "created": 1754957090537,
-                                    "text": "克莱姆法则"
+                                    "text": "克莱姆法则",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -113,7 +126,8 @@
                         "data": {
                             "id": "dc00gday9000",
                             "created": 1754957334017,
-                            "text": "行列式性质"
+                            "text": "行列式性质",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -127,7 +141,8 @@
                     "layout_mind_offset": {
                         "x": 498.99999206860934,
                         "y": 7.999999872843375
-                    }
+                    },
+                    "layout": null
                 },
                 "children": [
                     {
@@ -137,14 +152,16 @@
                             "text": "秩",
                             "resource": [
                                 "==约束条件"
-                            ]
+                            ],
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc00dgyiy7k0",
                                     "created": 1754957106880,
-                                    "text": "行秩=列秩=矩阵秩"
+                                    "text": "行秩=列秩=矩阵秩",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -155,30 +172,47 @@
                             "id": "dc18urqtc880",
                             "created": 1755082591385,
                             "text": "性质",
-                            "note": "$$\nAA^*=\\left| A \\right|E\n$$\n"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dc18xrt1d2o0",
-                            "created": 1755082826612,
-                            "text": "常见矩阵定义"
+                            "note": "$$\nAA^*=\\left| A \\right|E\n$$\n",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dc18xubllbk0",
-                                    "created": 1755082832088,
-                                    "text": "伴随矩阵"
+                                    "id": "dc19alsl2tc0",
+                                    "created": 1755083832258,
+                                    "text": "A+B"
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
-                                    "id": "dc18xzb0zrk0",
-                                    "created": 1755082842937,
-                                    "text": "逆阵"
+                                    "id": "dc19anm0o7s0",
+                                    "created": 1755083836215,
+                                    "text": "A-B"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc19ap9lfz40",
+                                    "created": 1755083839817,
+                                    "text": "AB"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc19cu4h5rk0",
+                                    "created": 1755084007120,
+                                    "text": "kA"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc19bvekq3k0",
+                                    "created": 1755083931543,
+                                    "text": "矩阵多项式"
                                 },
                                 "children": []
                             }
@@ -186,23 +220,64 @@
                     },
                     {
                         "data": {
+                            "id": "dc18xrt1d2o0",
+                            "created": 1755082826612,
+                            "text": "常见矩阵定义",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc18xubllbk0",
+                                    "created": 1755082832088,
+                                    "text": "伴随矩阵",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc18xzb0zrk0",
+                                    "created": 1755082842937,
+                                    "text": "逆阵",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc196i3kmnk0",
+                                            "created": 1755083510759,
+                                            "text": "逆阵求法",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
                             "id": "dc18uz8312g0",
                             "created": 1755082607667,
-                            "text": "形式"
+                            "text": "形式",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc18v2af9940",
                                     "created": 1755082614339,
-                                    "text": "AB相城"
+                                    "text": "AB相城",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc18vmrx4qo0",
                                             "created": 1755082658932,
-                                            "text": "右列化，左直接乘"
+                                            "text": "右列化，左直接乘",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -210,7 +285,8 @@
                                         "data": {
                                             "id": "dc18w8dxamo0",
                                             "created": 1755082705975,
-                                            "text": "左列化，右具体化"
+                                            "text": "左列化，右具体化",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -218,7 +294,8 @@
                                         "data": {
                                             "id": "dc18wd78a7k0",
                                             "created": 1755082716454,
-                                            "text": "xxx"
+                                            "text": "xxx",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -232,14 +309,17 @@
                 "data": {
                     "id": "dbvc8wnr5og0",
                     "created": 1754482802772,
-                    "text": "线性方程组"
+                    "text": "线性方程组",
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dc192gncgls0",
                             "created": 1755083194144,
-                            "text": "解的形式"
+                            "text": "解的形式",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -249,14 +329,17 @@
                 "data": {
                     "id": "dc18wi6vwnk0",
                     "created": 1755082727317,
-                    "text": "二次型"
+                    "text": "二次型",
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dc18wszyb1k0",
                             "created": 1755082750843,
-                            "text": "正定矩阵"
+                            "text": "正定矩阵",
+                            "layout": null
                         },
                         "children": []
                     }
