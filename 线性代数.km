@@ -198,7 +198,24 @@
                                     "created": 1755083839817,
                                     "text": "AB"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc19u8bqz480",
+                                            "created": 1755085370225,
+                                            "text": "",
+                                            "image": "https://img2024.cnblogs.com/blog/1574605/202508/1574605-20250813194352166-498835925.png",
+                                            "imageTitle": "",
+                                            "imageSize": {
+                                                "width": 129,
+                                                "height": 40
+                                            },
+                                            "hyperlink": null,
+                                            "hyperlinkTitle": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -214,7 +231,39 @@
                                     "created": 1755083931543,
                                     "text": "矩阵多项式"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc19qjzgj7k0",
+                                            "created": 1755085082147,
+                                            "text": "topic"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc19rmfyt4w0",
+                                            "created": 1755085165863,
+                                            "text": "伴随矩阵"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc19rodj2co0",
+                                                    "created": 1755085170069,
+                                                    "text": "",
+                                                    "image": "https://img2024.cnblogs.com/blog/1574605/202508/1574605-20250813193633571-337874934.png",
+                                                    "imageTitle": "",
+                                                    "imageSize": {
+                                                        "width": 200,
+                                                        "height": 54
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
