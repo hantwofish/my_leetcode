@@ -226,7 +226,8 @@
                         "x": 498.99999206860934,
                         "y": 7.999999872843375
                     },
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -697,7 +698,8 @@
                 "data": {
                     "id": "dc1deq4l4ao0",
                     "created": 1755095439587,
-                    "text": "向量"
+                    "text": "向量",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -711,7 +713,7 @@
                                 "data": {
                                     "id": "dc1df32opls0",
                                     "created": 1755095467770,
-                                    "text": "向量"
+                                    "text": "向量(默认为列向量)"
                                 },
                                 "children": []
                             },
@@ -737,7 +739,8 @@
                         "data": {
                             "id": "dc1dfw1w8y00",
                             "created": 1755095530849,
-                            "text": "向量理论一：相关性与线性表示"
+                            "text": "向量理论一：相关性与线性表示",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -783,11 +786,139 @@
                             },
                             {
                                 "data": {
+                                    "id": "dc3nzr7i7o00",
+                                    "created": 1755328418600,
+                                    "text": "线性相关/无关(对于齐次方程组而言)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc3o1otvsgw0",
+                                            "created": 1755328570151,
+                                            "text": "线性无关"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc3o2d1yvbs0",
+                                                    "created": 1755328622883,
+                                                    "text": "齐次线性方程只有零解"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc3o2arfx400",
+                                            "created": 1755328617893,
+                                            "text": "线性相关",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc3o2oerwk00",
+                                                    "created": 1755328647602,
+                                                    "text": "齐次线程方程有非零解"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc3o06ah74g0",
+                                    "created": 1755328451432,
+                                    "text": "线性表示(对于非齐方程组而言)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc3o4u6404o0",
+                                            "created": 1755328816867,
+                                            "text": "可线性表示"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc3o54xmoxc0",
+                                                    "created": 1755328840299,
+                                                    "text": "非齐方程有解"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc3o4yky63k0",
+                                            "created": 1755328826471,
+                                            "text": "不可线性表示"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc3o5d4hiao0",
+                                                    "created": 1755328858128,
+                                                    "text": "非齐方程无解"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
                                     "id": "dc1di3eix200",
                                     "created": 1755095703579,
-                                    "text": "性质"
+                                    "text": "性质",
+                                    "layout_right_offset": {
+                                        "x": 6.999999895691872,
+                                        "y": 14.999999776482582
+                                    },
+                                    "expandState": "expand"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc3o5rxiqc80",
+                                            "created": 1755328890358,
+                                            "text": "全组无关 ==>  部分无关；部分相关 ==> 全组相关 ",
+                                            "layout": null,
+                                            "priority": 1,
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc3o6owz6zs0",
+                                            "created": 1755328962159,
+                                            "text": "两向量相关 ==>  两向量成比例"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc3oacnjxrs0",
+                                            "created": 1755329248925,
+                                            "text": "n个n 维向量线性无关 ==> 向量组的秩为 n   ==> 组成的n阶行列式 不为0"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc3ofri13cg0",
+                                            "created": 1755329673063,
+                                            "text": "n个向量增加列(加的越多，可能是垃圾向量概率越大)提高相关性，增加行(增加约束条件)提高无关性"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -865,7 +996,7 @@
                     "id": "dbvc8wnr5og0",
                     "created": 1754482802772,
                     "text": "线性方程组",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -900,7 +1031,8 @@
                 "data": {
                     "id": "dc1du84bl4w0",
                     "created": 1755096654216,
-                    "text": "特征值与特征向量"
+                    "text": "特征值与特征向量",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
