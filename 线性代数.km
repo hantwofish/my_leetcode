@@ -227,7 +227,7 @@
                         "y": 7.999999872843375
                     },
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -235,14 +235,16 @@
                             "id": "dc1clc386fc0",
                             "created": 1755093136469,
                             "text": "定义",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc1clkrmalk0",
                                     "created": 1755093155358,
-                                    "text": "矩阵"
+                                    "text": "矩阵",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -250,7 +252,8 @@
                                 "data": {
                                     "id": "dc1clu3ob9k0",
                                     "created": 1755093175678,
-                                    "text": "同型矩阵"
+                                    "text": "同型矩阵",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -258,7 +261,8 @@
                                 "data": {
                                     "id": "dc1cm6m6n8g0",
                                     "created": 1755093202919,
-                                    "text": "三则运算"
+                                    "text": "三则运算",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -266,14 +270,16 @@
                                 "data": {
                                     "id": "dc1cn6b3xs00",
                                     "created": 1755093280613,
-                                    "text": "线性方程组一般形式"
+                                    "text": "线性方程组一般形式",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc1cnmh49b40",
                                             "created": 1755093315805,
-                                            "text": "齐次线性方程组"
+                                            "text": "齐次线性方程组",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -281,7 +287,8 @@
                                         "data": {
                                             "id": "dc1cnrfrqu00",
                                             "created": 1755093326608,
-                                            "text": "非齐次线性方程组"
+                                            "text": "非齐次线性方程组",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -289,7 +296,8 @@
                                         "data": {
                                             "id": "dc1cnzeat0w0",
                                             "created": 1755093343933,
-                                            "text": "矩阵化"
+                                            "text": "矩阵化",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -336,7 +344,8 @@
                                 "data": {
                                     "id": "dc1cyoj84400",
                                     "created": 1755094182292,
-                                    "text": "逆阵问题三"
+                                    "text": "逆阵问题三",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -344,7 +353,8 @@
                                             "id": "dc1cyxiaqlc0",
                                             "created": 1755094201827,
                                             "text": "1. 什么是逆阵",
-                                            "expandState": "expand"
+                                            "expandState": "expand",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
@@ -370,7 +380,8 @@
                                         "data": {
                                             "id": "dc1cz1vi10g0",
                                             "created": 1755094211333,
-                                            "text": "2.矩阵可逆吗"
+                                            "text": "2.矩阵可逆吗",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -378,7 +389,8 @@
                                         "data": {
                                             "id": "dc1czaz4s0o0",
                                             "created": 1755094231143,
-                                            "text": "3.若可逆，逆阵是什么"
+                                            "text": "3.若可逆，逆阵是什么",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -388,7 +400,8 @@
                                 "data": {
                                     "id": "dc1d1uxnqsg0",
                                     "created": 1755094431318,
-                                    "text": "可逆等价命题"
+                                    "text": "可逆等价命题",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -401,7 +414,8 @@
                                             "imageSize": {
                                                 "width": 200,
                                                 "height": 26
-                                            }
+                                            },
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -420,7 +434,8 @@
                                         "data": {
                                             "id": "dc1d3uwkwtc0",
                                             "created": 1755094587981,
-                                            "text": "法1：伴随矩阵法"
+                                            "text": "法1：伴随矩阵法",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -428,28 +443,32 @@
                                         "data": {
                                             "id": "dc1d43za1aw0",
                                             "created": 1755094607735,
-                                            "text": "法2：初等变换思想"
+                                            "text": "法2：初等变换思想",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "dc1d54rpr6o0",
                                                     "created": 1755094687819,
-                                                    "text": "初等变换"
+                                                    "text": "初等变换",
+                                                    "layout": null
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
                                                             "id": "dc1d580s80w0",
                                                             "created": 1755094694898,
-                                                            "text": "初等行变换"
+                                                            "text": "初等行变换",
+                                                            "layout": null
                                                         },
                                                         "children": [
                                                             {
                                                                 "data": {
                                                                     "id": "dc1d5mjgmhs0",
                                                                     "created": 1755094726502,
-                                                                    "text": "对调两行"
+                                                                    "text": "对调两行",
+                                                                    "layout": null
                                                                 },
                                                                 "children": []
                                                             },
@@ -457,7 +476,8 @@
                                                                 "data": {
                                                                     "id": "dc1d5ri589s0",
                                                                     "created": 1755094737306,
-                                                                    "text": "一行乘以不为0的常数c"
+                                                                    "text": "一行乘以不为0的常数c",
+                                                                    "layout": null
                                                                 },
                                                                 "children": []
                                                             },
@@ -465,7 +485,8 @@
                                                                 "data": {
                                                                     "id": "dc1d639z7cg0",
                                                                     "created": 1755094762934,
-                                                                    "text": "一行的k倍加到另外一行"
+                                                                    "text": "一行的k倍加到另外一行",
+                                                                    "layout": null
                                                                 },
                                                                 "children": []
                                                             }
@@ -475,7 +496,8 @@
                                                         "data": {
                                                             "id": "dc1d5biimo00",
                                                             "created": 1755094702500,
-                                                            "text": "初等列变换"
+                                                            "text": "初等列变换",
+                                                            "layout": null
                                                         },
                                                         "children": []
                                                     }
@@ -489,14 +511,16 @@
                                 "data": {
                                     "id": "dc1d7dxsr8w0",
                                     "created": 1755094864506,
-                                    "text": "结论"
+                                    "text": "结论",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc1d7x8lv6g0",
                                             "created": 1755094906519,
-                                            "text": "A可逆 <==> A等于若干个初等矩阵之积"
+                                            "text": "A可逆 <==> A等于若干个初等矩阵之积",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -509,7 +533,8 @@
                             "id": "dc1cqcdw9v40",
                             "created": 1755093528935,
                             "text": "矩阵理论二：秩",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
@@ -539,7 +564,8 @@
                                 "data": {
                                     "id": "dc1dcy1bou80",
                                     "created": 1755095300076,
-                                    "text": "def"
+                                    "text": "def",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -547,7 +573,8 @@
                                 "data": {
                                     "id": "dc1dd1bvfww0",
                                     "created": 1755095307244,
-                                    "text": "r(A)的求法"
+                                    "text": "r(A)的求法",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -555,7 +582,8 @@
                                 "data": {
                                     "id": "dc1ddftddug0",
                                     "created": 1755095338778,
-                                    "text": "秩的性质"
+                                    "text": "秩的性质",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -565,7 +593,8 @@
                         "data": {
                             "id": "dc1ddwuyeqw0",
                             "created": 1755095375878,
-                            "text": "矩阵等价"
+                            "text": "矩阵等价",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -699,21 +728,24 @@
                     "id": "dc1deq4l4ao0",
                     "created": 1755095439587,
                     "text": "向量",
-                    "expandState": "expand"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dc1dex770a00",
                             "created": 1755095454982,
-                            "text": "基本向量"
+                            "text": "基本向量",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc1df32opls0",
                                     "created": 1755095467770,
-                                    "text": "向量(默认为列向量)"
+                                    "text": "向量(默认为列向量)",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -721,7 +753,8 @@
                                 "data": {
                                     "id": "dc1df4vrvzs0",
                                     "created": 1755095471706,
-                                    "text": "模"
+                                    "text": "模",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -729,7 +762,8 @@
                                 "data": {
                                     "id": "dc1df6i5rm00",
                                     "created": 1755095475236,
-                                    "text": "内积"
+                                    "text": "内积",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -740,14 +774,16 @@
                             "id": "dc1dfw1w8y00",
                             "created": 1755095530849,
                             "text": "向量理论一：相关性与线性表示",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc1dgvz0l200",
                                     "created": 1755095609039,
-                                    "text": "背景"
+                                    "text": "背景",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -755,7 +791,8 @@
                                 "data": {
                                     "id": "dc1dh1ni2j40",
                                     "created": 1755095621404,
-                                    "text": "方程组解的形式"
+                                    "text": "方程组解的形式",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -763,14 +800,16 @@
                                 "data": {
                                     "id": "dc1dh8kqm9c0",
                                     "created": 1755095636474,
-                                    "text": "defs"
+                                    "text": "defs",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc1dhqxuyls0",
                                             "created": 1755095676450,
-                                            "text": "相关性"
+                                            "text": "相关性",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -778,7 +817,8 @@
                                         "data": {
                                             "id": "dc1dhu8ha800",
                                             "created": 1755095683622,
-                                            "text": "线性表示"
+                                            "text": "线性表示",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -788,21 +828,24 @@
                                 "data": {
                                     "id": "dc3nzr7i7o00",
                                     "created": 1755328418600,
-                                    "text": "线性相关/无关(对于齐次方程组而言)"
+                                    "text": "线性相关/无关(对于齐次方程组而言)",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc3o1otvsgw0",
                                             "created": 1755328570151,
-                                            "text": "线性无关"
+                                            "text": "线性无关",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "dc3o2d1yvbs0",
                                                     "created": 1755328622883,
-                                                    "text": "齐次线性方程只有零解"
+                                                    "text": "齐次线性方程只有零解",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -813,14 +856,16 @@
                                             "id": "dc3o2arfx400",
                                             "created": 1755328617893,
                                             "text": "线性相关",
-                                            "expandState": "expand"
+                                            "expandState": "expand",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "dc3o2oerwk00",
                                                     "created": 1755328647602,
-                                                    "text": "齐次线程方程有非零解"
+                                                    "text": "齐次线程方程有非零解",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -832,21 +877,24 @@
                                 "data": {
                                     "id": "dc3o06ah74g0",
                                     "created": 1755328451432,
-                                    "text": "线性表示(对于非齐方程组而言)"
+                                    "text": "线性表示(对于非齐方程组而言)",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc3o4u6404o0",
                                             "created": 1755328816867,
-                                            "text": "可线性表示"
+                                            "text": "可线性表示",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "dc3o54xmoxc0",
                                                     "created": 1755328840299,
-                                                    "text": "非齐方程有解"
+                                                    "text": "非齐方程有解",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -856,14 +904,16 @@
                                         "data": {
                                             "id": "dc3o4yky63k0",
                                             "created": 1755328826471,
-                                            "text": "不可线性表示"
+                                            "text": "不可线性表示",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "dc3o5d4hiao0",
                                                     "created": 1755328858128,
-                                                    "text": "非齐方程无解"
+                                                    "text": "非齐方程无解",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -876,11 +926,8 @@
                                     "id": "dc1di3eix200",
                                     "created": 1755095703579,
                                     "text": "性质",
-                                    "layout_right_offset": {
-                                        "x": 6.999999895691872,
-                                        "y": 14.999999776482582
-                                    },
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
@@ -898,7 +945,8 @@
                                         "data": {
                                             "id": "dc3o6owz6zs0",
                                             "created": 1755328962159,
-                                            "text": "两向量相关 ==>  两向量成比例"
+                                            "text": "两向量相关 ==>  两向量成比例",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -906,7 +954,8 @@
                                         "data": {
                                             "id": "dc3oacnjxrs0",
                                             "created": 1755329248925,
-                                            "text": "n个n 维向量线性无关 ==> 向量组的秩为 n   ==> 组成的n阶行列式 不为0"
+                                            "text": "n个n 维向量线性无关 ==> 向量组的秩为 n   ==> 组成的n阶行列式 不为0",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -914,7 +963,8 @@
                                         "data": {
                                             "id": "dc3ofri13cg0",
                                             "created": 1755329673063,
-                                            "text": "n个向量增加列(加的越多，可能是垃圾向量概率越大)提高相关性，增加行(增加约束条件)提高无关性"
+                                            "text": "n个向量增加列(加的越多，可能是垃圾向量概率越大)提高相关性，增加行(增加约束条件)提高无关性",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -926,21 +976,24 @@
                         "data": {
                             "id": "dc1dk0yn7l40",
                             "created": 1755095854993,
-                            "text": "向量理论二：（向量组等价，极大线性无关组与向量组秩）"
+                            "text": "向量理论二：（向量组等价，极大线性无关组与向量组秩）",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc1dkjhnvpk0",
                                     "created": 1755095895325,
-                                    "text": "defs"
+                                    "text": "defs",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc1dko8fl9k0",
                                             "created": 1755095905651,
-                                            "text": "向量组等价"
+                                            "text": "向量组等价",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -948,7 +1001,8 @@
                                         "data": {
                                             "id": "dc1dkufv6h40",
                                             "created": 1755095919161,
-                                            "text": "极大线性无关组与向量组的秩"
+                                            "text": "极大线性无关组与向量组的秩",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -958,14 +1012,16 @@
                                 "data": {
                                     "id": "dc1dmx67w9s0",
                                     "created": 1755096081837,
-                                    "text": "性质"
+                                    "text": "性质",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc1dninutfs0",
                                             "created": 1755096128616,
-                                            "text": "三秩相等(矩阵的秩==矩阵行秩==矩阵列秩)"
+                                            "text": "三秩相等(矩阵的秩==矩阵行秩==矩阵列秩)",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -973,7 +1029,8 @@
                                         "data": {
                                             "id": "dc1dp3cmirk0",
                                             "created": 1755096252013,
-                                            "text": "2."
+                                            "text": "2.",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -981,7 +1038,8 @@
                                         "data": {
                                             "id": "dc1dp69iarc0",
                                             "created": 1755096258355,
-                                            "text": "3."
+                                            "text": "3.",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -1013,7 +1071,8 @@
                         "data": {
                             "id": "dc1dpj27ao00",
                             "created": 1755096286211,
-                            "text": "解的基本定理"
+                            "text": "解的基本定理",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -1021,7 +1080,8 @@
                         "data": {
                             "id": "dc1dt63mdi80",
                             "created": 1755096571456,
-                            "text": "通解"
+                            "text": "通解",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -1032,31 +1092,107 @@
                     "id": "dc1du84bl4w0",
                     "created": 1755096654216,
                     "text": "特征值与特征向量",
-                    "expandState": "collapse"
+                    "expandState": "expand",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dc1dutkd7b40",
                             "created": 1755096700898,
-                            "text": "defs"
+                            "text": "defs",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc1dv7zjuv40",
                                     "created": 1755096732291,
-                                    "text": "特征值与特征方程"
+                                    "text": "特征值与特征方程",
+                                    "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc62ddqb1400",
+                                            "created": 1755572101813,
+                                            "text": "定义",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc62dfiaiqo0",
+                                            "created": 1755572105681,
+                                            "text": "性质",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc68raa0e540",
+                                                    "created": 1755590118055,
+                                                    "text": "特征值之和"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc68rf6qrso0",
+                                                    "created": 1755590128741,
+                                                    "text": "特征值之积"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
                                     "id": "dc1dvmh43j40",
                                     "created": 1755096763828,
-                                    "text": "矩阵相似"
+                                    "text": "矩阵相似",
+                                    "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc62di46jts0",
+                                            "created": 1755572111359,
+                                            "text": "定义",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc62djnlqwg0",
+                                            "created": 1755572114710,
+                                            "text": "性质",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc68sfd5j9k0",
+                                                    "created": 1755590207493,
+                                                    "text": "转置后是否相似"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc68sv06fgg0",
+                                                    "created": 1755590241537,
+                                                    "text": "逆阵是否相似"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1064,14 +1200,16 @@
                         "data": {
                             "id": "dc1dv3qy4l40",
                             "created": 1755096723064,
-                            "text": "性质"
+                            "text": "性质",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc1dvyrj6rc0",
                                     "created": 1755096790580,
-                                    "text": "一般性质"
+                                    "text": "一般性质",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -1079,7 +1217,8 @@
                                 "data": {
                                     "id": "dc1dwxsvej40",
                                     "created": 1755096866848,
-                                    "text": "对称阵(转置等于原矩阵)"
+                                    "text": "对称阵(转置等于原矩阵)",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -1089,14 +1228,16 @@
                         "data": {
                             "id": "dc1dxlnu65c0",
                             "created": 1755096918786,
-                            "text": "矩阵对角化过程"
+                            "text": "矩阵对角化过程",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dc1dz7wkg6g0",
                                     "created": 1755097045568,
-                                    "text": "AT不等于A"
+                                    "text": "AT不等于A",
+                                    "layout": null
                                 },
                                 "children": []
                             }
