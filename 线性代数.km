@@ -227,7 +227,7 @@
                         "y": 7.999999872843375
                     },
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -427,7 +427,7 @@
                                     "created": 1755083510759,
                                     "text": "逆阵求法",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1092,7 +1092,7 @@
                     "id": "dc1du84bl4w0",
                     "created": 1755096654216,
                     "text": "特征值与特征向量",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -1189,6 +1189,14 @@
                                                     "text": "逆阵是否相似"
                                                 },
                                                 "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc6x52porbs0",
+                                                    "created": 1755658905324,
+                                                    "text": "AB相似，特征值相同，特性向量不同"
+                                                },
+                                                "children": []
                                             }
                                         ]
                                     }
@@ -1240,6 +1248,51 @@
                                     "layout": null
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc6x5mr1aa00",
+                                    "created": 1755658948941,
+                                    "text": "可相似对角化条件"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc6x7ek4qdk0",
+                                            "created": 1755659087838,
+                                            "text": "低要求：找可逆阵"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc6x7tpcjt40",
+                                            "created": 1755659120805,
+                                            "text": "高要求： 找正交阵",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc6x96ycl9s0",
+                                    "created": 1755659228012,
+                                    "text": "相似对角化过程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc6xa0bdazk0",
+                                            "created": 1755659291926,
+                                            "text": "不同特征值的特征向量正交",
+                                            "background": "transparent",
+                                            "progress": 1
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
