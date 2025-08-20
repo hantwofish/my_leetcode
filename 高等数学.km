@@ -853,7 +853,7 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -1570,294 +1570,6 @@
                                 ]
                             }
                         ]
-                    },
-                    {
-                        "data": {
-                            "id": "dbvcdaogjkw0",
-                            "created": 1754483146746,
-                            "text": "曲线积分",
-                            "layout": null,
-                            "hyperlink": "https://www.baidu.com/",
-                            "hyperlinkTitle": "百度",
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dbz9r97wy4g0",
-                                    "created": 1754882017164,
-                                    "text": "第一类曲线积分(对弧长的曲线积分)",
-                                    "layout": null
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dc04k23hugg0",
-                                            "created": 1754968907518,
-                                            "text": "物理意义：曲线的质量"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dbz9rizwr1c0",
-                                    "created": 1754882038448,
-                                    "text": "第二类曲线积分",
-                                    "layout": null
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dc04jbbr5a80",
-                                            "created": 1754968849244,
-                                            "text": "格林公式"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dbvcdcmssts0",
-                            "created": 1754483150999,
-                            "text": "曲面积分",
-                            "layout": null,
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dbz9rmz2pls0",
-                                    "created": 1754882047105,
-                                    "text": "第一类曲面积分"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dc04kak6y8w0",
-                                            "created": 1754968925941,
-                                            "text": "对曲面的曲面积分"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "dc04kgfws2o0",
-                                                    "created": 1754968938743,
-                                                    "text": "物理意义：曲面的质量"
-                                                },
-                                                "children": []
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dbz9rq0nr3c0",
-                                    "created": 1754882053731,
-                                    "text": "第二类曲面积分"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dc04jr90da80",
-                                            "created": 1754968883906,
-                                            "text": "高斯公式"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dbwog7lbym80",
-                            "created": 1754618788395,
-                            "text": "曲线积分和二重积分联系",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dbwoghaxhgg0",
-                            "created": 1754618809534,
-                            "text": "曲面积分和三重积分连续",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dbvccfa1egw0",
-                    "created": 1754483078394,
-                    "text": "空间解析几何",
-                    "expandState": "collapse",
-                    "layout": null,
-                    "resource": [
-                        "线切面法"
-                    ]
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dbvcdp8ot5s0",
-                            "created": 1754483178444,
-                            "text": "点",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dbvcdqfbzj40",
-                            "created": 1754483181023,
-                            "text": "线",
-                            "layout": null,
-                            "expandState": "expand"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dc04ma63qg00",
-                                    "created": 1754969081818,
-                                    "text": "空间直线"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dc04mcuudeo0",
-                                            "created": 1754969087667,
-                                            "text": "表达式"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dbvcdvwg6ps0",
-                            "created": 1754483192942,
-                            "text": "面",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dbvcdxlys4w0",
-                            "created": 1754483196661,
-                            "text": "距离",
-                            "layout": null
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dc04n8qrf9s0",
-                                    "created": 1754969157078,
-                                    "text": "两点之间距离"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dc04ngdkwm80",
-                                    "created": 1754969173695,
-                                    "text": "两直线直接距离"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dc04nrjx0rk0",
-                                            "created": 1754969198023,
-                                            "text": "平行直线距离"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dc04nvt7coo0",
-                                            "created": 1754969207291,
-                                            "text": "异面直线距离"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dc04ofkilg80",
-                                    "created": 1754969250302,
-                                    "text": "两平行平面距离"
-                                },
-                                "children": []
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dbvc9tqxkuo0",
-                    "created": 1754482874798,
-                    "text": "无穷级数",
-                    "progress": 9,
-                    "priority": null,
-                    "resource": [
-                        "不考"
-                    ],
-                    "layout": null
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "dc04lxqlpso0",
-                    "created": 1754969054759,
-                    "text": "微分方程",
-                    "expandState": "collapse"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dc04te4w64o0",
-                            "created": 1754969639001,
-                            "text": "常系数"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dc04ti71qso0",
-                            "created": 1754969647838,
-                            "text": "可降阶"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dc04tvc1xc00",
-                            "created": 1754969676439,
-                            "text": "欧拉方程"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dc04txlaiuw0",
-                            "created": 1754969681351,
-                            "text": "伯努利方程"
-                        },
-                        "children": []
                     }
                 ]
             },
@@ -1867,7 +1579,7 @@
                     "created": 1754662804018,
                     "text": "多元微分学",
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1926,42 +1638,52 @@
                                     "text": "方向导数"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc73yqas5gw0",
+                                    "created": 1755678155886,
+                                    "text": "梯度"
+                                },
+                                "children": []
                             }
                         ]
                     },
                     {
                         "data": {
-                            "id": "dbx462jyo3c0",
-                            "created": 1754663131545,
-                            "text": "代数应用",
-                            "layout": null
+                            "id": "dc73yva5v6o0",
+                            "created": 1755678166732,
+                            "text": "多元函数基本理论"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dbx48eu8bwo0",
-                                    "created": 1754663315016,
-                                    "text": "物理应用",
-                                    "expandState": "expand",
-                                    "layout": null
+                                    "id": "dc73yzfx6c00",
+                                    "created": 1755678175788,
+                                    "text": "有界闭区域上连续的多元函数的性质"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dbx47x5u2mo0",
-                                            "created": 1754663276535,
-                                            "text": "方向导数",
-                                            "layout": null
+                                            "id": "dc73z74kkuw0",
+                                            "created": 1755678192516,
+                                            "text": "最值定理"
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "dbx480dehuo0",
-                                            "created": 1754663283523,
-                                            "text": "梯度",
-                                            "expandState": "expand",
-                                            "layout": null
+                                            "id": "dc73za3ngv40",
+                                            "created": 1755678198991,
+                                            "text": "有界定理"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc73zbl8yqg0",
+                                            "created": 1755678202231,
+                                            "text": "介值定理"
                                         },
                                         "children": []
                                     }
@@ -1969,28 +1691,50 @@
                             },
                             {
                                 "data": {
-                                    "id": "dbx482hubs80",
-                                    "created": 1754663288145,
-                                    "text": "极值",
-                                    "expandState": "expand",
-                                    "layout": null
+                                    "id": "dc73zisz6kw0",
+                                    "created": 1755678217936,
+                                    "text": "连续，可偏导，可微的关系",
+                                    "progress": 7
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc740e6rf540",
+                                    "created": 1755678286250,
+                                    "text": "求偏导类型"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dbx464xodcw0",
-                                            "created": 1754663136728,
-                                            "text": "无条件极值",
-                                            "layout": null
+                                            "id": "dc740hra47s0",
+                                            "created": 1755678294021,
+                                            "text": "1.显函数求偏导"
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "dbx465zeqeo0",
-                                            "created": 1754663139009,
-                                            "text": "有条件极值",
-                                            "layout": null
+                                            "id": "dc740ogcz940",
+                                            "created": 1755678308598,
+                                            "text": "2.复合函数求偏导"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7415jq48o0",
+                                            "created": 1755678345807,
+                                            "text": "3.隐函数求偏导"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc741fa5t4w0",
+                                            "created": 1755678366996,
+                                            "text": "4.变换求偏导",
+                                            "background": "#92d050"
                                         },
                                         "children": []
                                     }
@@ -2000,51 +1744,1019 @@
                     },
                     {
                         "data": {
-                            "id": "dbx46onax5s0",
-                            "created": 1754663179636,
-                            "text": "求偏导",
-                            "layout": null
+                            "id": "dc74286iycg0",
+                            "created": 1755678429903,
+                            "text": "多元函数微分学应用"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dbx46r4px280",
-                                    "created": 1754663185043,
-                                    "text": "显函数",
-                                    "layout": null
+                                    "id": "dc742fcaimo0",
+                                    "created": 1755678445489,
+                                    "text": "一：二元函数的无条件极值"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc742ne80dk0",
+                                            "created": 1755678463020,
+                                            "text": "1.二元函数极值的定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc742to1wbc0",
+                                            "created": 1755678476675,
+                                            "text": "2.二元函数求无条件极值的步骤"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7431psx8w0",
+                                    "created": 1755678494196,
+                                    "text": "二：条件极值"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc74370hlcw0",
+                                            "created": 1755678505726,
+                                            "text": "多元函数的条件极值"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc743dioc4w0",
+                                                    "created": 1755678519886,
+                                                    "text": "拉格朗日乘数法"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc743m8475k0",
+                                                    "created": 1755678538839,
+                                                    "text": "转化成一元函数极值"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc743wvyz3c0",
+                                                    "created": 1755678562049,
+                                                    "text": "参数方程法"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc7442eoqo00",
+                            "created": 1755678574064,
+                            "text": "第四节：多元函数微分学几何应用（线切面法）"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc744glsv600",
+                                    "created": 1755678604970,
+                                    "text": "一：空间曲面的切平面与法线"
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
-                                    "id": "dbx4724v6s00",
-                                    "created": 1754663208996,
-                                    "text": "复合函数求偏导",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dbx476sdga00",
-                                    "created": 1754663219125,
-                                    "text": "隐函数(组)求偏导",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dbx47gwz9mo0",
-                                    "created": 1754663241171,
-                                    "text": "参数变化求偏导",
-                                    "layout": null
+                                    "id": "dc74561nty00",
+                                    "created": 1755678660348,
+                                    "text": "二：空间曲线的切线与法平面"
                                 },
                                 "children": []
                             }
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "dc04lxqlpso0",
+                    "created": 1754969054759,
+                    "text": "第七章：微分方程",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dc04te4w64o0",
+                            "created": 1754969639001,
+                            "text": "第一节：微分方程基本概念"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc74asdixmw0",
+                                    "created": 1755679100775,
+                                    "text": "微分方程"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74aufz5ag0",
+                                    "created": 1755679105277,
+                                    "text": "微分方程的阶数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74b4wmx3s0",
+                                    "created": 1755679128052,
+                                    "text": "微分方程的解"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc04ti71qso0",
+                            "created": 1754969647838,
+                            "text": "topic",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc74f9ck5iw0",
+                                    "created": 1755679451179,
+                                    "text": "一：可分离变量"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74fmu7e6o0",
+                                    "created": 1755679480544,
+                                    "text": "二：齐次方程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc74fwu3euo0",
+                                            "created": 1755679502305,
+                                            "text": "定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc74g03z2iw0",
+                                            "created": 1755679509433,
+                                            "text": "解法"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74g2kgkbs0",
+                                    "created": 1755679514783,
+                                    "text": "三：一阶齐次线性微分方程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc74gudhjs00",
+                                            "created": 1755679575312,
+                                            "text": "定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc74gw16a9k0",
+                                            "created": 1755679578921,
+                                            "text": "通解公式"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74gchunkw0",
+                                    "created": 1755679536393,
+                                    "text": "四：一阶非齐次线性"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc74h35qxqg0",
+                                            "created": 1755679594435,
+                                            "text": "定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc74h7uqh3k0",
+                                            "created": 1755679604653,
+                                            "text": "通解公式"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74hddwcxs0",
+                                    "created": 1755679616695,
+                                    "text": "五：伯努利方程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc74hlfufrs0",
+                                            "created": 1755679634227,
+                                            "text": "定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc74hmoxb600",
+                                            "created": 1755679636953,
+                                            "text": "解法"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74hoa2ubs0",
+                                    "created": 1755679640409,
+                                    "text": "六：全微分方程"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc74hw2oteo0",
+                            "created": 1755679657376,
+                            "text": "第三节：可降阶的高阶微分方程"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc74ibm5uhs0",
+                                    "created": 1755679691206,
+                                    "text": "1."
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74iejkj2o0",
+                                    "created": 1755679697579,
+                                    "text": "2. 缺y型"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74ir4kmg80",
+                                    "created": 1755679724971,
+                                    "text": "3.缺x型"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc04tvc1xc00",
+                            "created": 1754969676439,
+                            "text": "第四节：高阶微分方程"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc74ja6g9pc0",
+                                    "created": 1755679766443,
+                                    "text": "一：高阶线性微分方程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc74jsgy9r40",
+                                            "created": 1755679806260,
+                                            "text": "n阶齐次线性微分方程"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc74k0q4zw00",
+                                            "created": 1755679824230,
+                                            "text": "n阶非齐次线性微分方程"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74kcxwyko0",
+                                    "created": 1755679850821,
+                                    "text": "二：高阶线性微分方程解的结构与性质"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74kui6tk00",
+                                    "created": 1755679889053,
+                                    "text": "三：高阶常系数线性微分方程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc74lnokmq80",
+                                            "created": 1755679952565,
+                                            "text": "1.二阶常系数齐次线性微分方程"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc74m5tidtk0",
+                                            "created": 1755679992046,
+                                            "text": "2.二阶常系数非齐次线性微分方程的特解"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc74n5b617k0",
+                                    "created": 1755680069301,
+                                    "text": "欧拉方程"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc04txlaiuw0",
+                            "created": 1754969681351,
+                            "text": "伯努利方程"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dc74nxow5cg0",
+                    "created": 1755680131081,
+                    "text": "第八章：重积分",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dc7506ompaw0",
+                            "created": 1755681091026,
+                            "text": "第一节：二重积分",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc750cv6zo00",
+                                    "created": 1755681104484,
+                                    "text": "应用背景：平均薄片的质量，曲顶柱体体积"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7510wx4rk0",
+                                            "created": 1755681156831,
+                                            "text": ""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7512egqqo0",
+                                    "created": 1755681160068,
+                                    "text": "概念"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc751aeqgeg0",
+                                    "created": 1755681177499,
+                                    "text": "二重积分性质"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc75258xjew0",
+                                            "created": 1755681244628,
+                                            "text": "区域D关于x轴对称(上下对称)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc752k3a7ns0",
+                                            "created": 1755681276938,
+                                            "text": "区域D关于y轴对称(左右对称)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc75324whq80",
+                                            "created": 1755681316218,
+                                            "text": "区域D关于y=x对称"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc751ymwheo0",
+                                    "created": 1755681230236,
+                                    "text": "二重积分计算方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc753kpignc0",
+                                            "created": 1755681356647,
+                                            "text": "直角坐标法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc753x2mkrk0",
+                                                    "created": 1755681383561,
+                                                    "text": "X型区域，Y型区域"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7543366pk0",
+                                            "created": 1755681396655,
+                                            "text": "极坐标"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc754gfxyfc0",
+                                    "created": 1755681425725,
+                                    "text": "二重积分的应用"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc754me2ldc0",
+                                            "created": 1755681438673,
+                                            "text": "几何应用"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc754oui7lk0",
+                                                    "created": 1755681444020,
+                                                    "text": "平面区域面积"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc75515h7sg0",
+                                                    "created": 1755681470805,
+                                                    "text": "曲顶柱体体积"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc755h8f50g0",
+                                                    "created": 1755681505811,
+                                                    "text": "空间曲面的面积"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc755nm80bs0",
+                                            "created": 1755681519707,
+                                            "text": "物理应用"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc755r1zo740",
+                                                    "created": 1755681527190,
+                                                    "text": "质心坐标"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc755waedm00",
+                                                    "created": 1755681538583,
+                                                    "text": "转动惯量"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc750ypbnnk0",
+                            "created": 1755681152018,
+                            "text": "第二节：三重积分"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc75691p2wg0",
+                                    "created": 1755681566355,
+                                    "text": "概念和基本性质"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc75blucph40",
+                                            "created": 1755681986030,
+                                            "text": "实际问题"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc75br941200",
+                                                    "created": 1755681997806,
+                                                    "text": "三维物体质量"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc75bvsz2vc0",
+                                            "created": 1755682007714,
+                                            "text": "定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc75bxmhjm80",
+                                            "created": 1755682011675,
+                                            "text": "性质"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc75bykp7xk0",
+                                                    "created": 1755682013744,
+                                                    "text": "关于xOy平面对称(即关于变量z对称)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc75co56i1k0",
+                                                    "created": 1755682069402,
+                                                    "text": "关于yOz平面对称(即关于变量x对称)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc75cot0gxc0",
+                                                    "created": 1755682070843,
+                                                    "text": "关于xOz平面对称(即关于变量y对称)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc756lqe2bk0",
+                                    "created": 1755681593969,
+                                    "text": "计算方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc75dixeir40",
+                                            "created": 1755682136412,
+                                            "text": "直角坐标法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc75dlqdeq80",
+                                                    "created": 1755682142517,
+                                                    "text": "1.切片法"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc75dp4za680",
+                                                    "created": 1755682149931,
+                                                    "text": "2.铅直投影法"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc75dygiqbs0",
+                                            "created": 1755682170220,
+                                            "text": "柱面坐标变换法(即投影平面采用极坐标)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc75eiuhe3s0",
+                                            "created": 1755682214600,
+                                            "text": "球面坐标变换法"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc75fggy5dk0",
+                                    "created": 1755682287792,
+                                    "text": "三重积分的应用"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc75fkqw3880",
+                                            "created": 1755682297100,
+                                            "text": "1.空间几何体质心"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc75fpl8xog0",
+                                            "created": 1755682307643,
+                                            "text": "2.空间几何体的转动惯量"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbvc9tqxkuo0",
+                    "created": 1754482874798,
+                    "text": "第九章：级数",
+                    "progress": 9,
+                    "priority": null,
+                    "resource": [
+                        "不考"
+                    ],
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dbvccfa1egw0",
+                    "created": 1754483078394,
+                    "text": "第十章：空间解析几何",
+                    "expandState": "expand",
+                    "layout": null,
+                    "resource": [
+                        "线切面法"
+                    ]
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbvcdp8ot5s0",
+                            "created": 1754483178444,
+                            "text": "点",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcdqfbzj40",
+                            "created": 1754483181023,
+                            "text": "线",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc04ma63qg00",
+                                    "created": 1754969081818,
+                                    "text": "空间直线"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04mcuudeo0",
+                                            "created": 1754969087667,
+                                            "text": "表达式"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcdvwg6ps0",
+                            "created": 1754483192942,
+                            "text": "面",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dbvcdxlys4w0",
+                            "created": 1754483196661,
+                            "text": "距离",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc04n8qrf9s0",
+                                    "created": 1754969157078,
+                                    "text": "两点之间距离"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc04ngdkwm80",
+                                    "created": 1754969173695,
+                                    "text": "两直线直接距离"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04nrjx0rk0",
+                                            "created": 1754969198023,
+                                            "text": "平行直线距离"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc04nvt7coo0",
+                                            "created": 1754969207291,
+                                            "text": "异面直线距离"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc04ofkilg80",
+                                    "created": 1754969250302,
+                                    "text": "两平行平面距离"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc75nott8pc0",
+                            "created": 1755682932897,
+                            "text": "一：基本概念"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc75ntuurg00",
+                                    "created": 1755682943844,
+                                    "text": "向量"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc75nwpojpc0",
+                                    "created": 1755682950062,
+                                    "text": "向量坐标"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc75nzipjy80",
+                                    "created": 1755682956170,
+                                    "text": "向量的方向角和方向余弦"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc75o7t3sug0",
+                                    "created": 1755682974213,
+                                    "text": "向量在轴(向量)上投影"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc75ofxxrcw0",
+                            "created": 1755682991920,
+                            "text": "二：向量运算"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbvcdcmssts0",
+                    "created": 1754483150999,
+                    "text": "曲面积分",
+                    "layout": null,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbz9rmz2pls0",
+                            "created": 1754882047105,
+                            "text": "第一类曲面积分",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc04kak6y8w0",
+                                    "created": 1754968925941,
+                                    "text": "对曲面的曲面积分"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc04kgfws2o0",
+                                            "created": 1754968938743,
+                                            "text": "物理意义：曲面的质量"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbz9rq0nr3c0",
+                            "created": 1754882053731,
+                            "text": "第二类曲面积分",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc04jr90da80",
+                                    "created": 1754968883906,
+                                    "text": "高斯公式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbvcdaogjkw0",
+                    "created": 1754483146746,
+                    "text": "曲线积分",
+                    "layout": null,
+                    "hyperlink": "https://www.baidu.com/",
+                    "hyperlinkTitle": "百度",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbz9r97wy4g0",
+                            "created": 1754882017164,
+                            "text": "第一类曲线积分(对弧长的曲线积分)",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc04k23hugg0",
+                                    "created": 1754968907518,
+                                    "text": "物理意义：曲线的质量"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbz9rizwr1c0",
+                            "created": 1754882038448,
+                            "text": "第二类曲线积分",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc04jbbr5a80",
+                                    "created": 1754968849244,
+                                    "text": "格林公式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbwog7lbym80",
+                    "created": 1754618788395,
+                    "text": "曲线积分和二重积分联系",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dbwoghaxhgg0",
+                    "created": 1754618809534,
+                    "text": "曲面积分和三重积分连续",
+                    "layout": null
+                },
+                "children": []
             }
         ]
     },
