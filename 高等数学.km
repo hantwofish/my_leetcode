@@ -853,7 +853,7 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -2479,7 +2479,7 @@
                     "id": "dbvccfa1egw0",
                     "created": 1754483078394,
                     "text": "第十章：空间解析几何",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null,
                     "resource": [
                         "线切面法"
@@ -2488,87 +2488,48 @@
                 "children": [
                     {
                         "data": {
-                            "id": "dbvcdp8ot5s0",
-                            "created": 1754483178444,
-                            "text": "点",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dbvcdqfbzj40",
-                            "created": 1754483181023,
-                            "text": "线",
-                            "layout": null,
-                            "expandState": "collapse"
+                            "id": "dc7rluiecw00",
+                            "created": 1755744852957,
+                            "text": "第一节：空间解析几何的理论",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dc04ma63qg00",
-                                    "created": 1754969081818,
-                                    "text": "空间直线"
+                                    "id": "dc75nott8pc0",
+                                    "created": 1755682932897,
+                                    "text": "一：基本概念"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dc04mcuudeo0",
-                                            "created": 1754969087667,
-                                            "text": "表达式"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dbvcdvwg6ps0",
-                            "created": 1754483192942,
-                            "text": "面",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dbvcdxlys4w0",
-                            "created": 1754483196661,
-                            "text": "距离",
-                            "layout": null,
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dc04n8qrf9s0",
-                                    "created": 1754969157078,
-                                    "text": "两点之间距离"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dc04ngdkwm80",
-                                    "created": 1754969173695,
-                                    "text": "两直线直接距离"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dc04nrjx0rk0",
-                                            "created": 1754969198023,
-                                            "text": "平行直线距离"
+                                            "id": "dc75ntuurg00",
+                                            "created": 1755682943844,
+                                            "text": "向量"
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "dc04nvt7coo0",
-                                            "created": 1754969207291,
-                                            "text": "异面直线距离"
+                                            "id": "dc75nwpojpc0",
+                                            "created": 1755682950062,
+                                            "text": "向量坐标"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc75nzipjy80",
+                                            "created": 1755682956170,
+                                            "text": "向量的方向角和方向余弦"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc75o7t3sug0",
+                                            "created": 1755682974213,
+                                            "text": "向量在轴(向量)上投影"
                                         },
                                         "children": []
                                     }
@@ -2576,94 +2537,48 @@
                             },
                             {
                                 "data": {
-                                    "id": "dc04ofkilg80",
-                                    "created": 1754969250302,
-                                    "text": "两平行平面距离"
-                                },
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dc75nott8pc0",
-                            "created": 1755682932897,
-                            "text": "一：基本概念"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dc75ntuurg00",
-                                    "created": 1755682943844,
-                                    "text": "向量"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dc75nwpojpc0",
-                                    "created": 1755682950062,
-                                    "text": "向量坐标"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dc75nzipjy80",
-                                    "created": 1755682956170,
-                                    "text": "向量的方向角和方向余弦"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dc75o7t3sug0",
-                                    "created": 1755682974213,
-                                    "text": "向量在轴(向量)上投影"
-                                },
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dc75ofxxrcw0",
-                            "created": 1755682991920,
-                            "text": "二：向量运算"
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dbvcdcmssts0",
-                    "created": 1754483150999,
-                    "text": "曲面积分",
-                    "layout": null,
-                    "expandState": "expand"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dbz9rmz2pls0",
-                            "created": 1754882047105,
-                            "text": "第一类曲面积分",
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dc04kak6y8w0",
-                                    "created": 1754968925941,
-                                    "text": "对曲面的曲面积分"
+                                    "id": "dc75ofxxrcw0",
+                                    "created": 1755682991920,
+                                    "text": "二：向量运算"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dc04kgfws2o0",
-                                            "created": 1754968938743,
-                                            "text": "物理意义：曲面的质量"
+                                            "id": "dc7rj7nrt5c0",
+                                            "created": 1755744646488,
+                                            "text": "向量加法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7rk2kifkw0",
+                                            "created": 1755744713771,
+                                            "text": "向量减法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7rk5rs17k0",
+                                            "created": 1755744720741,
+                                            "text": "数与向量之积"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7rkiovob40",
+                                            "created": 1755744748864,
+                                            "text": "向量的数量积(点乘)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7rksfciow0",
+                                            "created": 1755744770055,
+                                            "text": "向量的向量积(叉乘)"
                                         },
                                         "children": []
                                     }
@@ -2673,19 +2588,234 @@
                     },
                     {
                         "data": {
-                            "id": "dbz9rq0nr3c0",
-                            "created": 1754882053731,
-                            "text": "第二类曲面积分",
-                            "expandState": "collapse"
+                            "id": "dc7s11jinn40",
+                            "created": 1755746043725,
+                            "text": "第二节：向量的应用"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dc04jr90da80",
-                                    "created": 1754968883906,
-                                    "text": "高斯公式"
+                                    "id": "dc7s19184z40",
+                                    "created": 1755746060033,
+                                    "text": "一：平面"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7s1bq6rog0",
+                                            "created": 1755746065896,
+                                            "text": "1.平面的点法式方程"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s1jpq27k0",
+                                            "created": 1755746083282,
+                                            "text": "2.平面的一般方程"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s1nsjn6o0",
+                                            "created": 1755746092160,
+                                            "text": "3.平面的截距式方程"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s1v93heg0",
+                                            "created": 1755746108398,
+                                            "text": "4.平面的三点式方程"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7s23qbizc0",
+                                    "created": 1755746126854,
+                                    "text": "二：直线"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7s26nlsoo0",
+                                            "created": 1755746133220,
+                                            "text": "1.空间直线的一般方程"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s2muxbq80",
+                                            "created": 1755746168491,
+                                            "text": "2.空间直线的点向式方程"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s2xzmpd40",
+                                            "created": 1755746192720,
+                                            "text": "3.空间直线的参数式方程"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7s35cysw80",
+                                    "created": 1755746208764,
+                                    "text": "三：特殊曲面"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7s3wlfa4o0",
+                                            "created": 1755746268049,
+                                            "text": "旋转曲面",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc7s388f2bc0",
+                                                    "created": 1755746215020,
+                                                    "text": "1.二维空间旋转曲面"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc7s3nabd5s0",
+                                                    "created": 1755746247786,
+                                                    "text": "三维空间旋转曲面"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s3sba4lc0",
+                                            "created": 1755746258728,
+                                            "text": "柱面"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc7s49p67fk0",
+                                                    "created": 1755746296574,
+                                                    "text": "1.母线平行于坐标轴的柱面"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc7s4j8yyi80",
+                                                    "created": 1755746317362,
+                                                    "text": "2.投影柱面"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7s4nkhhyo0",
+                                    "created": 1755746326765,
+                                    "text": "四：距离"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7s4py3b2w0",
+                                            "created": 1755746331941,
+                                            "text": "1.两点之间的距离"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s4vxop2o0",
+                                            "created": 1755746344978,
+                                            "text": "2.点到平面距离"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s67l6y3c0",
+                                            "created": 1755746448708,
+                                            "text": "3.点到直线距离"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s6e3w9hc0",
+                                            "created": 1755746462899,
+                                            "text": "4.两平行平面之间的距离"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s6kk2yag0",
+                                            "created": 1755746476939,
+                                            "text": "5.两异面直线之间距离"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7s72hr8940",
+                                    "created": 1755746515980,
+                                    "text": "五：夹角"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7s76fcteg0",
+                                            "created": 1755746524542,
+                                            "text": "1.两向量之间的夹角"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s7ed808o0",
+                                            "created": 1755746541827,
+                                            "text": "2.两直线之间的夹角"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s7jlr7hk0",
+                                            "created": 1755746553227,
+                                            "text": "3.两平面之间的夹角"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7s81d9mwg0",
+                                            "created": 1755746591896,
+                                            "text": "4.直线与平面之间夹角"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -2693,28 +2823,312 @@
             },
             {
                 "data": {
-                    "id": "dbvcdaogjkw0",
-                    "created": 1754483146746,
-                    "text": "曲线积分",
+                    "id": "dc7s8olgr680",
+                    "created": 1755746642458,
+                    "text": "第十一章：曲线积分与曲面积分",
                     "layout": null,
-                    "hyperlink": "https://www.baidu.com/",
-                    "hyperlinkTitle": "百度",
                     "expandState": "collapse"
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "dbz9r97wy4g0",
-                            "created": 1754882017164,
-                            "text": "第一类曲线积分(对弧长的曲线积分)",
+                            "id": "dc7s8tkbbao0",
+                            "created": 1755746653272,
+                            "text": "第一节：曲线积分",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dc04k23hugg0",
-                                    "created": 1754968907518,
-                                    "text": "物理意义：曲线的质量"
+                                    "id": "dc7s9t0bdvs0",
+                                    "created": 1755746730427,
+                                    "text": "第一类曲线积分(对弧长的曲线积分)",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7sa2wupgg0",
+                                            "created": 1755746751986,
+                                            "text": "曲线段的质量",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7samjc3dc0",
+                                            "created": 1755746794704,
+                                            "text": "对弧长的曲线积分的定义",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7sav6g0gw0",
+                                            "created": 1755746813515,
+                                            "text": "对弧长的曲线积分的基本性质",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7sbtxlmug0",
+                                            "created": 1755746889168,
+                                            "text": "对弧长的曲线积分的计算方法",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc7sc238rw80",
+                                                    "created": 1755746906923,
+                                                    "text": "1.特殊代替法",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc7sc590sp40",
+                                                    "created": 1755746913803,
+                                                    "text": "2.定积分法",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7scf643js0",
+                                    "created": 1755746935395,
+                                    "text": "第二类曲线积分(对坐标的曲线积分)",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7sd2e2w4w0",
+                                            "created": 1755746985943,
+                                            "text": "1.力沿着曲线做功",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7sdnwdsps0",
+                                            "created": 1755747032762,
+                                            "text": "3. 对坐标的曲线积分性质",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7sdvlikuw0",
+                                            "created": 1755747049519,
+                                            "text": "4.二维空间对坐标的曲线积分的计算方法",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc7siq0puc00",
+                                                    "created": 1755747429199,
+                                                    "text": "1.定积分法",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc7sizqx3540",
+                                                    "created": 1755747450374,
+                                                    "text": "2.二重积分法(格林公式)",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc7sjh00ty80",
+                                                    "created": 1755747487930,
+                                                    "text": "3.曲线积分与路径无关的条件",
+                                                    "priority": null,
+                                                    "progress": 7,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7sk4up1aw0",
+                                            "created": 1755747539850,
+                                            "text": "5.三维空间对坐标的曲线积分",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc7skcly9gw0",
+                                                    "created": 1755747556736,
+                                                    "text": "1.定积分法",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc7skgknmm80",
+                                                    "created": 1755747565365,
+                                                    "text": "2.斯托克斯公式",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc7skuxtga80",
+                            "created": 1755747596635,
+                            "text": "第二节:曲面积分",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc7sma24fc00",
+                                    "created": 1755747707912,
+                                    "text": "第一类曲面积分(对面积的曲面积分",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7vobz5x1s0",
+                                            "created": 1755756332144,
+                                            "text": "光滑曲面质量",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7vorqc80o0",
+                                            "created": 1755756366439,
+                                            "text": "对面积的曲面积分的基本性质",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7voz5hxjc0",
+                                            "created": 1755756382593,
+                                            "text": "对面积的曲面积分的计算方法",
+                                            "expandState": "collapse",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc7vp8szync0",
+                                                    "created": 1755756403605,
+                                                    "text": "1.特殊替代法",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc7vpdx4mbk0",
+                                                    "created": 1755756414739,
+                                                    "text": "2.二重积分法",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7vprcuibs0",
+                                    "created": 1755756443988,
+                                    "text": "第二类曲面积分(对坐标的曲面积分)",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7vpyfynps0",
+                                            "created": 1755756459413,
+                                            "text": "1.流量",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7vq1kl0cg0",
+                                            "created": 1755756466223,
+                                            "text": "对坐标曲面积分的性质",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7vqcyi1vk0",
+                                            "created": 1755756491009,
+                                            "text": "对坐标的曲面积分的计算方法",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc7vql3zlwo0",
+                                                    "created": 1755756508755,
+                                                    "text": "1.二重积分法",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc7vqyv1bww0",
+                                                    "created": 1755756538689,
+                                                    "text": "2.高斯公式",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7vr5srk0o0",
+                                    "created": 1755756553789,
+                                    "text": "两类曲面积分之间的关系",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -2722,41 +3136,80 @@
                     },
                     {
                         "data": {
-                            "id": "dbz9rizwr1c0",
-                            "created": 1754882038448,
-                            "text": "第二类曲线积分",
+                            "id": "dc7vrm583mg0",
+                            "created": 1755756589371,
+                            "text": "第三节：场论初步",
                             "layout": null
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dc04jbbr5a80",
-                                    "created": 1754968849244,
-                                    "text": "格林公式"
+                                    "id": "dc7vrqso0ig0",
+                                    "created": 1755756599496,
+                                    "text": "梯度，旋度，散度",
+                                    "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7vry5o57c0",
+                                            "created": 1755756615519,
+                                            "text": "梯度",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7vrz8ghqo0",
+                                            "created": 1755756617865,
+                                            "text": "旋度",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7vs04jos00",
+                                            "created": 1755756619805,
+                                            "text": "散度",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc7vs27z5140",
+                                    "created": 1755756624366,
+                                    "text": "通量和环流量",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc7vs6z5m8w0",
+                                            "created": 1755756634717,
+                                            "text": "通量",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc7vs8lgyg80",
+                                            "created": 1755756638243,
+                                            "text": "环流量",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
                 ]
-            },
-            {
-                "data": {
-                    "id": "dbwog7lbym80",
-                    "created": 1754618788395,
-                    "text": "曲线积分和二重积分联系",
-                    "layout": null
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "dbwoghaxhgg0",
-                    "created": 1754618809534,
-                    "text": "曲面积分和三重积分连续",
-                    "layout": null
-                },
-                "children": []
             }
         ]
     },
