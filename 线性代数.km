@@ -2693,7 +2693,7 @@
                     "id": "dc18wi6vwnk0",
                     "created": 1755082727317,
                     "text": "第六章：二次型",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -2701,10 +2701,280 @@
                         "data": {
                             "id": "dc18wszyb1k0",
                             "created": 1755082750843,
-                            "text": "正定矩阵",
-                            "layout": null
+                            "text": "第一节：二次型的基本概念及其标准型",
+                            "layout": null,
+                            "expandState": "collapse"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc8qh28uo340",
+                                    "created": 1755843216820,
+                                    "text": "一：基本概念"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8qhv4zvh40",
+                                            "created": 1755843279714,
+                                            "text": "1.二次型"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qhz8f7y80",
+                                            "created": 1755843288628,
+                                            "text": "2.标准二次型"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qiom3vls0",
+                                            "created": 1755843343875,
+                                            "text": "3.二次型的标准化"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qjredl0g0",
+                                            "created": 1755843428302,
+                                            "text": "4.规范二次型"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qjvwzflc0",
+                                            "created": 1755843438134,
+                                            "text": "5.可逆的坐标变换"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8ql9518u80",
+                                            "created": 1755843545284,
+                                            "text": "6.矩阵合同",
+                                            "background": "#73a1bf"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8qnjjxul40",
+                                                    "created": 1755843724681,
+                                                    "text": "defs"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc8qnmhhzs00",
+                                                    "created": 1755843731064,
+                                                    "text": "合同关系"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dc8qnq3xtgo0",
+                                                            "created": 1755843738951,
+                                                            "text": "反身性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dc8qns86pfc0",
+                                                            "created": 1755843743561,
+                                                            "text": "对称性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dc8qntyis680",
+                                                            "created": 1755843747331,
+                                                            "text": "传递性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8qo2xck8g0",
+                                    "created": 1755843766851,
+                                    "text": "二：基本定理"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8qo8eioww0",
+                                            "created": 1755843778773,
+                                            "text": "定理一："
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8qogw4weg0",
+                                                    "created": 1755843797252,
+                                                    "text": "标准形定理"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qop5xfk80",
+                                            "created": 1755843815259,
+                                            "text": "定理二："
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8qoqvevhs0",
+                                                    "created": 1755843818976,
+                                                    "text": "惯性定理"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qou8fbtc0",
+                                            "created": 1755843826294,
+                                            "text": "定理三："
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8qovx4gqw0",
+                                                    "created": 1755843829964,
+                                                    "text": "矩阵合同定理"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8qpd8owjs0",
+                                    "created": 1755843867669,
+                                    "text": "三：二次型标准化方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8qpmbifa00",
+                                            "created": 1755843887430,
+                                            "text": "1.配方法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qppd6mm00",
+                                            "created": 1755843894062,
+                                            "text": "2.正交变换法"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc8qpyuwtp40",
+                            "created": 1755843914724,
+                            "text": "第二节：正定矩阵与正定二次型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc8qq56xszc0",
+                                    "created": 1755843928512,
+                                    "text": "一：基本概念"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8qqbex3e00",
+                                            "created": 1755843942056,
+                                            "text": "正定二次型"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8qqoi7t8g0",
+                                    "created": 1755843970553,
+                                    "text": "二：正定二次型的判别"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8qqx7yl9c0",
+                                            "created": 1755843989524,
+                                            "text": "定理一"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qrcos11c0",
+                                            "created": 1755844023193,
+                                            "text": "定理二"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qre5xsb40",
+                                            "created": 1755844026407,
+                                            "text": "定理三"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qrfjl25k0",
+                                            "created": 1755844029409,
+                                            "text": "定理四"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qrh0w34w0",
+                                            "created": 1755844032632,
+                                            "text": "定理五"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8qrjm46i00",
+                                            "created": 1755844038269,
+                                            "text": "定理六"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
