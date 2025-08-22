@@ -1421,7 +1421,7 @@
                     "id": "dc1deq4l4ao0",
                     "created": 1755095439587,
                     "text": "第三章：向量",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -1677,14 +1677,16 @@
                                 "data": {
                                     "id": "dc7zukj4de00",
                                     "created": 1755768105390,
-                                    "text": "三：向量组相关性与线性表示的性质"
+                                    "text": "三：向量组相关性与线性表示的性质",
+                                    "priority": 1
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dc7zv0tof7k0",
                                             "created": 1755768140857,
-                                            "text": "性质1："
+                                            "text": "性质1：",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1692,6 +1694,107 @@
                                                     "id": "dc7zv2lk5k00",
                                                     "created": 1755768144719,
                                                     "text": "线性相关 《==》至少有一个向量可由其余向量线性表示"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc3o6owz6zs0",
+                                                    "created": 1755328962159,
+                                                    "text": "两向量相关 ==>  两向量成比例",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8kg29gi7s0",
+                                            "created": 1755826211833,
+                                            "text": "性质2："
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8kg532czc0",
+                                                    "created": 1755826217977,
+                                                    "text": "xxx"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8kgj8ip140",
+                                            "created": 1755826248782,
+                                            "text": "性质3：",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8kgnm25uw0",
+                                                    "created": 1755826258308,
+                                                    "text": "topic"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc3o5rxiqc80",
+                                                    "created": 1755328890358,
+                                                    "text": "全组无关 ==>  部分无关；部分相关 ==> 全组相关 ",
+                                                    "layout": null,
+                                                    "priority": 1,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8kgzft4r40",
+                                            "created": 1755826284051,
+                                            "text": "性质5：",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc3oacnjxrs0",
+                                                    "created": 1755329248925,
+                                                    "text": "n个n 维向量线性无关 ==> 向量组的秩为 n   ==> 组成的n阶行列式 不为0",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8khdvj6540",
+                                            "created": 1755826315477,
+                                            "text": "性质6："
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8khz677ow0",
+                                            "created": 1755826361834,
+                                            "text": "性质7：",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc3ofri13cg0",
+                                                    "created": 1755329673063,
+                                                    "text": "n个向量增加列(加的越多，可能是垃圾向量概率越大)提高相关性，增加行(增加约束条件)提高无关性",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -1707,42 +1810,148 @@
                                     "expandState": "expand",
                                     "layout": null
                                 },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc1dk0yn7l40",
+                            "created": 1755095854993,
+                            "text": "第三节：向量理论二：（向量组等价，极大线性无关组与向量组秩）",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc8kjwx0zjc0",
+                                    "created": 1755826513654,
+                                    "text": "一：基本概念",
+                                    "expandState": "expand"
+                                },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dc3o5rxiqc80",
-                                            "created": 1755328890358,
-                                            "text": "全组无关 ==>  部分无关；部分相关 ==> 全组相关 ",
-                                            "layout": null,
-                                            "priority": 1,
+                                            "id": "dc8kk3z7okw0",
+                                            "created": 1755826529024,
+                                            "text": "1.向量组等价"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8kkklrtr40",
+                                                    "created": 1755826565217,
+                                                    "text": "A组中的向量可由B组中的向量表示且B组中向量也可由A组中的向量进行表示"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc1dkufv6h40",
+                                            "created": 1755095919161,
+                                            "text": "极大线性无关组与向量组的秩",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8km0s9kgo0",
+                                                    "created": 1755826678802,
+                                                    "text": "：线性无关的向量的个数"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc1dmx67w9s0",
+                                    "created": 1755096081837,
+                                    "text": "二：向量组秩的性质",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8kn3bmp600",
+                                            "created": 1755826762691,
+                                            "text": "性质1：",
                                             "expandState": "expand"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc1dninutfs0",
+                                                    "created": 1755096128616,
+                                                    "text": "三秩相等(矩阵的秩==矩阵行秩==矩阵列秩)",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
-                                            "id": "dc3o6owz6zs0",
-                                            "created": 1755328962159,
-                                            "text": "两向量相关 ==>  两向量成比例",
+                                            "id": "dc1dp3cmirk0",
+                                            "created": 1755096252013,
+                                            "text": "性质2：",
                                             "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8knsdesuo0",
+                                                    "created": 1755826817218,
+                                                    "text": "向量组A可由向量组B线性表示《==》 向量组A的秩 不超过向量组B 的秩"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc1dp69iarc0",
+                                            "created": 1755096258355,
+                                            "text": "性质3：",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8kp7kxjmo0",
+                                                    "created": 1755826928688,
+                                                    "text": "等价的向量组秩相等，反之不对"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8kq7lr3yw0",
+                                    "created": 1755827007102,
+                                    "text": "附注：矩阵，向量，方程组之间关系"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8lczgms5k0",
+                                            "created": 1755828791754,
+                                            "text": "1.齐次线性方程组理论中矩阵，向量，齐次方程组之间的关系"
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "dc3oacnjxrs0",
-                                            "created": 1755329248925,
-                                            "text": "n个n 维向量线性无关 ==> 向量组的秩为 n   ==> 组成的n阶行列式 不为0",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dc3ofri13cg0",
-                                            "created": 1755329673063,
-                                            "text": "n个向量增加列(加的越多，可能是垃圾向量概率越大)提高相关性，增加行(增加约束条件)提高无关性",
-                                            "layout": null
+                                            "id": "dc8ldtpgwtc0",
+                                            "created": 1755828857592,
+                                            "text": "2.非齐次线性方程组理论中的矩阵，向量，非齐次方程组之间的关系"
                                         },
                                         "children": []
                                     }
@@ -1752,35 +1961,47 @@
                     },
                     {
                         "data": {
-                            "id": "dc1dk0yn7l40",
-                            "created": 1755095854993,
-                            "text": "向量理论二：（向量组等价，极大线性无关组与向量组秩）",
-                            "layout": null
+                            "id": "dc8lenujwyw0",
+                            "created": 1755828923203,
+                            "text": "第四节：n维向量空间"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dc1dkjhnvpk0",
-                                    "created": 1755095895325,
-                                    "text": "defs",
-                                    "layout": null
+                                    "id": "dc8lf3bdmg80",
+                                    "created": 1755828956872,
+                                    "text": "一：基本概念"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dc1dko8fl9k0",
-                                            "created": 1755095905651,
-                                            "text": "向量组等价",
-                                            "layout": null
+                                            "id": "dc8lf85q6g00",
+                                            "created": 1755828967414,
+                                            "text": "n维向量空间"
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "dc1dkufv6h40",
-                                            "created": 1755095919161,
-                                            "text": "极大线性无关组与向量组的秩",
-                                            "layout": null
+                                            "id": "dc8lfda9hls0",
+                                            "created": 1755828978572,
+                                            "text": "基"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8lfh7elts0",
+                                            "created": 1755828987107,
+                                            "text": "向量在基下的坐标"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8lfnp57hc0",
+                                            "created": 1755829001240,
+                                            "text": "过渡矩阵"
                                         },
                                         "children": []
                                     }
@@ -1788,40 +2009,11 @@
                             },
                             {
                                 "data": {
-                                    "id": "dc1dmx67w9s0",
-                                    "created": 1755096081837,
-                                    "text": "性质",
-                                    "layout": null
+                                    "id": "dc8lfwkrmz40",
+                                    "created": 1755829020566,
+                                    "text": "二：基本性质"
                                 },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dc1dninutfs0",
-                                            "created": 1755096128616,
-                                            "text": "三秩相等(矩阵的秩==矩阵行秩==矩阵列秩)",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dc1dp3cmirk0",
-                                            "created": 1755096252013,
-                                            "text": "2.",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dc1dp69iarc0",
-                                            "created": 1755096258355,
-                                            "text": "3.",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
+                                "children": []
                             }
                         ]
                     }
@@ -1831,97 +2023,53 @@
                 "data": {
                     "id": "dbvc8wnr5og0",
                     "created": 1754482802772,
-                    "text": "线性方程组",
+                    "text": "第四章：线性方程组",
                     "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "dc192gncgls0",
-                            "created": 1755083194144,
-                            "text": "解的结构",
-                            "layout": null
+                            "id": "dc8lkuxdxk80",
+                            "created": 1755829408797,
+                            "text": "一：线性方程组的基本概念与表达形式"
                         },
                         "children": []
                     },
                     {
                         "data": {
-                            "id": "dc1dpj27ao00",
-                            "created": 1755096286211,
-                            "text": "解的基本定理",
-                            "layout": null
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dc1dt63mdi80",
-                            "created": 1755096571456,
-                            "text": "通解",
-                            "layout": null
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dc1du84bl4w0",
-                    "created": 1755096654216,
-                    "text": "特征值与特征向量",
-                    "expandState": "collapse",
-                    "layout": null
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dc1dutkd7b40",
-                            "created": 1755096700898,
-                            "text": "defs",
-                            "layout": null
+                            "id": "dc8lls7ajgg0",
+                            "created": 1755829481229,
+                            "text": "二：线性方程组解的基本定理"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dc1dv7zjuv40",
-                                    "created": 1755096732291,
-                                    "text": "特征值与特征方程",
-                                    "layout": null
+                                    "id": "dc8lmogwznk0",
+                                    "created": 1755829551468,
+                                    "text": "定理1："
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dc62ddqb1400",
-                                            "created": 1755572101813,
-                                            "text": "定义",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dc62dfiaiqo0",
-                                            "created": 1755572105681,
-                                            "text": "性质",
-                                            "layout": null
+                                            "id": "dc8lms7vads0",
+                                            "created": 1755829559628,
+                                            "text": "设A为m行n列的矩阵"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "dc68raa0e540",
-                                                    "created": 1755590118055,
-                                                    "text": "特征值之和",
-                                                    "layout": null
+                                                    "id": "dc8ln4438cw0",
+                                                    "created": 1755829585521,
+                                                    "text": "齐次方程只有零解 《=》r(A)=n"
                                                 },
                                                 "children": []
                                             },
                                             {
                                                 "data": {
-                                                    "id": "dc68rf6qrso0",
-                                                    "created": 1755590128741,
-                                                    "text": "特征值之积",
-                                                    "layout": null
+                                                    "id": "dc8lngc7gag0",
+                                                    "created": 1755829612135,
+                                                    "text": "非齐有非零解(或有无数解) <==> r(A) < n"
                                                 },
                                                 "children": []
                                             }
@@ -1931,53 +2079,48 @@
                             },
                             {
                                 "data": {
-                                    "id": "dc1dvmh43j40",
-                                    "created": 1755096763828,
-                                    "text": "矩阵相似",
-                                    "layout": null
+                                    "id": "dc8loiwo9vk0",
+                                    "created": 1755829696089,
+                                    "text": "定理2："
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dc62di46jts0",
-                                            "created": 1755572111359,
-                                            "text": "定义",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dc62djnlqwg0",
-                                            "created": 1755572114710,
-                                            "text": "性质",
-                                            "layout": null
+                                            "id": "dc8lom90zy80",
+                                            "created": 1755829703366,
+                                            "text": "非齐次方程"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "dc68sfd5j9k0",
-                                                    "created": 1755590207493,
-                                                    "text": "转置后是否相似",
-                                                    "layout": null
+                                                    "id": "dc8lotf45ew0",
+                                                    "created": 1755829718972,
+                                                    "text": "有解"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dc8loyay5i80",
+                                                            "created": 1755829729604,
+                                                            "text": "唯一解"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dc8lp1ild1c0",
+                                                            "created": 1755829736597,
+                                                            "text": "无数解"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "data": {
-                                                    "id": "dc68sv06fgg0",
-                                                    "created": 1755590241537,
-                                                    "text": "逆阵是否相似",
-                                                    "layout": null
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "dc6x52porbs0",
-                                                    "created": 1755658905324,
-                                                    "text": "AB相似，特征值相同，特性向量不同",
-                                                    "layout": null
+                                                    "id": "dc8lowp9mzc0",
+                                                    "created": 1755829726116,
+                                                    "text": "无解"
                                                 },
                                                 "children": []
                                             }
@@ -1989,10 +2132,318 @@
                     },
                     {
                         "data": {
+                            "id": "dc8lt2oreko0",
+                            "created": 1755830052603,
+                            "text": "三：线性方程组解的结构"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dc8lxr7jo3k0",
+                            "created": 1755830419438,
+                            "text": "四：线性方程组的通解"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc8lxxrdhls0",
+                                    "created": 1755830433698,
+                                    "text": "1.齐次线性方程组AX=0的基础解系与通解"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8lzerbr880",
+                                    "created": 1755830549064,
+                                    "text": "2.非齐次线性方程组AX=b的通解"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8m07zrhio0",
+                                            "created": 1755830612701,
+                                            "text": "AX=0 的通解+AX=b的一个特解"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc8m0yzui740",
+                            "created": 1755830671479,
+                            "text": "五：方程组解的理论延伸"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc8m208wlx40",
+                                    "created": 1755830752568,
+                                    "text": "定理1："
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8m22rnreg0",
+                                            "created": 1755830758055,
+                                            "text": "设A是m行n列矩阵，B是n行s列矩阵，若AB=0，则B的列向量组为方程组AX=0 的解"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8m6m4xd3k0",
+                                    "created": 1755831113673,
+                                    "text": "定理2："
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8m6nrusfk0",
+                                            "created": 1755831117236,
+                                            "text": "设方程组AX=0 与BX=0 为同解方程组，则r(A)=r(B), 反之不对"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8m7728uc80",
+                                    "created": 1755831159223,
+                                    "text": "定理3："
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8m7q8tbhk0",
+                                            "created": 1755831200980,
+                                            "text": "设方程组AX=0的解为BX=0的解，则r(A) 大于等于r(B); A的基础解析个数小于等于B的基础解析个数，所以秩大"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8m9f3rcsw0",
+                                    "created": 1755831333458,
+                                    "text": "定理4："
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8m9gp7em00",
+                                    "created": 1755831336931,
+                                    "text": "定理5："
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dc1du84bl4w0",
+                    "created": 1755096654216,
+                    "text": "第五章：特征值与特征向量",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dc8magsy8gw0",
+                            "created": 1755831415522,
+                            "text": "第一节",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc1dutkd7b40",
+                                    "created": 1755096700898,
+                                    "text": "基本概念",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc1dv7zjuv40",
+                                            "created": 1755096732291,
+                                            "text": "特征值与特征向量",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc62ddqb1400",
+                                                    "created": 1755572101813,
+                                                    "text": "定义",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8mph0t7lc0",
+                                            "created": 1755832591460,
+                                            "text": "特征方程"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8mq3sv4080",
+                                                    "created": 1755832641045,
+                                                    "text": "矩阵的迹：记作 tr(A): 矩阵对角线元素之和"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc1dvmh43j40",
+                                            "created": 1755096763828,
+                                            "text": "3.矩阵相似",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc62di46jts0",
+                                                    "created": 1755572111359,
+                                                    "text": "定义",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc8mrqy9xkw0",
+                                                    "created": 1755832769802,
+                                                    "text": "相似对角化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc62djnlqwg0",
+                                                    "created": 1755572114710,
+                                                    "text": "性质",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dc68sfd5j9k0",
+                                                            "created": 1755590207493,
+                                                            "text": "转置后是否相似",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dc8ms3nw0680",
+                                                            "created": 1755832797472,
+                                                            "text": "1.矩阵相似是一种等价关系"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dc8mte8ngf40",
+                                                                    "created": 1755832898860,
+                                                                    "text": "A~A"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "dc8mv9jfl340",
+                                                                    "created": 1755833045356,
+                                                                    "text": "若A~B,则B~A"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "dc8mwnl89sw0",
+                                                                    "created": 1755833154304,
+                                                                    "text": "若A~B,B~C,则A~C"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dc8mzk6ygq00",
+                                                            "created": 1755833382003,
+                                                            "text": "2.设A~B"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dc68sv06fgg0",
+                                                            "created": 1755590241537,
+                                                            "text": "逆阵是否相似",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dc6x52porbs0",
+                                                            "created": 1755658905324,
+                                                            "text": "AB相似，特征值相同，特性向量不同",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n082t1k00",
+                                            "created": 1755833433995,
+                                            "text": "4.施密特正交化"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n0l3lpow0",
+                                            "created": 1755833462341,
+                                            "text": "5.正交矩阵"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
                             "id": "dc1dv3qy4l40",
                             "created": 1755096723064,
-                            "text": "性质",
-                            "layout": null
+                            "text": "第二节：特征值与特征向量的性质",
+                            "layout": null,
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -2002,7 +2453,74 @@
                                     "text": "一般性质",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8n2rm8ifs0",
+                                            "created": 1755833633257,
+                                            "text": "定理1",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8n1qqgqt40",
+                                                    "created": 1755833552973,
+                                                    "text": "特征值之和=tr(A)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc8n1yb7hv40",
+                                                    "created": 1755833569463,
+                                                    "text": "特征值之积=行列式的值"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n2u1kaow0",
+                                            "created": 1755833638537,
+                                            "text": "定理2"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n2w5jro00",
+                                            "created": 1755833643132,
+                                            "text": "定理3"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n2xiw6ow0",
+                                            "created": 1755833646116,
+                                            "text": "定理4"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n2yrbv4w0",
+                                            "created": 1755833648802,
+                                            "text": "定理5"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n30x519k0",
+                                            "created": 1755833653507,
+                                            "text": "定理6"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -2011,7 +2529,67 @@
                                     "text": "对称阵(转置等于原矩阵)",
                                     "layout": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc8n3pzsosg0",
+                                            "created": 1755833708088,
+                                            "text": "定理1"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8n3rw0vw00",
+                                                    "created": 1755833712213,
+                                                    "text": "实对称阵特征值都是实数"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc8n41lxao80",
+                                                    "created": 1755833733370,
+                                                    "text": "topic"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n42my00w0",
+                                            "created": 1755833735609,
+                                            "text": "定理2"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8n452n5540",
+                                                    "created": 1755833740911,
+                                                    "text": "实对称阵不同特征值对应的特征向量正交"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dc8n4hhnc280",
+                                            "created": 1755833767940,
+                                            "text": "定理3"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc8n4knyyao0",
+                                                    "created": 1755833774853,
+                                                    "text": "实对称阵一定可以相似对角化"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -2082,6 +2660,31 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "dc8n4wi7p340",
+                            "created": 1755833800626,
+                            "text": "第三节：矩阵对角化理论"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dc8n5m71sww0",
+                                    "created": 1755833856547,
+                                    "text": "一：一般矩阵的相似对角化"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dc8n60ceya80",
+                                    "created": 1755833887347,
+                                    "text": "二：实对称阵相似对角化过程"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -2089,7 +2692,7 @@
                 "data": {
                     "id": "dc18wi6vwnk0",
                     "created": 1755082727317,
-                    "text": "二次型",
+                    "text": "第六章：二次型",
                     "expandState": "expand",
                     "layout": null
                 },
