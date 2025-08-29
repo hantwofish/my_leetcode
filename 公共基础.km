@@ -30,25 +30,141 @@
                             },
                             {
                                 "data": {
-                                    "id": "dcejmnhj1go0",
-                                    "created": 1756433266849,
-                                    "text": "矛盾规律"
+                                    "id": "dcek0xo7e0o0",
+                                    "created": 1756434386119,
+                                    "text": "物质决定意识，意识对物质具有反作用"
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
-                                    "id": "dcejmy64ff40",
-                                    "created": 1756433290104,
-                                    "text": "量变质变规律"
+                                    "id": "dcejxmh5rk00",
+                                    "created": 1756434126656,
+                                    "text": "三大规律",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcejmnhj1go0",
+                                            "created": 1756433266849,
+                                            "text": "对立统一(矛盾)规律"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcejmy64ff40",
+                                            "created": 1756433290104,
+                                            "text": "量变质变规律"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcejnafrylk0",
+                                            "created": 1756433316809,
+                                            "text": "否定之否定规律"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcejzyw2aig0",
+                                    "created": 1756434310406,
+                                    "text": "两大特征"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcek03735xs0",
+                                            "created": 1756434319780,
+                                            "text": "事物是普遍联系的"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcek0h7xhuo0",
+                                            "created": 1756434350306,
+                                            "text": "事物的变化发展"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcejyf4b1p40",
+                                    "created": 1756434189005,
+                                    "text": "五大范畴"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcejyjaenhc0",
+                                            "created": 1756434198081,
+                                            "text": "内容与形式"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcejyrmideo0",
+                                            "created": 1756434216227,
+                                            "text": "本质与现象"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcejyw0om8o0",
+                                            "created": 1756434225791,
+                                            "text": "原因与结果"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcejz8jf6xs0",
+                                            "created": 1756434253046,
+                                            "text": "必然性与偶然性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcejzci4cco0",
+                                            "created": 1756434261674,
+                                            "text": "现实与可能"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcek1z1fjns0",
+                                    "created": 1756434467459,
+                                    "text": "生产力决定生产关系"
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
-                                    "id": "dcejnafrylk0",
-                                    "created": 1756433316809,
-                                    "text": "否定之否定规律"
+                                    "id": "dcek2bahq4g0",
+                                    "created": 1756434494129,
+                                    "text": "经济基础决定上层建筑"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcek2oiz1sw0",
+                                    "created": 1756434522940,
+                                    "text": "旧事物必将消亡，新事物必将产生()"
                                 },
                                 "children": []
                             }
