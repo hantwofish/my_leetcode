@@ -702,14 +702,17 @@
                 "data": {
                     "id": "dcesbsp2sls0",
                     "created": 1756457806173,
-                    "text": "第四章：唯物史观"
+                    "text": "第四章：唯物史观",
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dcesbxp140o0",
                             "created": 1756457817054,
-                            "text": "一：社会基本矛盾及其运动规律"
+                            "text": "一：社会基本矛盾及其运动规律",
+                            "layout": null
                         },
                         "children": []
                     },
@@ -717,14 +720,16 @@
                         "data": {
                             "id": "dcescarroww0",
                             "created": 1756457845517,
-                            "text": "二：社会历史发展的动力"
+                            "text": "二：社会历史发展的动力",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dcesf2p4pb40",
                                     "created": 1756458063036,
-                                    "text": "社会基本矛盾是社会发展的第一动力"
+                                    "text": "社会基本矛盾是社会发展的第一动力",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -732,7 +737,8 @@
                                 "data": {
                                     "id": "dcesfjc1ayg0",
                                     "created": 1756458099250,
-                                    "text": "阶级斗争--第二动力"
+                                    "text": "阶级斗争--第二动力",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -740,7 +746,8 @@
                                 "data": {
                                     "id": "dcesfq4787c0",
                                     "created": 1756458114013,
-                                    "text": "社会革命--第三动力"
+                                    "text": "社会革命--第三动力",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -748,7 +755,8 @@
                                 "data": {
                                     "id": "dcesfx4h7uw0",
                                     "created": 1756458129268,
-                                    "text": "改革--第四动力"
+                                    "text": "改革--第四动力",
+                                    "layout": null
                                 },
                                 "children": []
                             },
@@ -756,7 +764,8 @@
                                 "data": {
                                     "id": "dcesg2fbm940",
                                     "created": 1756458140807,
-                                    "text": "科学技术--第五动力"
+                                    "text": "科学技术--第五动力",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -766,7 +775,8 @@
                         "data": {
                             "id": "dcescp4g55s0",
                             "created": 1756457876759,
-                            "text": "三：人名群众在历史发展中的作用"
+                            "text": "三：人名群众在历史发展中的作用",
+                            "layout": null
                         },
                         "children": []
                     }
@@ -777,32 +787,32 @@
                     "id": "dcer3u2ua5k0",
                     "created": 1756454361158,
                     "text": "第五章：资本主义的本质及规律",
-                    "layout_right_offset": {
-                        "x": -31.000002026557866,
-                        "y": 34.99999947845939
-                    },
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "layout": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dcer86uw0js0",
                             "created": 1756454702432,
-                            "text": "一：商品经济和价值规律"
+                            "text": "一：商品经济和价值规律",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dcer8dqyewo0",
                                     "created": 1756454717432,
-                                    "text": "商品二因素"
+                                    "text": "商品二因素",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dcer8n0f2zk0",
                                             "created": 1756454737595,
-                                            "text": "价值"
+                                            "text": "价值",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -810,7 +820,8 @@
                                         "data": {
                                             "id": "dcer8pjrefk0",
                                             "created": 1756454743118,
-                                            "text": "使用介值"
+                                            "text": "使用介值",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -820,14 +831,16 @@
                                 "data": {
                                     "id": "dcer8rkupz40",
                                     "created": 1756454747538,
-                                    "text": "劳动二重性"
+                                    "text": "劳动二重性",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dcer8wibz2o0",
                                             "created": 1756454758269,
-                                            "text": "具体劳动--形成商品的使用价值"
+                                            "text": "具体劳动--形成商品的使用价值",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -835,7 +848,8 @@
                                         "data": {
                                             "id": "dcer99dh9i80",
                                             "created": 1756454786274,
-                                            "text": "抽象劳动--形成商品的价值实体"
+                                            "text": "抽象劳动--形成商品的价值实体",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -843,7 +857,8 @@
                                         "data": {
                                             "id": "dcer9iwwo800",
                                             "created": 1756454807040,
-                                            "text": "任何劳动都包含具体劳动和抽象劳动两方面"
+                                            "text": "任何劳动都包含具体劳动和抽象劳动两方面",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -853,14 +868,16 @@
                                 "data": {
                                     "id": "dcer9uzsjao0",
                                     "created": 1756454833336,
-                                    "text": "价值如何衡量"
+                                    "text": "价值如何衡量",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dcer9zs6gig0",
                                             "created": 1756454843759,
-                                            "text": "决定商品价值量的是 社会必要劳动时间"
+                                            "text": "决定商品价值量的是 社会必要劳动时间",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -870,14 +887,16 @@
                                 "data": {
                                     "id": "dcerag3kh1k0",
                                     "created": 1756454879277,
-                                    "text": "货币的基本职能"
+                                    "text": "货币的基本职能",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dceramgb7xc0",
                                             "created": 1756454893108,
-                                            "text": "价值尺度"
+                                            "text": "价值尺度",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -885,7 +904,8 @@
                                         "data": {
                                             "id": "dceraptmueo0",
                                             "created": 1756454900444,
-                                            "text": "流通手段"
+                                            "text": "流通手段",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -893,7 +913,8 @@
                                         "data": {
                                             "id": "dceratt9fv40",
                                             "created": 1756454909128,
-                                            "text": "支付手段"
+                                            "text": "支付手段",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -905,21 +926,24 @@
                         "data": {
                             "id": "dcerb9wshvs0",
                             "created": 1756454944170,
-                            "text": "资本主义经济制度的本质"
+                            "text": "资本主义经济制度的本质",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dcerbj3qedc0",
                                     "created": 1756454964181,
-                                    "text": "资本原始积累的途径："
+                                    "text": "资本原始积累的途径：",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dcerbrromu80",
                                             "created": 1756454983043,
-                                            "text": "暴力手段剥夺农民土地，货币资源"
+                                            "text": "暴力手段剥夺农民土地，货币资源",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -929,7 +953,8 @@
                                 "data": {
                                     "id": "dcerd2kno5c0",
                                     "created": 1756455084927,
-                                    "text": "货币转化成资本的前提：劳动力成为商品"
+                                    "text": "货币转化成资本的前提：劳动力成为商品",
+                                    "layout": null
                                 },
                                 "children": []
                             }
@@ -942,36 +967,649 @@
                     "id": "dcejixhovl40",
                     "created": 1756432975171,
                     "text": "毛泽东思想",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcewuiz6ylk0",
+                            "created": 1756470558375,
+                            "text": "毛泽东思想",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcewm7ibz4w0",
+                                    "created": 1756469906498,
+                                    "text": "形成与发展过程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcewmakwnbc0",
+                                            "created": 1756469913184,
+                                            "text": "萌芽阶段"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcewnvb0a1c0",
+                                                    "created": 1756470036662,
+                                                    "text": "中国社会各阶级的分析"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewo41xrtc0",
+                                                    "created": 1756470055704,
+                                                    "text": "国民革命与农民运动"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewoauxidc0",
+                                                    "created": 1756470070518,
+                                                    "text": "湖南农民运动考察报告"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcewmdsnmqo0",
+                                            "created": 1756469920183,
+                                            "text": "形成阶段"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcewoi4nzqw0",
+                                                    "created": 1756470086344,
+                                                    "text": "中国红色政权为什么能够存在"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewosphc280",
+                                                    "created": 1756470109371,
+                                                    "text": "星星之火可以燎原"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewovd2qe00",
+                                                    "created": 1756470115151,
+                                                    "text": "反对本本主义"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcewmgykfhk0",
+                                            "created": 1756469927070,
+                                            "text": "成熟阶段"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcewp3rwcww0",
+                                                    "created": 1756470133462,
+                                                    "text": "论新阶段(六届六中全会上的报告)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewppjcf340",
+                                                    "created": 1756470180834,
+                                                    "text": "共产党人发刊词"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcewslayt3c0",
+                                                            "created": 1756470406712,
+                                                            "text": "提出三大法宝(统一战线，武装斗争，党的建设)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewpwuzbyw0",
+                                                    "created": 1756470196775,
+                                                    "text": "中国革命和中国共产党"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewq37va6o0",
+                                                    "created": 1756470210615,
+                                                    "text": "新民主主义论"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcewmnk26jk0",
+                                            "created": 1756469941431,
+                                            "text": "继续发展阶段"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcewqc9lqw00",
+                                                    "created": 1756470230311,
+                                                    "text": "目前形式和我们的任务"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewrv2jmsw0",
+                                                    "created": 1756470349607,
+                                                    "text": "在晋绥干部会议上的讲话"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcews3iiouw0",
+                                                    "created": 1756470367987,
+                                                    "text": "论十大关系"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcewko1jvkw0",
+                                    "created": 1756469785760,
+                                    "text": "产生背景"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcewla8nwgw0",
+                                            "created": 1756469834079,
+                                            "text": "时代背景"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcewlpvitxs0",
+                                            "created": 1756469868113,
+                                            "text": "物质基础"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcewuucy31c0",
+                            "created": 1756470583151,
+                            "text": "新民主主义革命理论"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcewv0mwkdk0",
+                                    "created": 1756470596814,
+                                    "text": "新民主主义革命：是指在帝国主义和无产阶级革命时代，殖民地半殖民地国家中的无产阶级领导的 资产阶级民主革命"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcewx77ps800",
+                                    "created": 1756470767862,
+                                    "text": "新民主主义革命：是无产阶级领导的，人民大众的，反帝反封建反官僚资本主义饿革命"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "data": {
                     "id": "dcejj3fyu000",
                     "created": 1756432988126,
                     "text": "邓小平理论",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcex6kmopb40",
+                            "created": 1756471502342,
+                            "text": "形成"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcex6ol7d480",
+                                    "created": 1756471510960,
+                                    "text": "1978.12 十一届三中全会"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcex6uz2icg0",
+                                            "created": 1756471524859,
+                                            "text": "重新确立解放思想，实事求是的思想路线，确定把全党工作的重点转移到社会主义建设上来"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcex97a7hyw0",
+                                    "created": 1756471708382,
+                                    "text": "1984 十二届三中全会"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcex9fs832o0",
+                                            "created": 1756471726886,
+                                            "text": "<关于经济体制改革的决定>"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcex9s877zc0",
+                                                    "created": 1756471753973,
+                                                    "text": "提出社会主义经济是在公有制基础上的有计划的商品经济"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexanpjp1k0",
+                                    "created": 1756471822502,
+                                    "text": "1987 十三大"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexau8sku80",
+                                            "created": 1756471836727,
+                                            "text": "我国社会主义初级阶段理论"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexb52tnvk0",
+                                                    "created": 1756471860311,
+                                                    "text": "基本路线"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcexbcf19eg0",
+                                                            "created": 1756471876286,
+                                                            "text": "一个中心两个基本点"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexbwblxh40",
+                                    "created": 1756471919615,
+                                    "text": "1992 南方谈话"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexbzerkb40",
+                                            "created": 1756471926336,
+                                            "text": "改革开放，社会主义现代化建设进入新阶段"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexcdfcd400",
+                                                    "created": 1756471956846,
+                                                    "text": "邓小平理论走向成熟"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexdhelgv40",
+                                    "created": 1756472043872,
+                                    "text": "1992 十四大 "
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexf35c9aw0",
+                                            "created": 1756472169566,
+                                            "text": "指出：邓小平同志是我国社会主义改革开放和现代化建设的总设计师"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexfzy3f140",
+                                    "created": 1756472240961,
+                                    "text": "1997 十五大"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexg5f41i80",
+                                            "created": 1756472252874,
+                                            "text": "正式提出 \"邓小平理论\""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcexgyptf7k0",
+                            "created": 1756472316648,
+                            "text": "围绕\"什么是社会主义，怎么建设社会主义\"这个根本问题"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
                     "id": "dcejj79s2i80",
                     "created": 1756432996459,
                     "text": "三个代表重要思想",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcexm9g949c0",
+                            "created": 1756472731835,
+                            "text": "核心观点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcexmgcvqkw0",
+                                    "created": 1756472746869,
+                                    "text": "始终代表中国先进生产力的发展要求"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexmsqmmqg0",
+                                    "created": 1756472773822,
+                                    "text": "始终代表中国先进文化的前进方向"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexnb2iix40",
+                                    "created": 1756472813722,
+                                    "text": "始终代表中国最广大人民的根本利益"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcexodn923s0",
+                            "created": 1756472897694,
+                            "text": "主要内容"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcexohflyww0",
+                                    "created": 1756472905939,
+                                    "text": "1.发展是党执政兴国的第一要务"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexopdyohc0",
+                                    "created": 1756472923254,
+                                    "text": "2.建立社会主义市场经济体制"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexoy64oaw0",
+                                            "created": 1756472942371,
+                                            "text": "建立社会主义市场经济体制，必须坚持和完善公有制为主体，多种所有制经济共同发展的社会主义基本经济制度"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexqeqxyj40",
+                                    "created": 1756473056822,
+                                    "text": "3.全面建设小康社会"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexqlsax400",
+                                    "created": 1756473072142,
+                                    "text": "4.建设社会主义政治文明"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexqrzhgeg0",
+                                    "created": 1756473085637,
+                                    "text": "5.实施\"引进来\"和\"走出去\"相结合的对外开放战略"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexrawqpwo0",
+                                    "created": 1756473126830,
+                                    "text": "6.推进党的建设新的伟大工程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexs3sjluo0",
+                                            "created": 1756473189703,
+                                            "text": "建设什么样的党，怎么建设党"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "data": {
                     "id": "dcejjimmd000",
                     "created": 1756433021180,
                     "text": "科学发展观",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcexu7av3vs0",
+                            "created": 1756473354069,
+                            "text": "2003.10 十六届三中全会"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcexuh6ruow0",
+                                    "created": 1756473375590,
+                                    "text": "《中共中央关于完善社会主义市场经济体制的若干问题的决定》"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexv0xl6bs0",
+                                            "created": 1756473418570,
+                                            "text": "提出 \"科学发展观\""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcexv9i7gy80",
+                            "created": 1756473437231,
+                            "text": "科学内涵"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcexvh0aw0o0",
+                                    "created": 1756473453563,
+                                    "text": "推动经济社会发展是科学发展观的第一要义"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexvtc4buw0",
+                                    "created": 1756473480399,
+                                    "text": "以人为本是科学发展观的核心立场"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexw23wkiw0",
+                                    "created": 1756473499493,
+                                    "text": "全面协调可持续是 科学发展观的 基本要求"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexwi8cs8o0",
+                                    "created": 1756473534591,
+                                    "text": "统筹兼顾是科学发展观的 根本方法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcexvf8n1jk0",
+                            "created": 1756473449713,
+                            "text": "主要内容"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcexwuay9200",
+                                    "created": 1756473560869,
+                                    "text": "加快转变经济发展发展方式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexx3vfmiw0",
+                                    "created": 1756473581698,
+                                    "text": "发展社会主义民主政治"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexxa0807c0",
+                                    "created": 1756473595049,
+                                    "text": "推动社会主义文化强国建设"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexxhwmi8w0",
+                                    "created": 1756473612245,
+                                    "text": "构建社会主义和谐社会"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexxnxc9480",
+                                    "created": 1756473625349,
+                                    "text": "推进生态文明建设"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcexxtpz8y80",
+                                    "created": 1756473637965,
+                                    "text": "全面提高党的建设科学化水平"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "data": {
