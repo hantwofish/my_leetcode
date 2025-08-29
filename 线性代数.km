@@ -2693,7 +2693,7 @@
                     "id": "dc18wi6vwnk0",
                     "created": 1755082727317,
                     "text": "第六章：二次型",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -2703,7 +2703,7 @@
                             "created": 1755082750843,
                             "text": "第一节：二次型的基本概念及其标准型",
                             "layout": null,
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -2930,7 +2930,16 @@
                                             "created": 1755843989524,
                                             "text": "定理一"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcdvmammiw00",
+                                                    "created": 1756365532221,
+                                                    "text": "二次型为正定二次型 <==> A的特征值全为正数"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
@@ -2938,7 +2947,16 @@
                                             "created": 1755844023193,
                                             "text": "定理二"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcdvmssoq6w0",
+                                                    "created": 1756365571770,
+                                                    "text": "二次型为正定二次型 <===> A的顺序主子式都大于0"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
@@ -2946,7 +2964,16 @@
                                             "created": 1755844026407,
                                             "text": "定理三"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcdvox25c8w0",
+                                                    "created": 1756365737777,
+                                                    "text": "设A的转置为A ，A为正定矩阵 <===> 存在可逆的矩阵B ，A=B转置B"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
@@ -2954,7 +2981,16 @@
                                             "created": 1755844029409,
                                             "text": "定理四"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcdvq70sxu00",
+                                                    "created": 1756365837828,
+                                                    "text": "设A的转置为A，A为正定矩阵 <===> A与E合同"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
@@ -2962,13 +2998,177 @@
                                             "created": 1755844032632,
                                             "text": "定理五"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcdvqy5o5g00",
+                                                    "created": 1756365896895,
+                                                    "text": "设A的转置为A，A为正定矩阵 <===> A的正惯性指数为n"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
                                             "id": "dc8qrjm46i00",
                                             "created": 1755844038269,
                                             "text": "定理六"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcdush3n2ig0",
+                    "created": 1756363195386,
+                    "text": "矩阵三大关系"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcdusm6sqw00",
+                            "created": 1756363206461,
+                            "text": "等价"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcdw0vyar4w0",
+                                    "created": 1756366675738,
+                                    "text": "定义",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcdvybpct480",
+                                            "created": 1756366474933,
+                                            "text": "A,B为同型矩阵，A经过有限次初等变换为B，则称A与B等价"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcdw0xs39480",
+                                    "created": 1756366679716,
+                                    "text": "判别法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcdw1f78mns0",
+                                            "created": 1756366717637,
+                                            "text": "设A，B为同型矩阵，A,B等价"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcdw284tf6g0",
+                                            "created": 1756366780617,
+                                            "text": "<===> A和B的秩相等"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcdw2g9hheg0",
+                                            "created": 1756366798314,
+                                            "text": "<===>存在可逆的P和Q，使得PAQ=B"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcdusvsqk8w0",
+                            "created": 1756363227378,
+                            "text": "相似"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcdw206nk2o0",
+                                    "created": 1756366763314,
+                                    "text": "定义："
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcdw3i02q5c0",
+                                            "created": 1756366880463,
+                                            "text": "设A,B为n阶矩阵，若存在可逆的矩阵P，使得P逆AP=B，则A相似于B"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcdw4s13qu00",
+                                    "created": 1756366980657,
+                                    "text": "判别法："
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcdw50t9j7s0",
+                                            "created": 1756366999774,
+                                            "text": "设A,B为n阶矩阵，若A,B的特征值相同且A,B都可相似对角化，则A~B"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcduswpf6lc0",
+                            "created": 1756363229354,
+                            "text": "合同"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcdw5p0c57k0",
+                                    "created": 1756367052444,
+                                    "text": "定义："
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcejel00iuo0",
+                                            "created": 1756432634523,
+                                            "text": "设A,B为n阶实对称阵，若存在可逆矩阵P，使得P转置AP=B，称A,B合同"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcejfehti740",
+                                    "created": 1756432698726,
+                                    "text": "判别法："
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcejfgmcnm00",
+                                            "created": 1756432703354,
+                                            "text": "设A,B为实对称阵，则A,B合同  <===> A,B的正，负，零特征值个数相同"
                                         },
                                         "children": []
                                     }

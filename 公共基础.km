@@ -1,0 +1,138 @@
+{
+    "root": {
+        "data": {
+            "id": "dcejih5eu540",
+            "created": 1756432939600,
+            "text": "公共基础"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "dcejio6cqvc0",
+                    "created": 1756432954893,
+                    "text": "马克思主义哲学与政治经济学"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcejjuaaxlc0",
+                            "created": 1756433046557,
+                            "text": "马克思主义哲学"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcejkfbr8w80",
+                                    "created": 1756433092357,
+                                    "text": "世界是物质的，物质是运动的，运动是绝对的，静止是相对的"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcejmnhj1go0",
+                                    "created": 1756433266849,
+                                    "text": "矛盾规律"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcejmy64ff40",
+                                    "created": 1756433290104,
+                                    "text": "量变质变规律"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcejnafrylk0",
+                                    "created": 1756433316809,
+                                    "text": "否定之否定规律"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcejjyjzc880",
+                            "created": 1756433055849,
+                            "text": "政治经济学"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcejk3anl800",
+                                    "created": 1756433066169,
+                                    "text": "价值"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcejngore8g0",
+                                            "created": 1756433330413,
+                                            "text": "由社会必要劳动时间决定"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcejkbtr7iw0",
+                                    "created": 1756433084738,
+                                    "text": "剩余价值"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcejixhovl40",
+                    "created": 1756432975171,
+                    "text": "毛泽东思想"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dcejj3fyu000",
+                    "created": 1756432988126,
+                    "text": "邓小平理论"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dcejj79s2i80",
+                    "created": 1756432996459,
+                    "text": "三个代表重要思想"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dcejjimmd000",
+                    "created": 1756433021180,
+                    "text": "科学发展观"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "dcejjopxvm00",
+                    "created": 1756433034442,
+                    "text": "习近平新时代中国特色社会主义理论"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
