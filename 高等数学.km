@@ -389,7 +389,7 @@
                     "created": 1754579120040,
                     "text": "导数与微分",
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -397,7 +397,7 @@
                             "id": "dbx41rnwqeo0",
                             "created": 1754662794382,
                             "text": "一元微分学",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -853,7 +853,7 @@
                     "id": "dbvcd69tm3s0",
                     "created": 1754483137154,
                     "text": "积分",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -1018,7 +1018,7 @@
                                     "created": 1754621066955,
                                     "text": "定积分",
                                     "layout": null,
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -1026,7 +1026,7 @@
                                             "id": "dc72yxu0e3c0",
                                             "created": 1755675351176,
                                             "text": "定积分的概念与基本性质",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1506,7 +1506,7 @@
                                     "created": 1754489205283,
                                     "text": "三重积分",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1538,7 +1538,24 @@
                                                     "created": 1754968979131,
                                                     "text": "直角坐标"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcjnmnust9s0",
+                                                            "created": 1756952351874,
+                                                            "text": "1.切片法"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcjnmvbfnx40",
+                                                            "created": 1756952368118,
+                                                            "text": "2.铅直投影法"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "data": {
