@@ -192,7 +192,7 @@
                     "id": "dcndfb6qpog0",
                     "created": 1757329804477,
                     "text": "数量关系",
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -415,7 +415,7 @@
                     "id": "dcndfsqjtso0",
                     "created": 1757329842680,
                     "text": "判断推理",
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
