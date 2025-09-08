@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "dcn0pj9b3l40",
+            "created": 1757293931259,
+            "text": "岗位能力"
+        },
+        "children": []
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
