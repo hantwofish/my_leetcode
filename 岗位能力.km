@@ -5,9 +5,1294 @@
             "created": 1757293931259,
             "text": "岗位能力"
         },
-        "children": []
+        "children": [
+            {
+                "data": {
+                    "id": "dcnde86x0tc0",
+                    "created": 1757329719593,
+                    "text": "言语理解与表达",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcndej16r4w0",
+                            "created": 1757329743191,
+                            "text": "选词填空"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcndhokx6w00",
+                                    "created": 1757329990361,
+                                    "text": "实词辨析"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndhvllspk0",
+                                    "created": 1757330005639,
+                                    "text": "关联词辨析"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndhyx48dc0",
+                                    "created": 1757330012866,
+                                    "text": "成语辨析"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcndeo01qgw0",
+                            "created": 1757329754006,
+                            "text": "语句表达"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcndi50b6c80",
+                                    "created": 1757330026120,
+                                    "text": "汉字误用"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndic5xukw0",
+                                    "created": 1757330041697,
+                                    "text": "病句辨析"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndij6omns0",
+                                    "created": 1757330056980,
+                                    "text": "歧义句辨析"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcndeyxscnk0",
+                            "created": 1757329777814,
+                            "text": "阅读理解"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcndist3hxk0",
+                                    "created": 1757330077926,
+                                    "text": "主旨概况"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndiy6w2pc0",
+                                    "created": 1757330089644,
+                                    "text": "意图推断"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndj0xjvds0",
+                                    "created": 1757330095610,
+                                    "text": "态度观点"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndj3hnzhc0",
+                                    "created": 1757330101180,
+                                    "text": "细节判断"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndjl8dqe80",
+                                    "created": 1757330139800,
+                                    "text": "代词指代"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndf5hel2o0",
+                                    "created": 1757329792061,
+                                    "text": "语句排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndjwbaufc0",
+                                    "created": 1757330163921,
+                                    "text": "结语推断"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndk1icg7s0",
+                                    "created": 1757330175231,
+                                    "text": "语句衔接"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndkr3qfow0",
+                                    "created": 1757330230944,
+                                    "text": "标题填入"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndl4fi0yo0",
+                                    "created": 1757330259954,
+                                    "text": "修辞手法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndla6gtww0",
+                                    "created": 1757330272468,
+                                    "text": "材料鉴赏"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndlefyaq80",
+                                    "created": 1757330281749,
+                                    "text": "标点符号"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcndfb6qpog0",
+                    "created": 1757329804477,
+                    "text": "数量关系",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcndfjfe4680",
+                            "created": 1757329822414,
+                            "text": "数学推理",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcndohx82lc0",
+                                    "created": 1757330524416,
+                                    "text": "基础数列"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcne5mxjfg80",
+                                            "created": 1757331867510,
+                                            "text": "后项 与 前项 之间  和差乘除"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcne8v6mpu00",
+                                                    "created": 1757332120566,
+                                                    "text": "结果为等差等比，质数等"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndome426o0",
+                                    "created": 1757330534144,
+                                    "text": "多级数列"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcne9vtd9880",
+                                            "created": 1757332200305,
+                                            "text": "交叉数列"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcneadf8ocw0",
+                                                    "created": 1757332238633,
+                                                    "text": "数列的奇数项和偶数项分别呈现规律"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcneabup6hs0",
+                                            "created": 1757332235214,
+                                            "text": "分组数列"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcneaztua1k0",
+                                                    "created": 1757332287405,
+                                                    "text": "将数列中饿数字两两分组，然后进行组内(加减乘除等)运算"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndovr358w0",
+                                    "created": 1757330554520,
+                                    "text": "多重数列"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndp16yp6o0",
+                                    "created": 1757330566364,
+                                    "text": "幂次数列"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndp43ugeg0",
+                                    "created": 1757330572706,
+                                    "text": "递推数列"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndpbv3yio0",
+                                    "created": 1757330589592,
+                                    "text": "分数数列"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndpg3ld4g0",
+                                    "created": 1757330598812,
+                                    "text": "数字图表"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcndfmi94m80",
+                            "created": 1757329829117,
+                            "text": "数学运算",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcndpnzwt3k0",
+                                    "created": 1757330616003,
+                                    "text": "函数问题"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndpw4jppc0",
+                                    "created": 1757330633698,
+                                    "text": "基础运算问题"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndqrwfpyo0",
+                                    "created": 1757330702865,
+                                    "text": "计数问题"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndqyqzrmo0",
+                                    "created": 1757330717773,
+                                    "text": "经济利润问题"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndr9tr8n40",
+                                    "created": 1757330741885,
+                                    "text": "排列组合问题",
+                                    "progress": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndre4191k0",
+                                    "created": 1757330751213,
+                                    "text": "概率问题",
+                                    "progress": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndrfyqme80",
+                                    "created": 1757330755247,
+                                    "text": "行程问题",
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndrje27c00",
+                                    "created": 1757330762703,
+                                    "text": "工程问题",
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndrmck4bs0",
+                                    "created": 1757330769143,
+                                    "text": "几何问题"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndrnucapk0",
+                                    "created": 1757330772395,
+                                    "text": "其他问题"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcndfsqjtso0",
+                    "created": 1757329842680,
+                    "text": "判断推理",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcndtd7ujxs0",
+                            "created": 1757330905995,
+                            "text": "图形推理",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcnegz333e80",
+                                    "created": 1757332755972,
+                                    "text": "数量类图形",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnelfgs8pk0",
+                                            "created": 1757333105086,
+                                            "text": "观察题目中大图形中的小图形，小部分，点，线，笔画，框，点的个数"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnenph0o5c0",
+                                            "created": 1757333283596,
+                                            "text": "点"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcnenrpfou80",
+                                                    "created": 1757333288459,
+                                                    "text": "线与线之间交点个数"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnenqkkwv40",
+                                            "created": 1757333285988,
+                                            "text": "线"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcneo7z3alc0",
+                                                    "created": 1757333323871,
+                                                    "text": "直线与曲线数"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcneof0bg7c0",
+                                                    "created": 1757333339183,
+                                                    "text": "笔画数"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcnepdr2k1s0",
+                                                            "created": 1757333414811,
+                                                            "text": "汉字笔画数。汉字结构"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcnepl8u2g00",
+                                                            "created": 1757333431123,
+                                                            "text": "一笔画和多笔画问题"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcneq1ezcjc0",
+                                                                    "created": 1757333466323,
+                                                                    "text": "最少笔画数=奇点数/2"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcneqjcu76o0",
+                                                                    "created": 1757333505375,
+                                                                    "text": "奇点：能够引发出奇数条线饿点"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnesv2rl3k0",
+                                            "created": 1757333687616,
+                                            "text": "角"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnesxz32sw0",
+                                            "created": 1757333693924,
+                                            "text": "面"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnet01h40g0",
+                                            "created": 1757333698422,
+                                            "text": "素"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcneu4rxto00",
+                                                    "created": 1757333787093,
+                                                    "text": "连在一起算是一部分"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcnevwx1oo00",
+                                    "created": 1757333926716,
+                                    "text": "样式类图形",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnewoxygio0",
+                                            "created": 1757333987721,
+                                            "text": "遍历"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnewszes8o0",
+                                            "created": 1757333996516,
+                                            "text": "运算"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnewudcjzc0",
+                                            "created": 1757333999536,
+                                            "text": "定义叠加"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcnexqtmo3k0",
+                                    "created": 1757334070177,
+                                    "text": "位置类图形",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnext87lpk0",
+                                            "created": 1757334075413,
+                                            "text": "动态位置"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcney394rc80",
+                                                    "created": 1757334097236,
+                                                    "text": "旋转"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcney6vbfts0",
+                                                    "created": 1757334105108,
+                                                    "text": "翻转"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcney89r8w00",
+                                                    "created": 1757334108158,
+                                                    "text": "平移"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcney11qx740",
+                                            "created": 1757334092436,
+                                            "text": "静态位置"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcnf282bkf40",
+                                                    "created": 1757334421165,
+                                                    "text": "相离"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcnf2b75uwg0",
+                                                    "created": 1757334427988,
+                                                    "text": "相连"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcnf2g9wrko0",
+                                                    "created": 1757334439038,
+                                                    "text": "相交"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcnf2ojicgw0",
+                                    "created": 1757334457032,
+                                    "text": "属性类图形",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnf2tbgk1k0",
+                                            "created": 1757334467430,
+                                            "text": "相似性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnf32q75zs0",
+                                            "created": 1757334487912,
+                                            "text": "对称性"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcnf4ptvdvs0",
+                                                    "created": 1757334616564,
+                                                    "text": "对称性： 轴对称，中心对称，整体对称"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcnf5gg5igo0",
+                                                    "created": 1757334674508,
+                                                    "text": "对称轴方向："
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcnf5jwsuw00",
+                                                    "created": 1757334682045,
+                                                    "text": "对称轴条数："
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnf3k2ms0w0",
+                                            "created": 1757334525669,
+                                            "text": "曲直性"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcnf5znxki00",
+                                                    "created": 1757334716337,
+                                                    "text": "直线图形，曲线图形，曲直图形"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnf41o8udk0",
+                                            "created": 1757334563981,
+                                            "text": "开闭性"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcnf8hgjrfc0",
+                                                    "created": 1757334911801,
+                                                    "text": "开放图形，半封闭图形，全封闭图形"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcnf9z4l7g00",
+                                    "created": 1757335028624,
+                                    "text": "功能类图形",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnfehrucbs0",
+                                            "created": 1757335382669,
+                                            "text": "小元素标记与指示作用"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcnfgdrep8w0",
+                                    "created": 1757335530664,
+                                    "text": "立体类图形",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnfglq8rag0",
+                                            "created": 1757335548008,
+                                            "text": "六面体折叠类"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcnfgsmczn40",
+                                                    "created": 1757335563010,
+                                                    "text": "相对面法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcnfh7uvu080",
+                                                            "created": 1757335596177,
+                                                            "text": "相间排列"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcnfheh34jc0",
+                                                            "created": 1757335610581,
+                                                            "text": "Z字两端"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcnfiec7qr40",
+                                                    "created": 1757335688650,
+                                                    "text": "相邻面法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcnfijm2n4w0",
+                                                            "created": 1757335700130,
+                                                            "text": "公共点法"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcnfivaearc0",
+                                                            "created": 1757335725546,
+                                                            "text": "描线法"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnfj93xpfk0",
+                                            "created": 1757335755630,
+                                            "text": "三视图"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnfjcoszfk0",
+                                            "created": 1757335763422,
+                                            "text": "截面法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnfji0qnpk0",
+                                            "created": 1757335775028,
+                                            "text": "立体拼合"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcnfkutq6zc0",
+                                    "created": 1757335881266,
+                                    "text": "平面拼合类图形"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcndthqz1sw0",
+                            "created": 1757330915859,
+                            "text": "定义判断"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcndtnx6xbs0",
+                            "created": 1757330929296,
+                            "text": "类比推理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcnfqp5d0t40",
+                                    "created": 1757336339094,
+                                    "text": "语法关系",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnfqrykugg0",
+                                            "created": 1757336345214,
+                                            "text": "主谓关系，主宾关系，动宾关系，偏正关系"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcnfrzup7k00",
+                                    "created": 1757336440758,
+                                    "text": "语义关系",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnfsbavnj40",
+                                            "created": 1757336465681,
+                                            "text": "近义关系，反义关系，象征关系"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcnfuqjdlw00",
+                                    "created": 1757336655575,
+                                    "text": "外延关系",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcnfuw1w0h40",
+                                            "created": 1757336667578,
+                                            "text": "全同关系"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnfv0ibrco0",
+                                            "created": 1757336677279,
+                                            "text": "交叉关系"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcng0epfdl40",
+                                                    "created": 1757337100004,
+                                                    "text": "有的A是B ,有的B是A  食物与植物"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnfwxodfpk0",
+                                            "created": 1757336827843,
+                                            "text": "并列关系"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcnfxal1nz40",
+                                                    "created": 1757336855940,
+                                                    "text": "反对关系"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcnfxfrs3g80",
+                                                    "created": 1757336867231,
+                                                    "text": "矛盾关系"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcnfxq5ajyo0",
+                                            "created": 1757336889816,
+                                            "text": "包容关系"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcnfxzsccns0",
+                                                    "created": 1757336910800,
+                                                    "text": "种属关系"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcnfzpf34ao0",
+                                                            "created": 1757337044959,
+                                                            "text": "A是一种B， 苹果是一种水果"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcnfyay4uk80",
+                                                    "created": 1757336935095,
+                                                    "text": "组成关系"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcnfzzwurw80",
+                                                            "created": 1757337067801,
+                                                            "text": "轮胎是汽车组成部分"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcng2jk96iw0",
+                                            "created": 1757337267304,
+                                            "text": "内涵关系"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcng35hgst40",
+                                                    "created": 1757337315024,
+                                                    "text": "属性关系"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcng38hg4140",
+                                                            "created": 1757337321553,
+                                                            "text": "必然关系"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcng3p2lln40",
+                                                                    "created": 1757337357661,
+                                                                    "text": "醋--酸"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcng3cyqn600",
+                                                            "created": 1757337331306,
+                                                            "text": "或然属性"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcng3k1rt4w0",
+                                                                    "created": 1757337346727,
+                                                                    "text": "花朵与红色"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcng3t147w80",
+                                                    "created": 1757337366278,
+                                                    "text": "条件关系"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcng5c53md40",
+                                                            "created": 1757337486242,
+                                                            "text": "充分条件"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcng5la8qnc0",
+                                                                    "created": 1757337506144,
+                                                                    "text": "如果A能推出B,则A是B 的充分条件"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcng5fs723k0",
+                                                            "created": 1757337494169,
+                                                            "text": "必要条件"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcng68z2v740",
+                                                                    "created": 1757337557712,
+                                                                    "text": "如果没有事物A，则必然没有事务情况B。（有事物B，则一定有A），则A是B的必要条件"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcng8s6rku80",
+                                                    "created": 1757337756264,
+                                                    "text": "对应关系"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcng907dp7s0",
+                                                            "created": 1757337773715,
+                                                            "text": "功能关系"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcng94brhio0",
+                                                                    "created": 1757337782688,
+                                                                    "text": "手机--通信"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcng9b2tego0",
+                                                            "created": 1757337797384,
+                                                            "text": "场所对应"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcng9ek4ma00",
+                                                                    "created": 1757337804961,
+                                                                    "text": "汽车--公路"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcng9oruhag0",
+                                                            "created": 1757337827196,
+                                                            "text": "依据对应"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcng9s6zhqo0",
+                                                                    "created": 1757337834641,
+                                                                    "text": "电影票--电影"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcndtqk526g0",
+                            "created": 1757330935037,
+                            "text": "逻辑判断"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcndfwholpk0",
+                    "created": 1757329850851,
+                    "text": "资料分析",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcndvjy2y2w0",
+                            "created": 1757331077371,
+                            "text": "统计术语"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcndvr106o00",
+                            "created": 1757331092785,
+                            "text": "结构阅读"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcndvvsq3vc0",
+                            "created": 1757331103168,
+                            "text": "必会速算技巧",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcndw3a41gw0",
+                                    "created": 1757331119457,
+                                    "text": "估算法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndw5t4pv40",
+                                    "created": 1757331124961,
+                                    "text": "直除法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndwjdesoo0",
+                                    "created": 1757331154485,
+                                    "text": "公式法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndwlrdgag0",
+                                    "created": 1757331159683,
+                                    "text": "图形法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndwybj0ls0",
+                                    "created": 1757331187023,
+                                    "text": "尾数法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndx2grifk0",
+                                    "created": 1757331196047,
+                                    "text": "特殊分数法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndxa3k87c0",
+                                    "created": 1757331212663,
+                                    "text": "差值法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcndxdliv9s0",
+                                    "created": 1757331220279,
+                                    "text": "化同法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
-    "template": "default",
+    "template": "right",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
