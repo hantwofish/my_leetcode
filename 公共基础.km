@@ -8,10 +8,760 @@
         "children": [
             {
                 "data": {
+                    "id": "dcobkw95d5c0",
+                    "created": 1757426159892,
+                    "text": "马克思主义基本原理",
+                    "priority": 1,
+                    "note": "马克思主义鲜明的：科学性，人民性，实践性，发展性"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcoblpd9h400",
+                            "created": 1757426223268,
+                            "text": "马克思主义哲学",
+                            "expandState": "expand",
+                            "note": "以实践的观点为基础，解决思维与存在的关系"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcobnt9ok200",
+                                    "created": 1757426388487,
+                                    "text": "唯物论和辩证法统一"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcobo4fksj40",
+                                    "created": 1757426412788,
+                                    "text": "唯物主义自然观和历史观的统一"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcoblvxi31c0",
+                            "created": 1757426237552,
+                            "text": "马克思主义政治经济学",
+                            "note": "剩余价值学说"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcoblzxz1jk0",
+                            "created": 1757426246288,
+                            "text": "科学社会主义"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcobsa3khqg0",
+                            "created": 1757426738579,
+                            "text": "辩证唯物主义的运动观"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcobtozevfk0",
+                                    "created": 1757426849344,
+                                    "text": "运动"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcobtqpx0600",
+                                    "created": 1757426853123,
+                                    "text": "静止"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcobtsxzgrs0",
+                                    "created": 1757426857964,
+                                    "text": "主要观点"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcobtx1p5200",
+                                    "created": 1757426866896,
+                                    "text": "错误观点"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcobwlheha80",
+                            "created": 1757427076817,
+                            "text": "唯物论与辩证法",
+                            "progress": 1,
+                            "note": "辩证维护论\n唯物辩证法\n",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcerffla55s0",
+                                    "created": 1756455269992,
+                                    "text": "唯物论",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcerfmsdi3s0",
+                                            "created": 1756455285658,
+                                            "text": "一：zhex"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcergbfmfa80",
+                                            "created": 1756455339306,
+                                            "text": "一：哲学的基本问题：思维与存在的关系问题"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dceqralohi80",
+                                            "created": 1756453378392,
+                                            "text": "二：世界多样性与物质统一性",
+                                            "layout_right_offset": {
+                                                "x": 18.999999716877937,
+                                                "y": -0.9999999850988956
+                                            },
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dceqria8qbs0",
+                                                    "created": 1756453395115,
+                                                    "text": "1.物质与运动",
+                                                    "layout": null,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dceqrw1bpgg0",
+                                                    "created": 1756453425050,
+                                                    "text": "2.物质与意识的辩证关系",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dceqs1tfsag0",
+                                                            "created": 1756453437634,
+                                                            "text": "物质决定意识",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dceqs4c8u7s0",
+                                                            "created": 1756453443125,
+                                                            "text": "意识反作用与物质(意识的能动作用)",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dceqsu3kqs00",
+                                                    "created": 1756453499197,
+                                                    "text": "3.主观能动性与客观规律的辩证统一",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcequ7lg51s0",
+                                                            "created": 1756453606940,
+                                                            "text": "实践是客观规律性和主观能动性统一的基础",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dceriquziu00",
+                                    "created": 1756455529616,
+                                    "text": "辩证法",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dceqvm7z8xc0",
+                                            "created": 1756453717141,
+                                            "text": "唯物辩证法的两大总特征",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dceqvxc15hc0",
+                                                    "created": 1756453741331,
+                                                    "text": "1.联系"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dceqwi7plfs0",
+                                                            "created": 1756453786782,
+                                                            "text": "联系具有客观性，联系具有普遍性，联系具有多样性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dceqvzzn1a00",
+                                                    "created": 1756453747112,
+                                                    "text": "2.发展",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcek2oiz1sw0",
+                                                            "created": 1756434522940,
+                                                            "text": "旧事物必将消亡，新事物必将产生()",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcejxmh5rk00",
+                                            "created": 1756434126656,
+                                            "text": "三大规律",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcejmnhj1go0",
+                                                    "created": 1756433266849,
+                                                    "text": "对立统一(矛盾)规律",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcocbcyoxk00",
+                                                            "created": 1757428233734,
+                                                            "text": "同一性和斗争性是矛盾的两种基本属性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcocc16q1p40",
+                                                            "created": 1757428286462,
+                                                            "text": "矛盾的普遍性和特殊性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcejmy64ff40",
+                                                    "created": 1756433290104,
+                                                    "text": "量变质变规律",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcejnafrylk0",
+                                                    "created": 1756433316809,
+                                                    "text": "否定之否定规律",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcejyf4b1p40",
+                                            "created": 1756434189005,
+                                            "text": "五大范畴",
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcejyjaenhc0",
+                                                    "created": 1756434198081,
+                                                    "text": "内容与形式",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcejyrmideo0",
+                                                    "created": 1756434216227,
+                                                    "text": "本质与现象",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcejyw0om8o0",
+                                                    "created": 1756434225791,
+                                                    "text": "原因与结果",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcejz8jf6xs0",
+                                                    "created": 1756434253046,
+                                                    "text": "必然性与偶然性",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcejzci4cco0",
+                                                    "created": 1756434261674,
+                                                    "text": "现实与可能",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcobwwq65u80",
+                            "created": 1757427101292,
+                            "text": "认识论",
+                            "progress": 1,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dceqy8vc4bs0",
+                                    "created": 1756453923171,
+                                    "text": "第一节：实践与认识",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcerklfzpyo0",
+                                            "created": 1756455674553,
+                                            "text": "一：实践的相关问题"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcerkqsunns0",
+                                                    "created": 1756455686215,
+                                                    "text": "1.实际：人类能动的改造世界的社会性的物质活动，具有客观实在性(直接现实性)，自觉能动性，社会历史性三个基本特征。  实践性--是马克思主义理论区别于其他理论的根本特征  实践的观点--是马克思主义的基本观点"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcermngnrpk0",
+                                                    "created": 1756455835676,
+                                                    "text": "2.实践的基本结构：实践的主体（人），客体，中介"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcernixks1s0",
+                                                    "created": 1756455904179,
+                                                    "text": "3.主体客体化；客体主体化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcerpb9h2ko0",
+                                                    "created": 1756456044212,
+                                                    "text": "4.实践的类型：物质生产实践(最基本的实践活动)；社会政治实践；科学文化实践"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcerrjx63lk0",
+                                            "created": 1756456219788,
+                                            "text": "二：实践对认识的决定作用"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcerrphnc6o0",
+                                                    "created": 1756456231910,
+                                                    "text": "1.实践是认识的来源"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcerrtl3jr40",
+                                                    "created": 1756456240825,
+                                                    "text": "2.实践是认识发展的动力"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcerryjoodk0",
+                                                    "created": 1756456251624,
+                                                    "text": "3.实践是认识的目的"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcers2jps2o0",
+                                                    "created": 1756456260333,
+                                                    "text": "4.实践是检验真理的唯一标准"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcerskc8ey80",
+                                            "created": 1756456299063,
+                                            "text": "三：认识的相关问题"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcert8u1bwo0",
+                                                    "created": 1756456352382,
+                                                    "text": "1.认识的本质"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcertbno6lk0",
+                                                    "created": 1756456358527,
+                                                    "text": "2.认识的过程"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcerthohls00",
+                                                            "created": 1756456371637,
+                                                            "text": "两次飞跃"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcertqdn0pk0",
+                                                                    "created": 1756456390572,
+                                                                    "text": "从感性认识到理性认识"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcertw8esqo0",
+                                                                    "created": 1756456403317,
+                                                                    "text": "从理性认识到实践"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dceruftx00w0",
+                                                    "created": 1756456445976,
+                                                    "text": "3.认识过程中的影响因素"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dceruk336f40",
+                                                            "created": 1756456455238,
+                                                            "text": "理性因素"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcerum5k0sw0",
+                                                            "created": 1756456459741,
+                                                            "text": "非理性因素"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dceruor619k0",
+                                                    "created": 1756456465401,
+                                                    "text": "4.认识的两大规律"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcerurvaxg80",
+                                                            "created": 1756456472181,
+                                                            "text": "认识具有反复性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dceruw3n5cw0",
+                                                            "created": 1756456481393,
+                                                            "text": "认识具有无限性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dceru84b6zc0",
+                                                    "created": 1756456429190,
+                                                    "text": "."
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dceqz0ej2hs0",
+                                    "created": 1756453983105,
+                                    "text": "第二节：真理与价值",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcerwg6c5uo0",
+                                            "created": 1756456603456,
+                                            "text": "一：真理及其特性"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dceryxil5hc0",
+                                                    "created": 1756456797930,
+                                                    "text": "1.真理：人们对于客观事物及其规律的正确反映，真理具有客观性，客观性决定真理的一元性"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcerzs6jc7s0",
+                                                    "created": 1756456864682,
+                                                    "text": "2.真理的相对性与绝对性",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcerzwl8wmw0",
+                                                            "created": 1756456874278,
+                                                            "text": "绝对性："
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dces0fcxauo0",
+                                                                    "created": 1756456915134,
+                                                                    "text": "真理与谬误有着原则的界限；认识每前进一步，都是对无限发展的物质世界的接近"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dces05scjls0",
+                                                            "created": 1756456894299,
+                                                            "text": "相对性："
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dces1cel5co0",
+                                                                    "created": 1756456987068,
+                                                                    "text": "人们在一定条件下对事物的客观过程及其发展规律的正确认识总是有限度的"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dces6iwvvoo0",
+                                                            "created": 1756457393056,
+                                                            "text": "真理的绝对性寓于相对性之中，任何真理性的认识都是从真理性的相对性走向绝对性的转化。"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcerx9zdxo80",
+                                            "created": 1756456668339,
+                                            "text": "二：真理与谬误"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcerxf1di9k0",
+                                            "created": 1756456679343,
+                                            "text": "三：真理的检验标准"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dces8kxd2800",
+                                                    "created": 1756457554167,
+                                                    "text": "实践是检验真理的唯一标准"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcerxm9czg80",
+                                            "created": 1756456695063,
+                                            "text": "四：真理与价值的辩证统一"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcesan1of9s0",
+                                                    "created": 1756457715510,
+                                                    "text": "1.价值的基本特性：主体性，客观性，多维性，社会历史性"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcer1t0rou00",
+                                    "created": 1756454202128,
+                                    "text": "第三节：认识世界和改造世界"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcoc0d019uw0",
+                            "created": 1757427371809,
+                            "text": "历史唯物主义",
+                            "progress": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcoc0nv8mag0",
+                                    "created": 1757427395464,
+                                    "text": "社会基本矛盾",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcoc7hq36ig0",
+                                            "created": 1757427930641,
+                                            "text": "生产力和生产关系，经济基础与上层建筑的矛盾 是社会基本矛盾"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcoc0u3u98o0",
+                                    "created": 1757427409044,
+                                    "text": "人民群众创造历史"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
                     "id": "dcejio6cqvc0",
                     "created": 1756432954893,
                     "text": "马克思主义哲学与政治经济学",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
@@ -20,7 +770,7 @@
                             "id": "dcejjuaaxlc0",
                             "created": 1756433046557,
                             "text": "马克思主义哲学",
-                            "expandState": "expand",
+                            "expandState": "collapse",
                             "layout": null
                         },
                         "children": [
@@ -113,593 +863,6 @@
             },
             {
                 "data": {
-                    "id": "dcerffla55s0",
-                    "created": 1756455269992,
-                    "text": "第一章：辩证唯物论",
-                    "expandState": "collapse"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dcerfmsdi3s0",
-                            "created": 1756455285658,
-                            "text": "一：zhex"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dcergbfmfa80",
-                            "created": 1756455339306,
-                            "text": "一：哲学的基本问题：思维与存在的关系问题"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "dceqralohi80",
-                            "created": 1756453378392,
-                            "text": "二：世界多样性与物质统一性",
-                            "layout_right_offset": {
-                                "x": 18.999999716877937,
-                                "y": -0.9999999850988956
-                            },
-                            "layout": null,
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dceqria8qbs0",
-                                    "created": 1756453395115,
-                                    "text": "1.物质与运动",
-                                    "layout": null,
-                                    "expandState": "expand"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dceqrw1bpgg0",
-                                    "created": 1756453425050,
-                                    "text": "2.物质与意识的辩证关系",
-                                    "layout": null
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dceqs1tfsag0",
-                                            "created": 1756453437634,
-                                            "text": "物质决定意识",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dceqs4c8u7s0",
-                                            "created": 1756453443125,
-                                            "text": "意识反作用与物质(意识的能动作用)",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dceqsu3kqs00",
-                                    "created": 1756453499197,
-                                    "text": "3.主观能动性与客观规律的辩证统一",
-                                    "layout": null
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcequ7lg51s0",
-                                            "created": 1756453606940,
-                                            "text": "实践是客观规律性和主观能动性统一的基础",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dceriquziu00",
-                    "created": 1756455529616,
-                    "text": "第二章：唯物辩证法",
-                    "expandState": "collapse"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dceqvm7z8xc0",
-                            "created": 1756453717141,
-                            "text": "唯物辩证法的两大总特征",
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dceqvxc15hc0",
-                                    "created": 1756453741331,
-                                    "text": "1.联系"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dceqwi7plfs0",
-                                            "created": 1756453786782,
-                                            "text": "联系具有客观性，联系具有普遍性，联系具有多样性"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dceqvzzn1a00",
-                                    "created": 1756453747112,
-                                    "text": "2.发展",
-                                    "expandState": "expand"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcek2oiz1sw0",
-                                            "created": 1756434522940,
-                                            "text": "旧事物必将消亡，新事物必将产生()",
-                                            "layout": null
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dcejxmh5rk00",
-                            "created": 1756434126656,
-                            "text": "三大规律",
-                            "expandState": "collapse",
-                            "layout": null
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dcejmnhj1go0",
-                                    "created": 1756433266849,
-                                    "text": "对立统一(矛盾)规律",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcejmy64ff40",
-                                    "created": 1756433290104,
-                                    "text": "量变质变规律",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcejnafrylk0",
-                                    "created": 1756433316809,
-                                    "text": "否定之否定规律",
-                                    "layout": null
-                                },
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dcejyf4b1p40",
-                            "created": 1756434189005,
-                            "text": "五大范畴",
-                            "layout": null,
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dcejyjaenhc0",
-                                    "created": 1756434198081,
-                                    "text": "内容与形式",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcejyrmideo0",
-                                    "created": 1756434216227,
-                                    "text": "本质与现象",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcejyw0om8o0",
-                                    "created": 1756434225791,
-                                    "text": "原因与结果",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcejz8jf6xs0",
-                                    "created": 1756434253046,
-                                    "text": "必然性与偶然性",
-                                    "layout": null
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcejzci4cco0",
-                                    "created": 1756434261674,
-                                    "text": "现实与可能",
-                                    "layout": null
-                                },
-                                "children": []
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dceqy4dvn140",
-                    "created": 1756453913409,
-                    "text": "第三章：认识论：",
-                    "expandState": "collapse"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dceqy8vc4bs0",
-                            "created": 1756453923171,
-                            "text": "第一节：实践与认识",
-                            "expandState": "collapse"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dcerklfzpyo0",
-                                    "created": 1756455674553,
-                                    "text": "一：实践的相关问题"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcerkqsunns0",
-                                            "created": 1756455686215,
-                                            "text": "1.实际：人类能动的改造世界的社会性的物质活动，具有客观实在性(直接现实性)，自觉能动性，社会历史性三个基本特征。  实践性--是马克思主义理论区别于其他理论的根本特征  实践的观点--是马克思主义的基本观点"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dcermngnrpk0",
-                                            "created": 1756455835676,
-                                            "text": "2.实践的基本结构：实践的主体（人），客体，中介"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dcernixks1s0",
-                                            "created": 1756455904179,
-                                            "text": "3.主体客体化；客体主体化"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dcerpb9h2ko0",
-                                            "created": 1756456044212,
-                                            "text": "4.实践的类型：物质生产实践(最基本的实践活动)；社会政治实践；科学文化实践"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dcerrjx63lk0",
-                                    "created": 1756456219788,
-                                    "text": "二：实践对认识的决定作用"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcerrphnc6o0",
-                                            "created": 1756456231910,
-                                            "text": "1.实践是认识的来源"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dcerrtl3jr40",
-                                            "created": 1756456240825,
-                                            "text": "2.实践是认识发展的动力"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dcerryjoodk0",
-                                            "created": 1756456251624,
-                                            "text": "3.实践是认识的目的"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dcers2jps2o0",
-                                            "created": 1756456260333,
-                                            "text": "4.实践是检验真理的唯一标准"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dcerskc8ey80",
-                                    "created": 1756456299063,
-                                    "text": "三：认识的相关问题"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcert8u1bwo0",
-                                            "created": 1756456352382,
-                                            "text": "1.认识的本质"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dcertbno6lk0",
-                                            "created": 1756456358527,
-                                            "text": "2.认识的过程"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "dcerthohls00",
-                                                    "created": 1756456371637,
-                                                    "text": "两次飞跃"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "dcertqdn0pk0",
-                                                            "created": 1756456390572,
-                                                            "text": "从感性认识到理性认识"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "dcertw8esqo0",
-                                                            "created": 1756456403317,
-                                                            "text": "从理性认识到实践"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dceruftx00w0",
-                                            "created": 1756456445976,
-                                            "text": "3.认识过程中的影响因素"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "dceruk336f40",
-                                                    "created": 1756456455238,
-                                                    "text": "理性因素"
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "dcerum5k0sw0",
-                                                    "created": 1756456459741,
-                                                    "text": "非理性因素"
-                                                },
-                                                "children": []
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dceruor619k0",
-                                            "created": 1756456465401,
-                                            "text": "4.认识的两大规律"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "dcerurvaxg80",
-                                                    "created": 1756456472181,
-                                                    "text": "认识具有反复性"
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "dceruw3n5cw0",
-                                                    "created": 1756456481393,
-                                                    "text": "认识具有无限性"
-                                                },
-                                                "children": []
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dceru84b6zc0",
-                                            "created": 1756456429190,
-                                            "text": "."
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dceqz0ej2hs0",
-                            "created": 1756453983105,
-                            "text": "第二节：真理与价值"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dcerwg6c5uo0",
-                                    "created": 1756456603456,
-                                    "text": "一：真理及其特性"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dceryxil5hc0",
-                                            "created": 1756456797930,
-                                            "text": "1.真理：人们对于客观事物及其规律的正确反映，真理具有客观性，客观性决定真理的一元性"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "dcerzs6jc7s0",
-                                            "created": 1756456864682,
-                                            "text": "2.真理的相对性与绝对性",
-                                            "expandState": "expand"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "dcerzwl8wmw0",
-                                                    "created": 1756456874278,
-                                                    "text": "绝对性："
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "dces0fcxauo0",
-                                                            "created": 1756456915134,
-                                                            "text": "真理与谬误有着原则的界限；认识每前进一步，都是对无限发展的物质世界的接近"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "dces05scjls0",
-                                                    "created": 1756456894299,
-                                                    "text": "相对性："
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "dces1cel5co0",
-                                                            "created": 1756456987068,
-                                                            "text": "人们在一定条件下对事物的客观过程及其发展规律的正确认识总是有限度的"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "dces6iwvvoo0",
-                                                    "created": 1756457393056,
-                                                    "text": "真理的绝对性寓于相对性之中，任何真理性的认识都是从真理性的相对性走向绝对性的转化。"
-                                                },
-                                                "children": []
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dcerx9zdxo80",
-                                    "created": 1756456668339,
-                                    "text": "二：真理与谬误"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcerxf1di9k0",
-                                    "created": 1756456679343,
-                                    "text": "三：真理的检验标准"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dces8kxd2800",
-                                            "created": 1756457554167,
-                                            "text": "实践是检验真理的唯一标准"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dcerxm9czg80",
-                                    "created": 1756456695063,
-                                    "text": "四：真理与价值的辩证统一"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcesan1of9s0",
-                                            "created": 1756457715510,
-                                            "text": "1.价值的基本特性：主体性，客观性，多维性，社会历史性"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dcer1t0rou00",
-                            "created": 1756454202128,
-                            "text": "第三节：认识世界和改造世界"
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
                     "id": "dcesbsp2sls0",
                     "created": 1756457806173,
                     "text": "第四章：唯物史观",
@@ -787,7 +950,7 @@
                     "id": "dcer3u2ua5k0",
                     "created": 1756454361158,
                     "text": "第五章：资本主义的本质及规律",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "layout": null
                 },
                 "children": [
