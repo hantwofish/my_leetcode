@@ -12,7 +12,8 @@
                     "created": 1757426159892,
                     "text": "马克思主义基本原理",
                     "priority": 1,
-                    "note": "马克思主义鲜明的：科学性，人民性，实践性，发展性"
+                    "note": "马克思主义鲜明的：科学性，人民性，实践性，发展性",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -107,7 +108,7 @@
                             "text": "唯物论与辩证法",
                             "progress": 1,
                             "note": "辩证维护论\n唯物辩证法\n",
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -383,7 +384,7 @@
                             "created": 1757427101292,
                             "text": "认识论",
                             "progress": 1,
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -391,7 +392,7 @@
                                     "id": "dceqy8vc4bs0",
                                     "created": 1756453923171,
                                     "text": "第一节：实践与认识",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -761,7 +762,7 @@
                     "id": "dcejio6cqvc0",
                     "created": 1756432954893,
                     "text": "马克思主义哲学与政治经济学",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -950,7 +951,7 @@
                     "id": "dcer3u2ua5k0",
                     "created": 1756454361158,
                     "text": "第五章：资本主义的本质及规律",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -1139,16 +1140,42 @@
                             "id": "dcewuiz6ylk0",
                             "created": 1756470558375,
                             "text": "毛泽东思想",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dcewm7ibz4w0",
                                     "created": 1756469906498,
-                                    "text": "形成与发展过程"
+                                    "text": "形成与发展过程",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcewko1jvkw0",
+                                            "created": 1756469785760,
+                                            "text": "产生背景"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcewla8nwgw0",
+                                                    "created": 1756469834079,
+                                                    "text": "时代背景"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcewlpvitxs0",
+                                                    "created": 1756469868113,
+                                                    "text": "物质基础"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
                                     {
                                         "data": {
                                             "id": "dcewmakwnbc0",
@@ -1201,17 +1228,35 @@
                                                 "data": {
                                                     "id": "dcewosphc280",
                                                     "created": 1756470109371,
-                                                    "text": "星星之火可以燎原"
+                                                    "text": "《星星之火可以燎原》"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5gbcb2zc0",
+                                                            "created": 1757510434211,
+                                                            "text": "农村包围城市，武装夺取政权"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "data": {
                                                     "id": "dcewovd2qe00",
                                                     "created": 1756470115151,
-                                                    "text": "反对本本主义"
+                                                    "text": "《反对本本主义》"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5f5xu87c0",
+                                                            "created": 1757510344089,
+                                                            "text": "没有调查就没有发言权"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -1228,13 +1273,22 @@
                                                     "created": 1756470133462,
                                                     "text": "论新阶段(六届六中全会上的报告)"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5gtl90ps0",
+                                                            "created": 1757510473934,
+                                                            "text": "首次提出\"马克思主义中国化\""
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "data": {
                                                     "id": "dcewppjcf340",
                                                     "created": 1756470180834,
-                                                    "text": "共产党人发刊词"
+                                                    "text": "《共产党人发刊词》"
                                                 },
                                                 "children": [
                                                     {
@@ -1251,17 +1305,35 @@
                                                 "data": {
                                                     "id": "dcewpwuzbyw0",
                                                     "created": 1756470196775,
-                                                    "text": "中国革命和中国共产党"
+                                                    "text": "《中国革命和中国共产党》"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5hgxje600",
+                                                            "created": 1757510524743,
+                                                            "text": "首次提出\"新民主主义革命\"的科学概念"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "data": {
                                                     "id": "dcewq37va6o0",
                                                     "created": 1756470210615,
-                                                    "text": "新民主主义论"
+                                                    "text": "《新民主主义论》"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5hvf7e080",
+                                                            "created": 1757510556286,
+                                                            "text": "标志着  新民主主义理论体系的 完整形成"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -1302,26 +1374,139 @@
                             },
                             {
                                 "data": {
-                                    "id": "dcewko1jvkw0",
-                                    "created": 1756469785760,
-                                    "text": "产生背景"
+                                    "id": "dcp4hvcr2rc0",
+                                    "created": 1757507735028,
+                                    "text": "毛泽东思想的主要内容和活的灵魂",
+                                    "note": "毛泽东思想核心和精髓--实事求是",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dcewla8nwgw0",
-                                            "created": 1756469834079,
-                                            "text": "时代背景"
+                                            "id": "dcp4i92y85s0",
+                                            "created": 1757507764910,
+                                            "text": "(一)：主要内容"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcp4ijvgzeo0",
+                                                    "created": 1757507788403,
+                                                    "text": "1.新民主主义革命理论",
+                                                    "expandState": "expand",
+                                                    "note": "无产阶级领导的，以工农联盟为基础的，人民大众的，反帝反封建反官僚资本主义的新民主主义革命理论\n"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5lkbw8bs0",
+                                                            "created": 1757510845598,
+                                                            "text": "毛泽东思想成熟的标志"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4lqaqe740",
+                                                    "created": 1757508037479,
+                                                    "text": "2.社会主义革命和社会主义建设理论"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4mntzsio0",
+                                                    "created": 1757508110477,
+                                                    "text": "3.革命军队建设和军事战略的理论"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5n88z0740",
+                                                            "created": 1757510976029,
+                                                            "text": "唯一宗旨"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcp5naxmteo0",
+                                                                    "created": 1757510981873,
+                                                                    "text": "全心全意为人民服务"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5nftzxdc0",
+                                                            "created": 1757510992537,
+                                                            "text": "党指挥枪"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4mvvjazk0",
+                                                    "created": 1757508127985,
+                                                    "text": "4.政策和策略的理论"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4n6783bk0",
+                                                    "created": 1757508150459,
+                                                    "text": "5.思想政治工作和文化工作的理论"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4nj9rrcw0",
+                                                    "created": 1757508178912,
+                                                    "text": "6.党的建设理论"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
-                                            "id": "dcewlpvitxs0",
-                                            "created": 1756469868113,
-                                            "text": "物质基础"
+                                            "id": "dcp4no30auw0",
+                                            "created": 1757508189387,
+                                            "text": "(二)：毛泽东思想活的灵魂"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcp4o3gfqpc0",
+                                                    "created": 1757508222850,
+                                                    "text": "1.实事求是"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4o7tubts0",
+                                                    "created": 1757508232368,
+                                                    "text": "2.群众路线"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4oceoseg0",
+                                                    "created": 1757508242336,
+                                                    "text": "3.独立自主"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -1329,24 +1514,418 @@
                     },
                     {
                         "data": {
-                            "id": "dcewuucy31c0",
-                            "created": 1756470583151,
-                            "text": "新民主主义革命理论"
+                            "id": "dcp4p8p6gso0",
+                            "created": 1757508312627,
+                            "text": "新民主主义革命理论",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dcewv0mwkdk0",
-                                    "created": 1756470596814,
-                                    "text": "新民主主义革命：是指在帝国主义和无产阶级革命时代，殖民地半殖民地国家中的无产阶级领导的 资产阶级民主革命"
+                                    "id": "dcp4r9mhfz40",
+                                    "created": 1757508471369,
+                                    "text": "一:新民主主义理论历史依据"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcp4s1pso0w0",
+                                            "created": 1757508532519,
+                                            "text": "(一)：近代中国国情"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcp4saqm6cg0",
+                                            "created": 1757508552160,
+                                            "text": "（二）：新民主主义中国革命的时代特征"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcp4stveayo0",
+                                            "created": 1757508593808,
+                                            "text": "(三)：新民主主义革命理论的历史发展"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "dcewx77ps800",
-                                    "created": 1756470767862,
-                                    "text": "新民主主义革命：是无产阶级领导的，人民大众的，反帝反封建反官僚资本主义饿革命"
+                                    "id": "dcp4wa7pqeo0",
+                                    "created": 1757508864474,
+                                    "text": "二：新民主主义革命的总路线和基本纲领"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcp4ynkov0o0",
+                                            "created": 1757509050285,
+                                            "text": "（一）：新民主主义革命的总路线"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcp4yxiap7k0",
+                                                    "created": 1757509071908,
+                                                    "text": "1.新民主主义革命的对象"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp5xnsy4340",
+                                                            "created": 1757511793530,
+                                                            "text": "帝国主义，封建主义，官僚资本主义"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4z1w0a3k0",
+                                                    "created": 1757509081444,
+                                                    "text": "2.新民主主义革命的动力"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp67p7n3ig0",
+                                                            "created": 1757512580237,
+                                                            "text": "无产阶级，农民阶级，城市小资产阶级，民族资产阶级"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4z88c1nc0",
+                                                    "created": 1757509095250,
+                                                    "text": "3.新民主主义革命的领导力量"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp6ar3fhlc0",
+                                                            "created": 1757512819428,
+                                                            "text": "无产阶级领导的"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp4zfqluao0",
+                                                    "created": 1757509111592,
+                                                    "text": "4.新民主主义革命的性质和前途"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp6cmj3m7k0",
+                                                            "created": 1757512966220,
+                                                            "text": "新民主主义性质",
+                                                            "note": "革命的性质，由中国革命的对象决定"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcp6cpbws800",
+                                                                    "created": 1757512972316,
+                                                                    "text": "资产阶级民主革命"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcp4zubhepk0",
+                                            "created": 1757509143330,
+                                            "text": "（二）：新民主主义革命的基本纲领"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcp504v2x2w0",
+                                                    "created": 1757509166282,
+                                                    "text": "政治纲领"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp6fhr5q740",
+                                                            "created": 1757513190916,
+                                                            "text": "topic"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp50aa1vmw0",
+                                                    "created": 1757509178072,
+                                                    "text": "经济纲领"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp6fv0isq00",
+                                                            "created": 1757513219780,
+                                                            "text": "没收封建地主阶级的土地归农民所有，没收官僚资产阶级的垄断资本归新民主主义的国家所有，保护民族工商业"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp6i19tk140",
+                                                            "created": 1757513390131,
+                                                            "text": "没收封建地主的土地归农民所有为 主要内容"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp50fe0xgw0",
+                                                    "created": 1757509189196,
+                                                    "text": "文化纲领"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp6m9plins0",
+                                                            "created": 1757513721956,
+                                                            "text": "新民主主义文化：无产阶级领导的 人民大众的反帝反封建的文化，即民族的科学的大众的文化"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcp512n56p40",
+                                    "created": 1757509239813,
+                                    "text": "三：新民主主义革命的道路和基本经验"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcp51caj5uo0",
+                                            "created": 1757509260818,
+                                            "text": "（一）：新民主主义革命的道路"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcp51jlti8o0",
+                                                    "created": 1757509276738,
+                                                    "text": "1.新民主主义革命道路的提出"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp51q3trzk0",
+                                                    "created": 1757509290888,
+                                                    "text": "2.新民主主义革命道路形成的必然性"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp51wtewe80",
+                                                    "created": 1757509305496,
+                                                    "text": "3.新民主主义道路的内容及意义"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcp52bwl9yg0",
+                                            "created": 1757509338340,
+                                            "text": "（二）新民主革命的三大法宝"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcp52h5i7o00",
+                                                    "created": 1757509349763,
+                                                    "text": "统一战争"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp53dxovbc0",
+                                                    "created": 1757509421124,
+                                                    "text": "武装斗争"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcp53gjv2g00",
+                                                    "created": 1757509426818,
+                                                    "text": "党的建设"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcp54hjuzt40",
+                            "created": 1757509507359,
+                            "text": "社会主义改造理论",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcp57074k9s0",
+                                    "created": 1757509704676,
+                                    "text": "新民主主义到社会主义的转变"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcp5799ukdc0",
+                                            "created": 1757509724432,
+                                            "text": "（一）：新民主主义社会是一个过度社会"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcp57k7l3og0",
+                                            "created": 1757509748239,
+                                            "text": "（二): 党在过渡时期的总路线"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcp57vhwuqo0",
+                                                    "created": 1757509772808,
+                                                    "text": "一化三改(一体两翼)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp584uptvc0",
+                                                            "created": 1757509793174,
+                                                            "text": "一化"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcp587m48nc0",
+                                                                    "created": 1757509799184,
+                                                                    "text": "社会主义工业化"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcp58cmngb40",
+                                                            "created": 1757509810100,
+                                                            "text": "三改"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcp58fu1i0o0",
+                                                                    "created": 1757509817078,
+                                                                    "text": "个体农业，手工业，资本主义工商业"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcp5a3384dk0",
+                                    "created": 1757509946063,
+                                    "text": "社会主义改造道路和历史经验"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcp5ahs6j0o0",
+                                            "created": 1757509978047,
+                                            "text": "（一）：农业，手工业的社会主义改造"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcp5aqunce00",
+                                            "created": 1757509997787,
+                                            "text": "（二）：资本主义工商业的社会主义改造"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcp5b5s7hm00",
+                                            "created": 1757510030291,
+                                            "text": "(三)：社会主义改造的历史经验"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcp5bqd6oqg0",
+                                    "created": 1757510075095,
+                                    "text": "社会主义基本制度在中国的确立"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcp6o6oa5sw0",
+                                            "created": 1757513872075,
+                                            "text": "1956年底，三大改造基本完成，标志社会主义制度在我国初步确立"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcp5c92szpc0",
+                                    "created": 1757510115827,
+                                    "text": "社会主义革命和建设中取得的独创性理论成果"
                                 },
                                 "children": []
                             }
@@ -1360,14 +1939,15 @@
                     "created": 1756432988126,
                     "text": "邓小平理论",
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "dcex6kmopb40",
                             "created": 1756471502342,
-                            "text": "形成"
+                            "text": "形成",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1787,7 +2367,7 @@
                 "data": {
                     "id": "dcn0p7vn8pk0",
                     "created": 1757293906488,
-                    "text": "topic"
+                    "text": "xxx"
                 },
                 "children": []
             }
