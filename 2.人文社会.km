@@ -1,0 +1,988 @@
+{
+    "root": {
+        "data": {
+            "id": "dcq0hhw31140",
+            "created": 1757597981239,
+            "text": "人文社会"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "dcq0imkzd800",
+                    "created": 1757598069816,
+                    "text": "中国历史",
+                    "priority": 1
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcq0k9yoe7s0",
+                            "created": 1757598199074,
+                            "text": "第一节：中国古代史"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcq0tn2kglc0",
+                                    "created": 1757598932885,
+                                    "text": "一：早期人类和氏族公社",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq0skwckc80",
+                                            "created": 1757598849791,
+                                            "text": "早期人类社会"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1feb7qsw0",
+                                                    "created": 1757600637829,
+                                                    "text": "元谋人"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1fpkexz40",
+                                                    "created": 1757600662329,
+                                                    "text": "蓝田人"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1ft7ngzs0",
+                                                    "created": 1757600670265,
+                                                    "text": "北京人"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1fxb6alc0",
+                                                    "created": 1757600679185,
+                                                    "text": "山顶洞人"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq0stdvm540",
+                                            "created": 1757598868266,
+                                            "text": "氏族公社"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1g4lj2js0",
+                                                    "created": 1757600695049,
+                                                    "text": "母系氏族公社"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1ga4w6ag0",
+                                                    "created": 1757600707103,
+                                                    "text": "父系氏族公社"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1geymyeg0",
+                                                    "created": 1757600717609,
+                                                    "text": "新石器时期晚期"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq0swq8vtc0",
+                                            "created": 1757598875544,
+                                            "text": "先夏时期的终结"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1hwrk62o0",
+                                                    "created": 1757600834727,
+                                                    "text": "黄帝炎帝"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1i1nn8tc0",
+                                                    "created": 1757600845375,
+                                                    "text": "三皇五帝"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1i5diiu80",
+                                                    "created": 1757600853469,
+                                                    "text": "尧舜禹时代"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq0u2ncvvc0",
+                                    "created": 1757598966794,
+                                    "text": "二：历史朝代更替与盛衰"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq1i9wdmqo0",
+                                            "created": 1757600863317,
+                                            "text": "夏朝"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1ie3042w0",
+                                            "created": 1757600872425,
+                                            "text": "商",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1ii93je80",
+                                            "created": 1757600881500,
+                                            "text": "西周",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1ogb55yo0",
+                                                    "created": 1757601347455,
+                                                    "text": "制度"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1oja7xdk0",
+                                                            "created": 1757601353930,
+                                                            "text": "分封制"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1olp6r4w0",
+                                                            "created": 1757601359188,
+                                                            "text": "宗法制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1im6nmeg0",
+                                            "created": 1757600890060,
+                                            "text": "东周"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1iti5ez40",
+                                            "created": 1757600905992,
+                                            "text": "秦"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1oyvu6680",
+                                                    "created": 1757601387889,
+                                                    "text": "制度"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1p18x85k0",
+                                                            "created": 1757601393033,
+                                                            "text": "郡县制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1j7psec00",
+                                            "created": 1757600936929,
+                                            "text": "西汉"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1p9898s00",
+                                                    "created": 1757601410407,
+                                                    "text": "制度"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1pab63o80",
+                                                            "created": 1757601412760,
+                                                            "text": "郡国并行制"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1pvex9w00",
+                                                            "created": 1757601458700,
+                                                            "text": "推恩令"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1q1ncvhs0",
+                                                            "created": 1757601472270,
+                                                            "text": "刺史制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1je4mpfc0",
+                                            "created": 1757600950887,
+                                            "text": "东汉"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1jinsejk0",
+                                            "created": 1757600960753,
+                                            "text": "三国两晋南北朝"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1jo0hwd40",
+                                            "created": 1757600972405,
+                                            "text": "隋朝"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1qkwwmlc0",
+                                                    "created": 1757601514207,
+                                                    "text": "制度"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1qn4dmzc0",
+                                                            "created": 1757601519012,
+                                                            "text": "三省六部制"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1qvax4x40",
+                                                            "created": 1757601536822,
+                                                            "text": "节度使"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1jr2h9280",
+                                            "created": 1757600979055,
+                                            "text": "唐朝"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1k3yi8dc0",
+                                            "created": 1757601007113,
+                                            "text": "五代十国宋辽金西夏"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1kepggbc0",
+                                            "created": 1757601030511,
+                                            "text": "元朝"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1rkmf4a00",
+                                                    "created": 1757601591937,
+                                                    "text": "行省制"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1kgaz88o0",
+                                            "created": 1757601033989,
+                                            "text": "明朝"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1rojx8tc0",
+                                                    "created": 1757601600493,
+                                                    "text": "三司分权"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1khvqyfc0",
+                                            "created": 1757601037421,
+                                            "text": "清朝"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1rwt09so0",
+                                                    "created": 1757601618456,
+                                                    "text": "军机处"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq0v9njhxc0",
+                                    "created": 1757599060407,
+                                    "text": "三：中央集权封建制度的形成与发展"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq0w1o4g0o0",
+                                    "created": 1757599121392,
+                                    "text": "四：统一多民族国家的形成与发展"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq1s9i6ols0",
+                                            "created": 1757601646100,
+                                            "text": "topic"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq0wdi1hi80",
+                                    "created": 1757599147145,
+                                    "text": "五：土地制度改革与社会经济发展"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq1scrgni80",
+                                            "created": 1757601653192,
+                                            "text": "1.西周"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1sfhb9jk0",
+                                                    "created": 1757601659108,
+                                                    "text": "井田制"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1sifm8800",
+                                            "created": 1757601665536,
+                                            "text": "春秋"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1sk59duw0",
+                                                    "created": 1757601669263,
+                                                    "text": "topic"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1sm7ae3k0",
+                                            "created": 1757601673740,
+                                            "text": "战国"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1sq2sq7c0",
+                                                    "created": 1757601682175,
+                                                    "text": "土地私有"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1ssrgqxc0",
+                                            "created": 1757601688021,
+                                            "text": "秦汉"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1svk1cbs0",
+                                            "created": 1757601694101,
+                                            "text": "隋唐"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1sx8ql340",
+                                            "created": 1757601697772,
+                                            "text": "宋元"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1sze5gtk0",
+                                            "created": 1757601702453,
+                                            "text": "明清"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq0wnlaz3k0",
+                                    "created": 1757599169111,
+                                    "text": "六：城市与手工业的发展"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq1tirfyww0",
+                                            "created": 1757601744615,
+                                            "text": "1.手工业发展"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1tsqhvgo0",
+                                                    "created": 1757601766326,
+                                                    "text": "纺织业"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1tu8kvxk0",
+                                                    "created": 1757601769596,
+                                                    "text": "金属冶炼业"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1u1bjbe80",
+                                                    "created": 1757601785012,
+                                                    "text": "制瓷业"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1tmjsowo0",
+                                            "created": 1757601752860,
+                                            "text": "2.商业发展"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq0xa0afog0",
+                                    "created": 1757599217906,
+                                    "text": "七：教育和科举制度"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq1v67dtaw0",
+                                            "created": 1757601874009,
+                                            "text": "一：教育制度的发展"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq1vkcp9a80",
+                                            "created": 1757601904806,
+                                            "text": "二：选官用官制度脉络"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq1vwedk4g0",
+                                                    "created": 1757601931028,
+                                                    "text": "西周"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1vxnzyl40",
+                                                            "created": 1757601933787,
+                                                            "text": "世卿世禄制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1xqnfzzc0",
+                                                    "created": 1757602075244,
+                                                    "text": "秦"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1xrswzp40",
+                                                            "created": 1757602077752,
+                                                            "text": "军功爵制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1xz0rsns0",
+                                                    "created": 1757602093464,
+                                                    "text": "汉"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1y0srt9c0",
+                                                            "created": 1757602097334,
+                                                            "text": "察举制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1y7bca6o0",
+                                                    "created": 1757602111518,
+                                                    "text": "魏晋南北朝"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1yboyrio0",
+                                                            "created": 1757602121049,
+                                                            "text": "九品中正制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1yhrpp8o0",
+                                                    "created": 1757602134276,
+                                                    "text": "隋"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1ykubqo00",
+                                                            "created": 1757602140964,
+                                                            "text": "科举制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq1yrguuzc0",
+                                                    "created": 1757602155387,
+                                                    "text": "唐至情"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcq1yxhik8w0",
+                                                            "created": 1757602168488,
+                                                            "text": "科举制"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0keezoy00",
+                            "created": 1757598208768,
+                            "text": "第二节：中国近代史",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcq0yciyffk0",
+                                    "created": 1757599301752,
+                                    "text": "一：进入近代后中华民族的磨难与抗争"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq0z70ek2o0",
+                                    "created": 1757599368111,
+                                    "text": "二：旧民主主义革命时期"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq0zhrnzlk0",
+                                            "created": 1757599391527,
+                                            "text": "（一）:外国资本主义入侵与近代中国半殖民半封建社会性质"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq10hlks3c0",
+                                            "created": 1757599469523,
+                                            "text": "（二）：对国家出路的早期探索"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq10s40fu00",
+                                                    "created": 1757599492406,
+                                                    "text": "1.太平天国运动"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq11337wl40",
+                                                    "created": 1757599516302,
+                                                    "text": "2.洋务运动"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcq118efxjs0",
+                                                    "created": 1757599527865,
+                                                    "text": "3.戊戌变法"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq11lmz4pc0",
+                                            "created": 1757599556679,
+                                            "text": "（三）：辛亥革命与君主专制政权的终结"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq120ox55s0",
+                                            "created": 1757599589448,
+                                            "text": "（四）:新文化运动"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq12ceb8yo0",
+                                                    "created": 1757599614928,
+                                                    "text": "xxx"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq12z94p6w0",
+                                    "created": 1757599664681,
+                                    "text": "三：新民主主义革命时期"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq13hhozmw0",
+                                    "created": 1757599704381,
+                                    "text": "四：社会主义革命建设时期"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcq13oppvyw0",
+                                    "created": 1757599720103,
+                                    "text": "五：改革开放和社会主义现代化建设新时期"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcq0irszx5k0",
+                    "created": 1757598081185,
+                    "text": "文化常识",
+                    "expandState": "collapse",
+                    "priority": 2
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcq0kmm0sm80",
+                            "created": 1757598226607,
+                            "text": "文化概述"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0kplc2ko0",
+                            "created": 1757598233096,
+                            "text": "中华文化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0l0lgfxk0",
+                            "created": 1757598257048,
+                            "text": "外域文化"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcq0j4a7l3k0",
+                    "created": 1757598108347,
+                    "text": "思想道德",
+                    "expandState": "collapse",
+                    "priority": 3
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcq0l3h39co0",
+                            "created": 1757598263314,
+                            "text": "人生观"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0l5bbz0w0",
+                            "created": 1757598267320,
+                            "text": "理想信念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0l7vzbhs0",
+                            "created": 1757598272922,
+                            "text": "中国精神"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0l9qx96w0",
+                            "created": 1757598276970,
+                            "text": "社会主义核心价值观"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0lcmbqiw0",
+                            "created": 1757598283222,
+                            "text": "道德规范"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcq0j81simg0",
+                    "created": 1757598116545,
+                    "text": "法制知识",
+                    "expandState": "collapse",
+                    "priority": 4
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcq0li24zz40",
+                            "created": 1757598295062,
+                            "text": "社会主义法律的特征与运行"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0lnop75c0",
+                            "created": 1757598307310,
+                            "text": "全面依法治国"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0lsuuy1s0",
+                            "created": 1757598318566,
+                            "text": "宪法与宪法权威"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0m4wbbzs0",
+                            "created": 1757598344776,
+                            "text": "法治素养"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0md3ec4o0",
+                            "created": 1757598362618,
+                            "text": "与国防和军队相关的法律法规"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dcq0jh8tiog0",
+                    "created": 1757598136561,
+                    "text": "科学技术",
+                    "expandState": "collapse",
+                    "priority": 5
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dcq0mov03nk0",
+                            "created": 1757598388232,
+                            "text": "当代科学技术发展"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0mub72wg0",
+                            "created": 1757598400095,
+                            "text": "科学技术与社会"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcq0n2xzr8o0",
+                            "created": 1757598418888,
+                            "text": "军事高科技"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

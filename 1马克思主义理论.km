@@ -1132,7 +1132,8 @@
                     "created": 1756432975171,
                     "text": "毛泽东思想",
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "collapse",
+                    "priority": 2
                 },
                 "children": [
                     {
@@ -1140,7 +1141,7 @@
                             "id": "dcewuiz6ylk0",
                             "created": 1756470558375,
                             "text": "毛泽东思想",
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1517,7 +1518,7 @@
                             "id": "dcp4p8p6gso0",
                             "created": 1757508312627,
                             "text": "新民主主义革命理论",
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1799,7 +1800,7 @@
                             "id": "dcp54hjuzt40",
                             "created": 1757509507359,
                             "text": "社会主义改造理论",
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1935,90 +1936,180 @@
             },
             {
                 "data": {
-                    "id": "dcejj3fyu000",
-                    "created": 1756432988126,
-                    "text": "邓小平理论",
-                    "layout": null,
-                    "expandState": "expand"
+                    "id": "dcn0p7vn8pk0",
+                    "created": 1757293906488,
+                    "text": "中国特色社会主义理论体系",
+                    "priority": 3,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
                         "data": {
-                            "id": "dcex6kmopb40",
-                            "created": 1756471502342,
-                            "text": "形成",
+                            "id": "dcpyqscki2g0",
+                            "created": 1757593067061,
+                            "text": "中特理论特性的形成发展",
+                            "progress": 1
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dcpyre282q80",
+                            "created": 1757593114325,
+                            "text": "邓小平理论",
+                            "progress": 1,
                             "expandState": "collapse"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dcex6ol7d480",
-                                    "created": 1756471510960,
-                                    "text": "1978.12 十一届三中全会"
+                                    "id": "dcex6kmopb40",
+                                    "created": 1756471502342,
+                                    "text": "形成",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dcex6uz2icg0",
-                                            "created": 1756471524859,
-                                            "text": "重新确立解放思想，实事求是的思想路线，确定把全党工作的重点转移到社会主义建设上来"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dcex97a7hyw0",
-                                    "created": 1756471708382,
-                                    "text": "1984 十二届三中全会"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcex9fs832o0",
-                                            "created": 1756471726886,
-                                            "text": "<关于经济体制改革的决定>"
+                                            "id": "dcex6ol7d480",
+                                            "created": 1756471510960,
+                                            "text": "1978.12 十一届三中全会"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "dcex9s877zc0",
-                                                    "created": 1756471753973,
-                                                    "text": "提出社会主义经济是在公有制基础上的有计划的商品经济"
+                                                    "id": "dcex6uz2icg0",
+                                                    "created": 1756471524859,
+                                                    "text": "重新确立解放思想，实事求是的思想路线，确定把全党工作的重点转移到社会主义建设上来"
                                                 },
                                                 "children": []
                                             }
                                         ]
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexanpjp1k0",
-                                    "created": 1756471822502,
-                                    "text": "1987 十三大"
-                                },
-                                "children": [
+                                    },
                                     {
                                         "data": {
-                                            "id": "dcexau8sku80",
-                                            "created": 1756471836727,
-                                            "text": "我国社会主义初级阶段理论"
+                                            "id": "dcex97a7hyw0",
+                                            "created": 1756471708382,
+                                            "text": "1984 十二届三中全会"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "dcexb52tnvk0",
-                                                    "created": 1756471860311,
-                                                    "text": "基本路线"
+                                                    "id": "dcex9fs832o0",
+                                                    "created": 1756471726886,
+                                                    "text": "<关于经济体制改革的决定>"
                                                 },
                                                 "children": [
                                                     {
                                                         "data": {
-                                                            "id": "dcexbcf19eg0",
-                                                            "created": 1756471876286,
-                                                            "text": "一个中心两个基本点"
+                                                            "id": "dcex9s877zc0",
+                                                            "created": 1756471753973,
+                                                            "text": "提出社会主义经济是在公有制基础上的有计划的商品经济"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcexanpjp1k0",
+                                            "created": 1756471822502,
+                                            "text": "1987 十三大"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexau8sku80",
+                                                    "created": 1756471836727,
+                                                    "text": "我国社会主义初级阶段理论"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcexb52tnvk0",
+                                                            "created": 1756471860311,
+                                                            "text": "基本路线"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "dcexbcf19eg0",
+                                                                    "created": 1756471876286,
+                                                                    "text": "一个中心两个基本点"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcexbwblxh40",
+                                            "created": 1756471919615,
+                                            "text": "1992 南方谈话"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexbzerkb40",
+                                                    "created": 1756471926336,
+                                                    "text": "改革开放，社会主义现代化建设进入新阶段"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcexcdfcd400",
+                                                            "created": 1756471956846,
+                                                            "text": "邓小平理论走向成熟"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcexdhelgv40",
+                                            "created": 1756472043872,
+                                            "text": "1992 十四大 "
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexf35c9aw0",
+                                                    "created": 1756472169566,
+                                                    "text": "指出：邓小平同志是我国社会主义改革开放和现代化建设的总设计师"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcexfzy3f140",
+                                            "created": 1756472240961,
+                                            "text": "1997 十五大"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexg5f41i80",
+                                                    "created": 1756472252874,
+                                                    "text": "正式提出 \"邓小平理论\"",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcpyxubs7ns0",
+                                                            "created": 1757593619917,
+                                                            "text": "确立为党的指导思想并写入党章"
                                                         },
                                                         "children": []
                                                     }
@@ -2030,23 +2121,316 @@
                             },
                             {
                                 "data": {
-                                    "id": "dcexbwblxh40",
-                                    "created": 1756471919615,
-                                    "text": "1992 南方谈话"
+                                    "id": "dcpz0yizsy00",
+                                    "created": 1757593864152,
+                                    "text": "邓小平回答的基本问题和主要内容",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dcexbzerkb40",
-                                            "created": 1756471926336,
-                                            "text": "改革开放，社会主义现代化建设进入新阶段"
+                                            "id": "dcpz19ef3hc0",
+                                            "created": 1757593887820,
+                                            "text": "基本问题"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "dcexcdfcd400",
-                                                    "created": 1756471956846,
-                                                    "text": "邓小平理论走向成熟"
+                                                    "id": "dcpz1f69veg0",
+                                                    "created": 1757593900388,
+                                                    "text": "什么是社会主义，怎样建设社会主义"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcpz1rz4glk0",
+                                            "created": 1757593928254,
+                                            "text": "主要内容"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcpz1u8qqy80",
+                                                    "created": 1757593933189,
+                                                    "text": "1.解放思想，实事求是的思想路线"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcpz5l10gmo0",
+                                                    "created": 1757594226588,
+                                                    "text": "2.社会主义初级阶段理论"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcpz5qn7pwg0",
+                                                            "created": 1757594238814,
+                                                            "text": "我国已经进入社会主义，必须坚持而不能离开社会主义"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "dcpz79a64q00",
+                                                            "created": 1757594357748,
+                                                            "text": "我们社会主义还处于不发达阶段，必须正视而不能超越初级阶段"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcpz97gnrj40",
+                                                    "created": 1757594510516,
+                                                    "text": "3.党在社会主义初级阶段的基本路线",
+                                                    "note": "领导和团结全国各族人民，以经济建设为中心，坚持四项基本原则，坚持改革开放，自立更生，艰苦创业，为把我国建设成 富强，民主，文明的社会主义现代化国家而奋斗\n"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcpza4fg8ko0",
+                                                            "created": 1757594582276,
+                                                            "text": "xx"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcpzf7qbbw00",
+                                                    "created": 1757594981284,
+                                                    "text": "4.社会主义的根本任务"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcpzfegyhfc0",
+                                                            "created": 1757594995956,
+                                                            "text": "生产力是社会发展饿最根本饿决定性因素，社会主义的根本任务是发展生产力"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcpzg85rcwg0",
+                                                    "created": 1757595060582,
+                                                    "text": "5.三步走战略"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcpzgc90eso0",
+                                                    "created": 1757595069486,
+                                                    "text": "6.改革开放理论"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcpzgrefi740",
+                                                    "created": 1757595102466,
+                                                    "text": "7.社会主义市场经济理论"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcpzgx5hqw80",
+                                                    "created": 1757595114986,
+                                                    "text": "8.两手都要抓，两手都要赢"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcpzhbty3co0",
+                                                    "created": 1757595146939,
+                                                    "text": "9.一国两制"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcpziu0hdcg0",
+                            "created": 1757595264881,
+                            "text": "“三个代表”主要思想",
+                            "expandState": "collapse",
+                            "progress": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcpzjxke3u80",
+                                    "created": 1757595350979,
+                                    "text": "\"三个代表\"主要思想形成"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dcpzk7p5a600",
+                                    "created": 1757595373034,
+                                    "text": "核心观点和主要内容",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexm9g949c0",
+                                            "created": 1756472731835,
+                                            "text": "核心观点"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexmgcvqkw0",
+                                                    "created": 1756472746869,
+                                                    "text": "始终代表中国先进生产力的发展要求"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexmsqmmqg0",
+                                                    "created": 1756472773822,
+                                                    "text": "始终代表中国先进文化的前进方向"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexnb2iix40",
+                                                    "created": 1756472813722,
+                                                    "text": "始终代表中国最广大人民的根本利益"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcexodn923s0",
+                                            "created": 1756472897694,
+                                            "text": "主要内容"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexohflyww0",
+                                                    "created": 1756472905939,
+                                                    "text": "1.发展是党执政兴国的第一要务"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexopdyohc0",
+                                                    "created": 1756472923254,
+                                                    "text": "2.建立社会主义市场经济体制"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcexoy64oaw0",
+                                                            "created": 1756472942371,
+                                                            "text": "建立社会主义市场经济体制，必须坚持和完善公有制为主体，多种所有制经济共同发展的社会主义基本经济制度"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexqeqxyj40",
+                                                    "created": 1756473056822,
+                                                    "text": "3.全面建设小康社会"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexqlsax400",
+                                                    "created": 1756473072142,
+                                                    "text": "4.建设社会主义政治文明"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexqrzhgeg0",
+                                                    "created": 1756473085637,
+                                                    "text": "5.实施\"引进来\"和\"走出去\"相结合的对外开放战略"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexrawqpwo0",
+                                                    "created": 1756473126830,
+                                                    "text": "6.推进党的建设新的伟大工程"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "dcexs3sjluo0",
+                                                            "created": 1756473189703,
+                                                            "text": "建设什么样的党，怎么建设党"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dcejjimmd000",
+                            "created": 1756433021180,
+                            "text": "科学发展观",
+                            "layout": null,
+                            "expandState": "collapse",
+                            "progress": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dcexu7av3vs0",
+                                    "created": 1756473354069,
+                                    "text": "2003.10 十六届三中全会"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcexuh6ruow0",
+                                            "created": 1756473375590,
+                                            "text": "《中共中央关于完善社会主义市场经济体制的若干问题的决定》"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexv0xl6bs0",
+                                                    "created": 1756473418570,
+                                                    "text": "提出 \"科学发展观\""
                                                 },
                                                 "children": []
                                             }
@@ -2056,199 +2440,109 @@
                             },
                             {
                                 "data": {
-                                    "id": "dcexdhelgv40",
-                                    "created": 1756472043872,
-                                    "text": "1992 十四大 "
+                                    "id": "dcpzmavq0yg0",
+                                    "created": 1757595536691,
+                                    "text": "科学内涵和主要内容",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "dcexf35c9aw0",
-                                            "created": 1756472169566,
-                                            "text": "指出：邓小平同志是我国社会主义改革开放和现代化建设的总设计师"
+                                            "id": "dcexv9i7gy80",
+                                            "created": 1756473437231,
+                                            "text": "科学内涵"
                                         },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexfzy3f140",
-                                    "created": 1756472240961,
-                                    "text": "1997 十五大"
-                                },
-                                "children": [
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexvh0aw0o0",
+                                                    "created": 1756473453563,
+                                                    "text": "推动经济社会发展是科学发展观的第一要义"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexvtc4buw0",
+                                                    "created": 1756473480399,
+                                                    "text": "以人为本是科学发展观的核心立场"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexw23wkiw0",
+                                                    "created": 1756473499493,
+                                                    "text": "全面协调可持续是 科学发展观的 基本要求"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexwi8cs8o0",
+                                                    "created": 1756473534591,
+                                                    "text": "统筹兼顾是科学发展观的 根本方法"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
                                     {
                                         "data": {
-                                            "id": "dcexg5f41i80",
-                                            "created": 1756472252874,
-                                            "text": "正式提出 \"邓小平理论\""
+                                            "id": "dcexvf8n1jk0",
+                                            "created": 1756473449713,
+                                            "text": "主要内容"
                                         },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dcexgyptf7k0",
-                            "created": 1756472316648,
-                            "text": "围绕\"什么是社会主义，怎么建设社会主义\"这个根本问题"
-                        },
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dcejj79s2i80",
-                    "created": 1756432996459,
-                    "text": "三个代表重要思想",
-                    "layout": null,
-                    "expandState": "collapse"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dcexm9g949c0",
-                            "created": 1756472731835,
-                            "text": "核心观点"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dcexmgcvqkw0",
-                                    "created": 1756472746869,
-                                    "text": "始终代表中国先进生产力的发展要求"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexmsqmmqg0",
-                                    "created": 1756472773822,
-                                    "text": "始终代表中国先进文化的前进方向"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexnb2iix40",
-                                    "created": 1756472813722,
-                                    "text": "始终代表中国最广大人民的根本利益"
-                                },
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dcexodn923s0",
-                            "created": 1756472897694,
-                            "text": "主要内容"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dcexohflyww0",
-                                    "created": 1756472905939,
-                                    "text": "1.发展是党执政兴国的第一要务"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexopdyohc0",
-                                    "created": 1756472923254,
-                                    "text": "2.建立社会主义市场经济体制"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcexoy64oaw0",
-                                            "created": 1756472942371,
-                                            "text": "建立社会主义市场经济体制，必须坚持和完善公有制为主体，多种所有制经济共同发展的社会主义基本经济制度"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexqeqxyj40",
-                                    "created": 1756473056822,
-                                    "text": "3.全面建设小康社会"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexqlsax400",
-                                    "created": 1756473072142,
-                                    "text": "4.建设社会主义政治文明"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexqrzhgeg0",
-                                    "created": 1756473085637,
-                                    "text": "5.实施\"引进来\"和\"走出去\"相结合的对外开放战略"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexrawqpwo0",
-                                    "created": 1756473126830,
-                                    "text": "6.推进党的建设新的伟大工程"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcexs3sjluo0",
-                                            "created": 1756473189703,
-                                            "text": "建设什么样的党，怎么建设党"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "data": {
-                    "id": "dcejjimmd000",
-                    "created": 1756433021180,
-                    "text": "科学发展观",
-                    "layout": null,
-                    "expandState": "collapse"
-                },
-                "children": [
-                    {
-                        "data": {
-                            "id": "dcexu7av3vs0",
-                            "created": 1756473354069,
-                            "text": "2003.10 十六届三中全会"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dcexuh6ruow0",
-                                    "created": 1756473375590,
-                                    "text": "《中共中央关于完善社会主义市场经济体制的若干问题的决定》"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "dcexv0xl6bs0",
-                                            "created": 1756473418570,
-                                            "text": "提出 \"科学发展观\""
-                                        },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcexwuay9200",
+                                                    "created": 1756473560869,
+                                                    "text": "加快转变经济发展发展方式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexx3vfmiw0",
+                                                    "created": 1756473581698,
+                                                    "text": "发展社会主义民主政治"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexxa0807c0",
+                                                    "created": 1756473595049,
+                                                    "text": "推动社会主义文化强国建设"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexxhwmi8w0",
+                                                    "created": 1756473612245,
+                                                    "text": "构建社会主义和谐社会"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexxnxc9480",
+                                                    "created": 1756473625349,
+                                                    "text": "推进生态文明建设"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dcexxtpz8y80",
+                                                    "created": 1756473637965,
+                                                    "text": "全面提高党的建设科学化水平"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -2256,120 +2550,117 @@
                     },
                     {
                         "data": {
-                            "id": "dcexv9i7gy80",
-                            "created": 1756473437231,
-                            "text": "科学内涵"
+                            "id": "dcq02rues7s0",
+                            "created": 1757596827443,
+                            "text": "习近平新时代中国特色社会主义思想",
+                            "progress": 1
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "dcexvh0aw0o0",
-                                    "created": 1756473453563,
-                                    "text": "推动经济社会发展是科学发展观的第一要义"
+                                    "id": "dcq0689krig0",
+                                    "created": 1757597098281,
+                                    "text": "一：习近平新时代思想是党和国家必须长期坚持的指导思想",
+                                    "expandState": "expand"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq05lohans0",
+                                            "created": 1757597049117,
+                                            "text": "创立的历史条件"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq07ixxfpk0",
+                                            "created": 1757597199886,
+                                            "text": "习近平新思想的科学体系"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq07ppdzns0",
+                                            "created": 1757597214607,
+                                            "text": "习近平新思想的历史地位"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq07xmsns00",
+                                            "created": 1757597231864,
+                                            "text": "全面贯彻落实党的二十大精神"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "dcexvtc4buw0",
-                                    "created": 1756473480399,
-                                    "text": "以人为本是科学发展观的核心立场"
+                                    "id": "dcq08iue35k0",
+                                    "created": 1757597278036,
+                                    "text": "二：习近平新时代思想主要内容"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq0et2o0v40",
+                                            "created": 1757597770489,
+                                            "text": "核心内容"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq0eykgr4w0",
+                                                    "created": 1757597782449,
+                                                    "text": "十个明确"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dcq0f1o91nk0",
+                                            "created": 1757597789209,
+                                            "text": "基本方略"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dcq0f4tn7tk0",
+                                                    "created": 1757597796065,
+                                                    "text": "十四个坚持"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "dcexw23wkiw0",
-                                    "created": 1756473499493,
-                                    "text": "全面协调可持续是 科学发展观的 基本要求"
+                                    "id": "dcq0fg6v7g00",
+                                    "created": 1757597820809,
+                                    "text": "习近平新思想的世界观和方法论"
                                 },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexwi8cs8o0",
-                                    "created": 1756473534591,
-                                    "text": "统筹兼顾是科学发展观的 根本方法"
-                                },
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "dcexvf8n1jk0",
-                            "created": 1756473449713,
-                            "text": "主要内容"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "dcexwuay9200",
-                                    "created": 1756473560869,
-                                    "text": "加快转变经济发展发展方式"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexx3vfmiw0",
-                                    "created": 1756473581698,
-                                    "text": "发展社会主义民主政治"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexxa0807c0",
-                                    "created": 1756473595049,
-                                    "text": "推动社会主义文化强国建设"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexxhwmi8w0",
-                                    "created": 1756473612245,
-                                    "text": "构建社会主义和谐社会"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexxnxc9480",
-                                    "created": 1756473625349,
-                                    "text": "推进生态文明建设"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "dcexxtpz8y80",
-                                    "created": 1756473637965,
-                                    "text": "全面提高党的建设科学化水平"
-                                },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dcq0g3yglmg0",
+                                            "created": 1757597872544,
+                                            "text": "六个必须坚持"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
                 ]
-            },
-            {
-                "data": {
-                    "id": "dcejjopxvm00",
-                    "created": 1756433034442,
-                    "text": "习近平新时代中国特色社会主义理论",
-                    "layout": null
-                },
-                "children": []
-            },
-            {
-                "data": {
-                    "id": "dcn0p7vn8pk0",
-                    "created": 1757293906488,
-                    "text": "xxx"
-                },
-                "children": []
             }
         ]
     },
