@@ -1018,7 +1018,7 @@
                                     "created": 1754621066955,
                                     "text": "定积分",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1026,7 +1026,7 @@
                                             "id": "dc72yxu0e3c0",
                                             "created": 1755675351176,
                                             "text": "定积分的概念与基本性质",
-                                            "expandState": "expand"
+                                            "expandState": "collapse"
                                         },
                                         "children": [
                                             {
@@ -1205,7 +1205,7 @@
                                             "created": 1754621222743,
                                             "text": "反常积分",
                                             "layout": null,
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -1867,7 +1867,7 @@
                     "id": "dc04lxqlpso0",
                     "created": 1754969054759,
                     "text": "第七章：微分方程",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1908,7 +1908,7 @@
                             "id": "dc04ti71qso0",
                             "created": 1754969647838,
                             "text": "topic",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -2844,7 +2844,7 @@
                     "created": 1755746642458,
                     "text": "第十一章：曲线积分与曲面积分",
                     "layout": null,
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {

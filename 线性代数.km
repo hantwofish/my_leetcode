@@ -286,7 +286,7 @@
                         "y": 7.999999872843375
                     },
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1225,7 +1225,7 @@
                             "id": "dc1cqcdw9v40",
                             "created": 1755093528935,
                             "text": "矩阵理论二：秩",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout": null
                         },
                         "children": [
@@ -2693,7 +2693,7 @@
                     "id": "dc18wi6vwnk0",
                     "created": 1755082727317,
                     "text": "第六章：二次型",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
