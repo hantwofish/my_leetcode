@@ -1,0 +1,139 @@
+{
+    "root": {
+        "data": {
+            "id": "ddzydfgiu1s0",
+            "created": 1762263778275,
+            "text": "概率论与数理统计"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "de0shcfy4a00",
+                    "created": 1762348718464,
+                    "text": "第一章：事件与概率"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "de0shkfnty00",
+                            "created": 1762348735861,
+                            "text": "随机事件"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "de0shon2v8w0",
+                            "created": 1762348745016,
+                            "text": "事件的运算关系"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "de0shtvjf1c0",
+                                    "created": 1762348756412,
+                                    "text": "运算"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "de0shv0hskg0",
+                                            "created": 1762348758888,
+                                            "text": "和，积，差，补"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "de0si17l76o0",
+                                    "created": 1762348772378,
+                                    "text": "关系"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "de0si3ceckg0",
+                                            "created": 1762348777022,
+                                            "text": "包含"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "de0si8twlpk0",
+                                            "created": 1762348788965,
+                                            "text": "互斥"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "de0si6kmpl40",
+                                            "created": 1762348784050,
+                                            "text": "对立"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "de0sjd1qqnc0",
+                            "created": 1762348876510,
+                            "text": "概率公理化性质"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "de0sjm6flko0",
+                            "created": 1762348896385,
+                            "text": "概率四大基本公式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "de0sjp3djtc0",
+                                    "created": 1762348902730,
+                                    "text": "减法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "de0sjqf0h280",
+                                    "created": 1762348905611,
+                                    "text": "加法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "de0sjrw1di00",
+                                    "created": 1762348908817,
+                                    "text": "条件概率"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "de0sjws79kw0",
+                                    "created": 1762348919469,
+                                    "text": "乘法公式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

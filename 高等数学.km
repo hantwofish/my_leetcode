@@ -1867,7 +1867,7 @@
                     "id": "dc04lxqlpso0",
                     "created": 1754969054759,
                     "text": "第七章：微分方程",
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -2484,12 +2484,325 @@
                     "text": "第九章：级数",
                     "progress": 9,
                     "priority": null,
-                    "resource": [
-                        "不考"
-                    ],
-                    "layout": null
+                    "resource": [],
+                    "layout": null,
+                    "expandState": "collapse"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "ddzy2ecsly80",
+                            "created": 1762262913867,
+                            "text": "常数项级数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ddzy2wv7im00",
+                                    "created": 1762262954162,
+                                    "text": "定义"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy31g7jcw0",
+                                    "created": 1762262964139,
+                                    "text": "常数项级数性质"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ddzy66opgqw0",
+                                            "created": 1762263210630,
+                                            "text": "添加括号提高收敛性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ddzy6bun1yg0",
+                                            "created": 1762263221872,
+                                            "text": "收敛必要条件"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy3dr88uw0",
+                                    "created": 1762262990927,
+                                    "text": "两个重要级数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ddzy77rpn4g0",
+                                            "created": 1762263291352,
+                                            "text": "p级数"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ddzy7bqbazs0",
+                                            "created": 1762263299975,
+                                            "text": "几何级数"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy3ghdglk0",
+                                    "created": 1762262996862,
+                                    "text": "正项级数敛散性"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ddzy3qg8c540",
+                                            "created": 1762263018560,
+                                            "text": "定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ddzy3rupwaw0",
+                                            "created": 1762263021613,
+                                            "text": "判定方法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ddzy7pe75d40",
+                                                    "created": 1762263329717,
+                                                    "text": "方法一：比较法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ddzy862jsls0",
+                                                            "created": 1762263366018,
+                                                            "text": "比大小"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "ddzy88951200",
+                                                            "created": 1762263370770,
+                                                            "text": "求比值的极限"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ddzy7t1qiag0",
+                                                    "created": 1762263337671,
+                                                    "text": "方法二：比值法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ddzy9448ksw0",
+                                                            "created": 1762263440131,
+                                                            "text": "后项/前项"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ddzy8to3kfc0",
+                                                    "created": 1762263417387,
+                                                    "text": "方法三：根值法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "ddzy9dz6ec80",
+                                                            "created": 1762263461593,
+                                                            "text": "开n次方"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy43wk2w00",
+                                    "created": 1762263047846,
+                                    "text": "交错级数及其敛散性"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ddzy9kpnalc0",
+                                            "created": 1762263476254,
+                                            "text": "莱布尼茨定理"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy4dtjhyo0",
+                                    "created": 1762263069431,
+                                    "text": "任意级数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ddzyahmlihs0",
+                                            "created": 1762263547903,
+                                            "text": "定义"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ddzyajmvf2w0",
+                                                    "created": 1762263552274,
+                                                    "text": "绝对收敛"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ddzyan2qvlc0",
+                                                    "created": 1762263559764,
+                                                    "text": "条件收敛"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ddzy2vebf000",
+                            "created": 1762262950964,
+                            "text": "幂级数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ddzy4jyhow00",
+                                    "created": 1762263082791,
+                                    "text": "定义"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy4n4esf40",
+                                    "created": 1762263089679,
+                                    "text": "收敛半径(R)及收敛域"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ddzyb95zq2w0",
+                                            "created": 1762263607849,
+                                            "text": "阿贝尔定理"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy4zo3bkw0",
+                                    "created": 1762263116991,
+                                    "text": "分析性质"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy51qiykg0",
+                                    "created": 1762263121492,
+                                    "text": "函数展成幂级数",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ddzybvdjv4o0",
+                                            "created": 1762263656196,
+                                            "text": "直接法："
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ddzybylew200",
+                                                    "created": 1762263663201,
+                                                    "text": "常见的记忆公式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "ddzyc665mlk0",
+                                                    "created": 1762263679693,
+                                                    "text": "topic"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ddzyc86tx2w0",
+                                            "created": 1762263684087,
+                                            "text": "间接法："
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "ddzycbnq6mg0",
+                                                    "created": 1762263691639,
+                                                    "text": "逐项可导，逐项可积"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ddzy5bgfyts0",
+                                    "created": 1762263142650,
+                                    "text": "求S(x)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ddzy5lrnt5s0",
+                            "created": 1762263165096,
+                            "text": "傅里叶级数"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
