@@ -33,12 +33,12 @@ import matplotlib.pyplot as plt
 
 # 示例数据
 # # 数据
-x = [12.03, 12.04, 12.05, 12.17, 12.19]
-y = [1.3076, 1.2706, 1.2096, 1.2578, 1.2345]
+time =  [12.03, 12.04, 12.05, 12.17, 12.30]
+value = [1.3076, 1.2706, 1.2096, 1.2578, 1.2345]
 
 # 绘制折线图，部分点设置为叉号标记
-plt.plot(x, y, marker='o', linestyle='-', color='blue', label='input')
-# plt.plot([x[2], x[4]], [y[2], y[4]], marker='x', markersize=10, markerfacecolor='red', linestyle='none', color='red', label='output')
+plt.plot(time, value, marker='o', linestyle='-', color='blue', label='input')
+plt.plot([time[2], time[4]], [value[2], value[4]], marker='x', markersize=10, markerfacecolor='red', linestyle='none', color='red', label='output')
 
 plt.title("cord")
 plt.xlabel("time")
