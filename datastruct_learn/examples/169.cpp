@@ -5,12 +5,29 @@
 
 using namespace std;
 
-
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        unordered_map<int,int>record;
+        for(auto i : nums){
+            record[i]++;
+        }
+        int N = nums.size() /2;
+        auto it = record.begin();
+        while(it != record.end()){
+            if(it->second > N){
+                return it->first;
+            }
+            it++;
+        }
+        return 0;
+    }
+};
 
 int main()
 {
 
-    cout << "[info] main end ..." << endl << endl;
+   cout << "[info] main end ..." << endl << endl;
 
     return 0;
 }
