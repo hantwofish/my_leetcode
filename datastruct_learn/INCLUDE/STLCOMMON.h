@@ -62,6 +62,14 @@ void MyPrintOne(vector<T2> &data)
     printf("\n");
     cout << "------- end ---------" << endl;
 }
+template<typename T3>
+void MyPrintOne_simple(vector<T3> &data)
+{
+    for(int i = 0; i< data.size(); i++){
+        printf("%-12d", data[i]);
+    }
+    printf("\n");
+}
 
 void RemoveVecEle(vector<int>&nums,int tar)
 {
