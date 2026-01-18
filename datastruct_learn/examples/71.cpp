@@ -1,7 +1,7 @@
 #include"../INCLUDE/STLCOMMON.h"
 #include"../INCLUDE/COMMONALO.h"
 #include <iostream>
-// #include "../INCLUDE/TREE.h"
+#include "../INCLUDE/TREE.h"
 
 using namespace std;
 

@@ -1,11 +1,29 @@
 #include"../INCLUDE/STLCOMMON.h"
 #include"../INCLUDE/COMMONALO.h"
 #include <iostream>
-// #include "../INCLUDE/TREE.h"
+#include "../INCLUDE/TREE.h"
 
 using namespace std;
 
-
+//  *Definition for singly-linked list.
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+ 
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        unordered_map<ListNode*, int>tree_map;
+        while(head != nullptr){
+            if(tree_map[head] >= 1) return true;
+            tree_map[head]++;
+            head= head->next;
+        }
+        return false;
+    }
+};
 
 int main()
 {
