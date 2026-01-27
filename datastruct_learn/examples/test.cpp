@@ -8,7 +8,127 @@ using namespace std;
 #define IN 1
 #define OUT 0
 
-class Solution{
+
+class ETf_jijin{
+
+public:
+    void updat_today_price(double peice)
+    {
+        today_price = peice;
+    }
+    void in_or_out_record( double price,double num, bool is_in)
+    {
+        in_out_map[is_in].push_back({price, num});
+    } 
+    void print_total_Cal()
+    {
+        int in_times = in_out_map[IN].size();
+        int out_times = in_out_map[OUT].size();
+
+        cout << "in_times= " << in_times << " out_times= " << out_times << endl;
+        int chi_Cang_fenshu = 0; // 当前持仓份数
+        double chengben_price = 0; // 当前每股持仓价格
+
+        double in_cost_origin = 0; // 累计买入成本；
+        double out_get = 0; // 卖出累计金额
+
+        double in_Cost_rate_num = 0 ;// 买入佣金
+
+        double profile = 0; // 利润 = 卖出累计金额 + 当前持仓金额 - 累计买入成本；
+
+        cout << "------------------------------交易-买入---------------" << endl;
+        for(int i = 0; i< in_out_map[IN].size(); i++){
+            double in_price  = in_out_map[IN][i].first;
+            int in_fenshu = in_out_map[IN][i].second;
+            double in_val = in_price * in_fenshu ;
+
+            double diff_num = 0.5;
+            if(in_val >= 10000){
+                diff_num = in_val * (5.0 / 10000);  
+            }else{
+                diff_num = 0.5;
+            }
+            cout << "i= " << i << " 买入价格=  " << in_price << " 买入份数 =  " << in_fenshu  <<"买入花费 " << in_val << " 佣金= " << diff_num << endl;
+
+            chi_Cang_fenshu += in_fenshu;
+            buy_num.push_back(in_val);
+            in_cost_origin += (in_val) ;
+            in_Cost_rate_num += diff_num; 
+        }
+
+        chengben_price = (in_cost_origin + in_Cost_rate_num) /chi_Cang_fenshu;
+
+        cout << "买入花费 =  " << in_cost_origin << " 佣金= " << in_Cost_rate_num << " 持仓份数= " << chi_Cang_fenshu << " 持仓每股成本单价=" << chengben_price << endl;
+
+        cout << "------------------------------交易-卖出---------------" << endl;
+        in_Cost_rate_num = 0;
+        for(int i = 0; i< in_out_map[OUT].size(); i++){
+            int in_fenshu = in_out_map[OUT][i].second;
+            double in_price  = in_out_map[OUT][i].first;
+            double out_val = in_price * in_fenshu ;
+
+            double diff_num = 0.5;
+            if(out_val >= 10000){
+                diff_num = out_val * (5.0 / 10000);  
+            }else{
+                diff_num = 0.5;
+            }
+
+            chi_Cang_fenshu -= in_fenshu;
+            solue_num.push_back(out_val - diff_num);
+            cout << "i= " << " out_val= " << out_val << " 佣金：" << diff_num << endl;
+            out_get += (out_val) - diff_num; 
+        }
+        cout << "卖出总得到 =  " << out_get << " 当前持仓份数= " << chi_Cang_fenshu << " 持仓金额= " << (chi_Cang_fenshu * today_price) << endl;
+
+
+        double chi_cang_profile =  (today_price - chengben_price) * chi_Cang_fenshu;
+        cout << "持仓利润= " << chi_cang_profile << endl;
+
+        cout << "--总买入卖出交易--" << endl;
+        double total_in = 0;
+        double total_out = 0;
+        cout << "IN: " ;
+        for(int i = 0;i < buy_num.size(); i++){
+            cout << buy_num[i] << " ";
+            total_in +=buy_num[i];
+        }
+        cout << endl;
+         cout << "OUT: " ;
+        for(int i = 0;i < solue_num.size(); i++){
+            cout << solue_num[i] << " ";
+            total_out +=solue_num[i];
+        }
+        cout << endl;
+
+        cout << "清仓利润= " << (total_out - total_in) + chi_Cang_fenshu * today_price  << endl;
+        
+    }
+
+    void cal_profile(double price1, double price2, int num)
+    {
+        double pro =  (price2 - price1) * num;
+        double up_rate = (price2 - price1) * 100 / price1;
+        double down_rate = (price1 - price2) * 100 / price2;
+        cout  << up_rate << "%  " << down_rate << "% "<< endl;
+        cout  << price1 << " -> " << price2 << " num= " << num << " pro=" << pro << endl;
+
+        // cout << ""
+        
+
+    }
+private:
+    const double COST = 0.5; // 固定金额0.5
+    unordered_map<bool, vector< pair<double,double>> > in_out_map;
+
+    double today_price = 0; // 每股今日报价
+    vector<double>buy_num;
+    vector<double>solue_num;
+
+
+};
+
+class GuPiao{
 
 public:
     void updat_today_price(double peice)
@@ -55,11 +175,11 @@ public:
     }
 
 private:
-    // const double buyrate = 0.001; // 0.1%
-    // const double outrate = 0.005; // 0.5%
+    const double buyrate = 0.001; // 0.1%
+    const double outrate = 0.005; // 0.5%
 
-    const double buyrate = 0; // 0.%
-    const double outrate = 0; // 0%
+    // const double buyrate = 0; // 0.%
+    // const double outrate = 0; // 0%
     unordered_map<bool, vector< pair<double,double>> > in_out_map;
     double today_price = 0; // 今日股价
 
@@ -75,42 +195,40 @@ private:
 
 int main()
 {
-    // Solution tian_hong_shi_pin; // 天弘食品 001632
-    // tian_hong_shi_pin.updat_today_price(2.1085);
-    // tian_hong_shi_pin.in_or_out_record(807, 2.2017, IN);
-    // tian_hong_shi_pin.in_or_out_record(1, 2.1085, IN);
+     
 
-    // tian_hong_shi_pin.in_or_out_record(200, 2.2085, OUT);
-    // tian_hong_shi_pin.in_or_out_record(200, 2.1085, IN);
+    // GuPiao gong_shang_yin_hang; // 601398 工商银行
 
-    // tian_hong_shi_pin.in_or_out_record(200, 2.2085, OUT);
-    // tian_hong_shi_pin.in_or_out_record(200, 2.1085, IN);
+    // gong_shang_yin_hang.in_or_out_record(1000, 34.12, IN);
 
-    // tian_hong_shi_pin.in_or_out_record(200, 2.2085, OUT);
-    // tian_hong_shi_pin.in_or_out_record(200, 2.1085, IN);
+    // for(int i= 1; i <= 90;i ++){
+    //     cout << "i= " << i << endl;
+    //     gong_shang_yin_hang.in_or_out_record(500, 35.65, OUT);
+    //     gong_shang_yin_hang.in_or_out_record(500, 34.12, IN);
+    // }
+    // gong_shang_yin_hang.in_or_out_record(1000, 7.81, OUT);
 
-    // tian_hong_shi_pin.in_or_out_record(200, 2.2085, OUT);
-    // tian_hong_shi_pin.in_or_out_record(200, 2.1085, IN);
+    cout << "---------start ------------------" << endl;
 
-    // tian_hong_shi_pin.in_or_out_record(200, 2.2085, OUT);
-    // tian_hong_shi_pin.in_or_out_record(200, 2.1085, IN);  
-
-    Solution gong_shang_yin_hang; // 601398 工商银行
-
-    gong_shang_yin_hang.in_or_out_record(1000, 7.61, IN);
-
-    for(int i= 0; i < 100;i++){
-        cout << "i= " << i << endl;
-        gong_shang_yin_hang.in_or_out_record(500, 7.81, OUT);
-        gong_shang_yin_hang.in_or_out_record(500, 7.61, IN);
-    }
-    gong_shang_yin_hang.in_or_out_record(1000, 7.81, OUT);
-
-
+    ETf_jijin e1;
     
+    e1.in_or_out_record(1.491, 1000, IN);
+    e1.in_or_out_record(1.501, 100, IN);
+    e1.in_or_out_record(1.502, 100, IN);
+
+    e1.in_or_out_record(1.516, 600, OUT);
+
+
+
+    double today_price = 1.497;
+    e1.updat_today_price(today_price);
+    e1.print_total_Cal();
+
 
 
     cout << "[info] main end ..." << endl << endl;
+
+    e1.cal_profile(1.494, 1.62, 600);
 
     return 0;
 }
